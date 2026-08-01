@@ -1,0 +1,41 @@
+---
+title: 15-minute quick start
+description: Connect a channel, add knowledge, and complete an AI answer test.
+category: Getting started
+order: 2
+updated_at: 2026-07-17
+---
+
+# 15-minute quick start
+
+This guide creates a minimum working loop: a customer can contact you, the AI can answer from your content, and your team can take over.
+
+## 1. Complete workspace details
+
+Enter your brand and profile details after signup. You can invite teammates and assign roles later.
+
+## 2. Connect a channel
+
+The website widget is usually the fastest starting point. Open Channels, select Website, and install the generated code. You can also connect Telegram. Use the Channels page as the source of truth for what is currently available.
+
+## 3. Add AI knowledge
+
+Open **AI → Knowledge base** and choose one of the available methods:
+
+- upload product guides or policies;
+- add a website URL and wait for crawling and compilation;
+- add clear answers to high-frequency questions.
+
+Only successfully processed content is searchable by the AI.
+
+## 4. Configure AI reception
+
+Open **AI → Reception settings**, choose managed or external AI, and select the channels the AI should serve. Unselected channels will not receive automatic AI replies.
+
+## 5. Test in the Playground
+
+Ask a question that has an answer in your content. Open the answer details and confirm that the correct knowledge or skill was used. Then send one message through the real website or Telegram channel to verify the complete delivery path.
+
+## 6. Observe the first week
+
+Review a few real AI answers every day. Use **Correct AI** for wrong answers. New learning suggestions do not affect the AI until you adopt them.
