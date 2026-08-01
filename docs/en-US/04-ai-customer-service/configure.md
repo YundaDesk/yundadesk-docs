@@ -3,7 +3,7 @@ title: Configure AI reception
 description: Select the AI source, reception channels, and response style.
 category: AI customer service
 order: 1
-updated_at: 2026-07-17
+updated_at: 2026-08-01
 ---
 
 # Configure AI reception
@@ -12,10 +12,10 @@ Each workspace has one customer-facing AI identity. You can select YundaDesk man
 
 ## Choose an AI source
 
-- **YundaDesk managed AI:** Supports the knowledge base, Yuna learning, AI skills, customer memory, and answer traces.
-- **External AI:** Calls your configured external API for replies and does not participate in YundaDesk managed learning.
+- **YundaDesk managed AI:** Supports the knowledge base, Yuna learning, AI skills, customer memory, and answer details.
+- **External AI:** Uses your configured external AI service for replies and does not participate in YundaDesk managed learning.
 
-Switching the source does not create a second customer-facing identity. The display name that customers and agents see is managed separately from the runtime source.
+Switching the source does not create a second customer-facing identity. The display name that customers and agents see is managed separately from the selected AI source.
 
 ## Choose reception channels
 
@@ -27,6 +27,6 @@ Managed AI supports role, instructions, tone, and other service preferences. Whe
 
 ## Before going live
 
-Verify that knowledge processing is complete, core questions pass in the Playground, answer traces use the correct sources, real channels pass inbound and outbound tests, handoff boundaries are correct, and AI usage is available.
+Verify that knowledge processing is complete, core questions pass in the Playground, answer details show the correct sources, real channels pass inbound and outbound tests, handoff boundaries are correct, and AI usage is available.
 
 A successful configuration is not proof of successful channel delivery. Final acceptance requires the real customer client to receive the reply.

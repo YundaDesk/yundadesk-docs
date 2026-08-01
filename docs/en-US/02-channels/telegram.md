@@ -12,7 +12,7 @@ After Telegram is connected, messages sent to your Bot enter the YundaDesk Inbox
 
 ## Before you begin
 
-You need a Telegram Bot created and managed through Telegram's official tools, plus the valid credentials requested by the setup page. Never expose credentials in chat, documentation, or screenshots.
+You need a Telegram Bot created and managed through Telegram's official process, plus the valid credentials requested by the setup page. Never expose credentials in chat, documentation, or screenshots.
 
 ## Connect the Bot
 

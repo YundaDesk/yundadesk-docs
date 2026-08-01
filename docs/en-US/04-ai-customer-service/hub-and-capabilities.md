@@ -3,7 +3,7 @@ title: Review the AI overview and capability center
 description: Understand AI summary metrics and what the workspace can currently do.
 category: AI customer service
 order: 3
-updated_at: 2026-07-17
+updated_at: 2026-08-01
 ---
 
 # Review the AI overview and capability center
@@ -22,6 +22,6 @@ Capabilities are grouped into areas such as customer outreach, customer data, or
 
 - **Available:** The workspace has the capability, but permission and parameters are still checked when it runs.
 - **Integration required:** An app, channel, or business system must be connected.
-- **Not available yet:** There is no supported execution path in the product today.
+- **Not available yet:** This capability cannot currently be used in the product.
 
-The capability center does not turn roadmap items into available actions and does not replace runtime authorization. Yuna should use the same capability state when explaining what it can do.
+The capability center does not turn planned features into available actions and does not replace permission checks. Yuna should use the same capability state when explaining what it can do.

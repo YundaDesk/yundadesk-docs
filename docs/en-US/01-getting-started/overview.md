@@ -25,7 +25,7 @@ Each workspace has one customer-facing AI identity. You can use YundaDesk manage
 
 1. A customer sends a message through a connected channel.
 2. If AI reception is enabled for that channel, the AI answers using knowledge, AI skills, and customer context.
-3. Your team can inspect the answer source and execution trace in the Inbox.
+3. Your team can inspect the answer sources and handling details in the Inbox.
 4. The conversation moves to a person when the AI lacks a reliable answer, the customer asks for a person, or a handoff rule applies.
 5. Strong agent answers and explicit AI corrections can become learning suggestions. They affect the AI only after review and adoption.
 

@@ -1,6 +1,6 @@
 ---
 title: Read Yuna action receipts
-description: Confirm that an action really completed and inspect its execution path.
+description: Confirm that an action really completed and review its status and failure reason.
 category: Yuna
 order: 6
 updated_at: 2026-08-01
@@ -16,11 +16,11 @@ Natural-language acknowledgements such as "done" are not proof of execution. A r
 - Target or scope;
 - A summary of important content;
 - Processing or delivery state;
-- A link to the execution path.
+- A link to processing details.
 
 ## Understand receipt states
 
-Accepted means the request entered the execution path and may not have reached an external channel. Even Completed should be interpreted together with the delivery status. Verify important outbound messages in the real customer client.
+Accepted means that processing has started and the message may not have reached an external channel. Even Completed should be interpreted together with the delivery status. Verify important outbound messages in the real customer client.
 
 ## If no receipt appears
 

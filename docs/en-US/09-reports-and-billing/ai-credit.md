@@ -19,8 +19,8 @@ AI Credit records the use of AI customer service, Yuna, knowledge processing, an
 
 ## Why one action may create multiple records
 
-A single user request may involve retrieval, tool decisions, and final generation, producing more than one record. Details must come from recorded usage rather than a temporary estimate by Yuna.
+A single user request may use several AI capabilities and produce more than one usage record. Details must come from recorded usage rather than a temporary estimate by Yuna.
 
 ## When credit is unavailable
 
-When credit is unavailable, new generation or execution may stop. Follow the subscription page guidance instead of treating it as a knowledge or channel failure.
+When credit is unavailable, new AI answers or actions may stop. Follow the subscription page guidance instead of treating it as a knowledge or channel failure.

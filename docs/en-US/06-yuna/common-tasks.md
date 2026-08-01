@@ -14,7 +14,7 @@ Tell Yuna the goal, target, time range, and constraints. You do not need to reme
 
 - “Summarize the most common handoff reasons from the last seven days and group them by cause.”
 - “Compare yesterday's conversation volume and AI participation by channel.”
-- “Summarize the main needs from this customer's recent conversations.”
+- On a customer or conversation page, select **Current page**, then ask: “Summarize the main needs from this customer's recent conversations.”
 
 Results use only data the current member may view. Yuna should explain the limitation when report, customer, or channel access is missing.
 
@@ -30,7 +30,7 @@ A request that changes settings should first show a draft, choice, or confirmati
 
 - “Use this temporary policy for holiday shipping questions and stop using it on the specified date.”
 - “This answer treated a customer preference as a global rule. Make it apply only to the current customer.”
-- “Organize repeated questions that the knowledge base does not cover into suggestions for review.”
+- “Use these repeated questions I am providing to prepare a suggestion for review.”
 
 Teaching requests enter learning review. One conversation does not directly change answers for every customer.
 
@@ -38,15 +38,13 @@ Teaching requests enter learning review. One conversation does not directly chan
 
 - “Prepare a follow-up draft for the current customer, but do not send it.”
 - “Design a follow-up rule for customers who stop replying for 30 minutes, starting with confirmation for each message.”
-- “Show why the previous outreach message was not sent.”
+- Open the previous outreach failure in Yuna tasks to review why it was not sent.
 
 Sending requires an available channel, a clear target, and the necessary permission. Broadcast, segmented, or automatic sending normally requires stricter confirmation and safety conditions.
 
 ## Review tasks and results
 
-- “Which learning suggestions are still waiting for review?”
-- “Show recent delivery failures and tell me what to check next.”
-- “Open the result of the action I just performed.”
+Open the Yuna task area to review learning suggestions, AI failures, channel delivery failures, and proactive outreach items. Select a task card to open its details, then use the available review, confirmation, or retry action.
 
 Yuna saying “completed” does not replace an action receipt or real channel result. Inspect the receipt for important actions and verify outbound messages in the customer's real channel.
 

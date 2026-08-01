@@ -13,13 +13,13 @@ A learning suggestion is only a proposal. AI can use it only after successful ad
 ## States
 
 - **Pending:** Waiting for your decision.
-- **Risky:** May affect policies, commitments, or execution and needs stricter review.
+- **Risky:** May affect policies, commitments, or customer actions and needs stricter review.
 - **Adopted:** Entered the testing or activation path.
 - **Ignored:** Will not take effect and should no longer appear as pending work.
 
 ## Review before adoption
 
-Before adopting, check the customer question, suggested answer, evidence, scope, expiry, and required capabilities. Do not directly adopt a suggestion that lacks a reliable answer or depends on an unavailable tool.
+Before adopting, check the customer question, suggested answer, source, scope, expiry, and required features. Do not directly adopt a suggestion that lacks a reliable answer or depends on an unconnected app.
 
 ## Duplicate suggestions
 

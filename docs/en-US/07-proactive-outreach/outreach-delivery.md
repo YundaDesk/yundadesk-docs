@@ -15,7 +15,7 @@ An outreach message passes through a trigger, decision, safety checks, and chann
 1. Open the related skill or outreach record.
 2. Verify the real trigger event and target customer.
 3. Check cooldown, quiet hours, consent, and permission gates.
-4. Confirm that an execution task was created.
+4. Confirm that the outreach item was created.
 5. Open the delivery record and inspect the final channel status.
 
 ## Common reasons a message was not sent

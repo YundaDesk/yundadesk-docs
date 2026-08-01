@@ -16,8 +16,8 @@ Confirm who the rule applies to, its start and end dates, exceptions, and whethe
 
 ## Create a correction
 
-1. Find an incorrect or incomplete answer in the Playground or a conversation.
-2. Select **Correct AI**.
+1. Find an incorrect or incomplete AI answer in an Inbox conversation.
+2. Select **Correct AI** below that answer.
 3. Explain what was wrong, the correct handling, and its scope.
 4. After submission, confirm that a learning suggestion appears. One manual reply does not mean that the AI has learned it.
 
@@ -31,7 +31,7 @@ Merge duplicate or equivalent suggestions into existing knowledge or skills to a
 
 Test at least the original question, a rephrased version with the same intent, and an unrelated question that should not trigger the rule. Confirm that the answer does not broaden the commitment and that the rule is not used after expiry, without evidence, or when its conditions do not apply.
 
-Activate only after review and testing pass. Then spot-check the final answer received through a real channel.
+Activate only after review and Playground testing pass. Then spot-check the final answer received through a real channel.
 
 ## Pause or roll back
 

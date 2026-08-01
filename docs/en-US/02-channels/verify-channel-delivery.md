@@ -24,4 +24,4 @@ A reply visible in the Inbox is not proof of delivery. The customer client must 
 
 ## If the test fails
 
-If the test fails, record the channel, customer, time, and delivery state. Check credentials and channel state before inspecting the answer trace or failure log.
+If the test fails, record the channel, customer, time, and delivery state. Check credentials and channel state before reviewing answer details or the displayed failure reason.

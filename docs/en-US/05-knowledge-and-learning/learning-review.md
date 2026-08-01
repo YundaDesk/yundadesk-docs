@@ -3,7 +3,7 @@ title: Review AI learning suggestions
 description: Decide what the AI should learn and understand adoption, risk, and ignored states.
 category: Knowledge and learning
 order: 3
-updated_at: 2026-07-17
+updated_at: 2026-08-01
 ---
 
 # Review AI learning suggestions
@@ -12,7 +12,7 @@ Learning suggestions can come from real conversations, agent answers, teaching t
 
 ## What a suggestion should contain
 
-A reviewable suggestion normally includes the customer question, proposed answer, learning source, scope, risk level, and the type of capability created after adoption. Proactive outreach and tool-based suggestions should also explain the trigger, action, and safeguards.
+A reviewable suggestion normally includes the customer question, proposed answer, learning source, scope, risk level, and the result created after adoption. Proactive outreach and suggestions that need live business information should also explain the trigger, action, and safeguards.
 
 ## Make a decision
 
@@ -28,4 +28,4 @@ Price commitments, refund policies, health or safety guidance, sensitive conclus
 
 ## After adoption
 
-Different suggestions become knowledge, AI skills, customer memory, or proactive outreach capabilities. Adoption does not always mean immediate execution. High-risk and proactive actions may still require testing, enablement, or per-action confirmation.
+Different suggestions become knowledge, AI skills, customer memory, or proactive outreach rules. Adoption does not always mean immediate use. High-risk and proactive actions may still require testing, enablement, or confirmation for each action.

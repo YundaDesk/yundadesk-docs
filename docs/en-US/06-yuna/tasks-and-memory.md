@@ -24,7 +24,7 @@ Yuna can remember:
 - expression or workflow preferences for the current team member;
 - confirmed context that is useful across sessions.
 
-Use the Yuna memory page to view, correct, delete, or clear a scope. Memory is available by default to support answers, but Yuna should continue working when the retrieval service is unavailable.
+Use the Yuna memory page to view, correct, delete, or clear a scope. Memory is available by default to support answers. When memory is temporarily unavailable, Yuna should continue working and explain the limitation.
 
 ## What not to store
 

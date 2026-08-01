@@ -8,7 +8,7 @@ updated_at: 2026-08-01
 
 # Upload knowledge documents
 
-After product guides, policies, and procedures are uploaded, YundaDesk processes them for retrieval by managed AI.
+After product guides, policies, and procedures are uploaded, YundaDesk processes them so managed AI can use the content in answers.
 
 ## Prepare the files
 

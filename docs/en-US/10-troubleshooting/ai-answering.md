@@ -1,6 +1,6 @@
 ---
 title: AI does not answer or gives the wrong answer
-description: Check reception, knowledge, skills, tools, usage, and the answer trace in the right order.
+description: Check reception, knowledge, skills, connected apps, usage, and answer details in the right order.
 category: Troubleshooting
 order: 1
 updated_at: 2026-08-01
@@ -8,7 +8,7 @@ updated_at: 2026-08-01
 
 # AI does not answer or gives the wrong answer
 
-First determine whether the AI did not run, lacked evidence, needed an unavailable tool, or produced a reply that was not delivered.
+First determine whether the AI did not reply, lacked reliable information, needed an unavailable app, or produced a reply that was not delivered.
 
 ## AI does not reply at all
 
@@ -30,7 +30,7 @@ Correction creates governed learning. It affects future answers only after revie
 
 ## Live data
 
-Orders, tracking, inventory, and CRM facts require connected tools. The knowledge base can explain a static policy but cannot invent a live order result. Connect the required app or capability when the trace reports a missing tool.
+Orders, tracking, inventory, and customer records require connected apps. The knowledge base can explain a static policy but cannot invent a live order result. Connect the required app when answer details show that information is unavailable.
 
 ## Ambiguous questions
 

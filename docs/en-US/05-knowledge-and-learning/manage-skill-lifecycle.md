@@ -8,15 +8,15 @@ updated_at: 2026-08-01
 
 # Test, pause, and roll back an AI skill
 
-An AI skill is a manageable answer or execution capability. Verify its trigger, steps, and boundaries before enabling it.
+An AI skill is a manageable answer or action. Verify when it applies, what it does, and its boundaries before enabling it.
 
 ## Test before activation
 
 1. Open the skill detail.
-2. Review its source, scope, and execution graph.
+2. Review its source, scope, and handling steps.
 3. Test typical, rephrased, and unrelated questions.
 4. Confirm that it triggers only when appropriate.
-5. Check required knowledge, tools, and approvals.
+5. Check required knowledge, connected apps, and confirmation steps.
 
 ## Pause a skill
 

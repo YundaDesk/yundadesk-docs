@@ -3,7 +3,7 @@ title: YundaDesk Help Center
 description: Learn how to manage customer conversations, configure AI customer service, and work with Yuna.
 category: Home
 order: 0
-updated_at: 2026-07-17
+updated_at: 2026-08-01
 ---
 
 # YundaDesk Help Center
@@ -22,7 +22,7 @@ YundaDesk brings customer conversations from your website, Telegram, and other c
 
 - **Connect customer channels:** [Channel overview](./02-channels/overview.md), [website widget](./02-channels/website-widget.md), and [Telegram](./02-channels/telegram.md)
 - **Handle conversations:** [Manage conversations](./03-inbox/manage-conversations.md) and [switch between AI and human service](./03-inbox/ai-human-handoff.md)
-- **Configure and test AI:** [AI reception](./04-ai-customer-service/configure.md) and [answer traces](./04-ai-customer-service/playground-and-trace.md)
+- **Configure and test AI:** [AI reception](./04-ai-customer-service/configure.md) and [answer details](./04-ai-customer-service/playground-and-trace.md)
 - **Teach the AI:** [Knowledge base](./05-knowledge-and-learning/knowledge-base.md), [learning review](./05-knowledge-and-learning/learning-review.md), and [skills and memory](./05-knowledge-and-learning/skills-and-memory.md)
 - **Work with Yuna:** [Meet Yuna](./06-yuna/overview.md), [ask, act, and teach](./06-yuna/ask-act-learn.md), and [tasks and memory](./06-yuna/tasks-and-memory.md)
 - **Reach customers proactively:** [Proactive outreach](./07-proactive-outreach/overview.md)

@@ -9,7 +9,7 @@ updated_at: 2026-08-01
 # AI customer service
 
 - [Configure AI reception](./configure.md)
-- [Test answers and inspect traces](./playground-and-trace.md)
+- [Test answers and review details](./playground-and-trace.md)
 - [Review the AI overview and capability center](./hub-and-capabilities.md)
 - [Set the AI name and response style](./identity-and-style.md)
 - [Choose managed or external AI](./managed-and-external-ai.md)

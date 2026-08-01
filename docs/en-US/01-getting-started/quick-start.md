@@ -3,7 +3,7 @@ title: 15-minute quick start
 description: Connect a channel, add knowledge, and complete an AI answer test.
 category: Getting started
 order: 2
-updated_at: 2026-07-17
+updated_at: 2026-08-01
 ---
 
 # 15-minute quick start

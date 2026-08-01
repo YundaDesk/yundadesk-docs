@@ -8,7 +8,7 @@ updated_at: 2026-08-01
 
 # Connect Notion knowledge
 
-You can connect Notion pages to YundaDesk. Content is synchronized into the local knowledge base and then follows the existing processing, retrieval, and answer pipeline. The AI does not query Notion while answering a customer.
+You can connect Notion pages to YundaDesk. The AI can use the content after synchronization and processing succeed; it does not open Notion while answering a customer.
 
 ## Connect a source
 
@@ -35,7 +35,7 @@ Synchronized documents appear in the existing Knowledge table as one expandable 
 - **Partial failure**: some documents or provider requests failed. Existing usable knowledge is preserved and is not removed by an incomplete round.
 - **Authorization invalid**: the credential expired or the connection must be authorized again.
 
-New or changed content must still finish knowledge processing before the AI can retrieve it. Check document processing status and the Playground for confirmation.
+New or changed content must still finish knowledge processing before the AI can use it. Check document processing status and the Playground for confirmation.
 
 ## Updates and limits
 

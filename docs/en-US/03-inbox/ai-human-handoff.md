@@ -26,7 +26,7 @@ When the issue is resolved, you can return the conversation to AI where supporte
 
 ## Automatic handoff
 
-Handoff may occur when the AI lacks a reliable answer, the customer asks for a person, a required tool or channel is unavailable, or a safety rule applies. A handoff does not mean the issue has been resolved; the team must continue in the Inbox.
+Handoff may occur when the AI lacks a reliable answer, the customer asks for a person, a required app or channel is unavailable, or a safety rule applies. A handoff does not mean the issue has been resolved; the team must continue in the Inbox.
 
 ## Recommended practices
 

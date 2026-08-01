@@ -3,7 +3,7 @@ title: Correct an AI answer
 description: Submit a correction from a real conversation and verify that the AI uses the new capability.
 category: Knowledge and learning
 order: 5
-updated_at: 2026-07-17
+updated_at: 2026-08-01
 ---
 
 # Correct an AI answer
@@ -26,4 +26,4 @@ Do not write only “wrong answer” or “bad tone.” Identify the incorrect f
 
 ## Verify the result
 
-After adoption, ask several different phrasings in the Playground and inspect answer details for the new version. A real usage hit and trace are the evidence that the learning was used. If an old answer still appears, check conflicting knowledge, skill state, and active version.
+After adoption, ask several different phrasings in the Playground and inspect answer details for the new version. Confirm the change with a correct answer in real reception. If an old answer still appears, check conflicting knowledge, skill state, and active version.

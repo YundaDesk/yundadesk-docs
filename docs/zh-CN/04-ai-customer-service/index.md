@@ -9,7 +9,7 @@ updated_at: 2026-08-01
 # AI 客服
 
 - [配置 AI 自动接待](./configure.md)
-- [在调试台测试回答并查看链路](./playground-and-trace.md)
+- [在调试台测试回答并查看详情](./playground-and-trace.md)
 - [查看 AI 概览和能力中心](./hub-and-capabilities.md)
 - [设置 AI 客服名称和回复风格](./identity-and-style.md)
 - [选择内置 AI 或外接 AI](./managed-and-external-ai.md)

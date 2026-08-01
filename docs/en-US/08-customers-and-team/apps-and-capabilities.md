@@ -8,7 +8,7 @@ updated_at: 2026-08-01
 
 # Manage apps and workspace capabilities
 
-Apps and plugins connect stores, CRMs, and other business systems to YundaDesk. Once ready, they can provide order, customer, inventory, or other tool capabilities to the current workspace.
+Apps and plugins connect stores, CRMs, and other business systems to YundaDesk. Once ready, Yuna and AI customer service can use order, customer, inventory, and other business information when permission allows.
 
 ## Apps and channels
 
@@ -16,7 +16,7 @@ Channels send and receive customer messages. Apps provide business data and acti
 
 ## How capabilities become available
 
-Workspace capabilities are calculated from platform features, connected channels, installed apps, and plugin declarations. Installation alone may not be enough; authorization, configuration, and dependent tools must also be ready.
+Available workspace features depend on product features, connected channels, installed apps, and their current status. Installation alone may not be enough; authorization and required configuration must also be complete.
 
 Use the capability center to review:
 
@@ -32,6 +32,6 @@ If the workspace already uses an enabled DeepL route, YundaDesk keeps that selec
 
 Turning off Translate visitor messages also turns off real-time translation. Viewing apps requires the View apps permission. Installing, configuring, enabling, disabling, or uninstalling apps requires Manage apps. Changing chat translation also requires Manage chat tools.
 
-## Tool-backed requests
+## Use live business information
 
-When Yuna or AI customer service needs an order, tracking, or customer lookup, it calls a ready workspace tool. Permission is checked again at execution time. The AI does not hold store secrets, and live business data should not be copied into the knowledge base as a substitute for a tool.
+When Yuna or AI customer service needs an order, tracking, or customer lookup, it uses business information from apps that are connected to the current workspace and available to the current member. Keep store credentials only in the product's secure configuration fields, and do not copy live business data into the knowledge base as a substitute for an app connection.

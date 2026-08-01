@@ -16,7 +16,7 @@ After knowledge processing succeeds, YundaDesk selects questions from the latest
 
 - useful to a broad set of visitors;
 - clear and low risk;
-- independent of an order number, live inventory, or an unavailable tool;
+- independent of an order number, live inventory, or an unconnected app;
 - free from internal, sensitive, or temporary context.
 
 The system aims for topic diversity instead of repeating several versions of the same question.

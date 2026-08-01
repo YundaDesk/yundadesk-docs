@@ -15,12 +15,12 @@ AI skills and customer memory solve different problems. Skills are reusable busi
 Open **AI → AI skills** to inspect adopted and generated capabilities. A skill detail can show:
 
 - trigger or applicable customer question;
-- response steps, tool calls, and handoff boundaries;
+- response steps, required business information, and handoff boundaries;
 - learning source and version;
 - tests, runs, and real usage;
 - current enablement state.
 
-The execution diagram is for explanation and replay, not a requirement for merchants to edit a low-level workflow. If a skill is wrong, pause or roll it back, then create a corrected version through correction and learning review.
+Skill details explain how the skill handles a request without requiring merchants to configure internal processes. If a skill is wrong, pause or roll it back, then create a corrected version through correction and learning review.
 
 ## Customer memory
 

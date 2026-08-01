@@ -13,7 +13,7 @@ AI should not guess facts just to preserve automation. High-risk, low-confidence
 ## Appropriate handoff cases
 
 - Refunds, compensation, permissions, or sensitive commitments;
-- Requests that require an unavailable order, inventory, or shipping tool;
+- Requests that require an unconnected order, inventory, or shipping app;
 - Conflicting or unverifiable knowledge;
 - An explicit request for a person;
 - Repeated answers that do not resolve the issue.

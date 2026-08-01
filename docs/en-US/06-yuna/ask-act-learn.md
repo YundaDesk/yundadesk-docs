@@ -8,11 +8,11 @@ updated_at: 2026-08-01
 
 # Ask, act, and teach with Yuna
 
-You do not need to know internal tool names or customer IDs. Describe the goal, target, and constraints. Yuna will inspect current capabilities and decide the next step.
+You do not need to remember feature locations or customer numbers. Describe the goal, target, and constraints. Yuna will decide the next step from the features available in the current workspace.
 
 ## Ask questions
 
-Examples include “How many conversations did each channel receive yesterday?” and “Which issues are handed to people most often?” Yuna calls available read-only tools and returns the result. When data is unavailable, it should say so rather than fill the gap with a guess.
+Examples include “How many conversations did each channel receive yesterday?” and “Which issues are handed to people most often?” Yuna answers from data you are allowed to view. When data is unavailable, it should say so rather than fill the gap with a guess.
 
 ## Perform an action
 
@@ -28,4 +28,4 @@ Examples include a standard cash-on-delivery answer or a temporary holiday shipp
 
 ## Capability boundaries
 
-Order, inventory, logistics, CRM, broadcast, and similar actions require a connected tool. A knowledge article cannot replace a live business-data capability.
+Order, inventory, logistics, customer records, broadcast, and similar actions require a connected app or channel. A knowledge article cannot replace live business information.

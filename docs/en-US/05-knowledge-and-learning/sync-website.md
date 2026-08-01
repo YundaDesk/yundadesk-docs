@@ -24,4 +24,4 @@ After the website changes, resync it. The previous successful version should rem
 
 ## Missing content
 
-If content is missing, check public access, the URL, crawl restrictions, and whether the page renders content only through browser scripts. Website sync cannot replace an authenticated store-data tool.
+If content is missing, check public access, the URL, crawl restrictions, and whether the page displays content only after interaction. Website sync cannot replace a connected store app for private business data.

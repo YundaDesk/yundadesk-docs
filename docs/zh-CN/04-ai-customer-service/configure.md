@@ -3,7 +3,7 @@ title: 配置 AI 自动接待
 description: 选择 AI 来源、接待渠道和回复风格。
 category: AI 客服
 order: 1
-updated_at: 2026-07-17
+updated_at: 2026-08-01
 ---
 
 # 配置 AI 自动接待
@@ -12,8 +12,8 @@ updated_at: 2026-07-17
 
 ## 选择 AI 来源
 
-- **YundaDesk 内置 AI**：支持知识库、Yuna 学习、AI 技能、客户记忆和回答链路。
-- **外接 AI**：调用你配置的外部 API 生成回复，不参与 YundaDesk 托管学习。
+- **YundaDesk 内置 AI**：支持知识库、Yuna 学习、AI 技能、客户记忆和回答详情。
+- **外接 AI**：使用你配置的外部 AI 服务生成回复，不参与 YundaDesk 托管学习。
 
 切换来源不会创建第二个对客身份。AI 名称是客户和坐席看到的接待身份名称，与运行来源分开管理。
 

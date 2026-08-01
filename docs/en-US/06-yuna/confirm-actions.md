@@ -8,7 +8,7 @@ updated_at: 2026-08-01
 
 # Answer Yuna confirmation questions
 
-When a request lacks a target, scope, or execution mode, Yuna displays a choice card above the composer instead of guessing.
+When a request lacks a target, scope, or handling choice, Yuna displays a choice card above the composer instead of guessing.
 
 ## Use the card
 
@@ -19,7 +19,7 @@ When a request lacks a target, scope, or execution mode, Yuna displays a choice 
 
 ## Common choices
 
-Typical choices include draft only, preview before confirmation, immediate execution for an allowed low-risk action, or cancellation.
+Typical choices include draft only, preview before confirmation, complete an allowed low-risk action now, or cancellation.
 
 ## If nothing follows
 

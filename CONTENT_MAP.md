@@ -21,7 +21,7 @@ The Chinese and English trees are identical. Paths below are relative to each lo
 | Inbox | Search and filter conversations | `03-inbox/search-and-filter.md` |
 | Inbox | Understand message status | `03-inbox/message-status.md` |
 | AI customer service | Configure AI reception | `04-ai-customer-service/configure.md` |
-| AI customer service | Test answers and inspect traces | `04-ai-customer-service/playground-and-trace.md` |
+| AI customer service | Test answers and review details | `04-ai-customer-service/playground-and-trace.md` |
 | AI customer service | AI overview and capability center | `04-ai-customer-service/hub-and-capabilities.md` |
 | AI customer service | AI identity and response style | `04-ai-customer-service/identity-and-style.md` |
 | AI customer service | Managed and external AI | `04-ai-customer-service/managed-and-external-ai.md` |

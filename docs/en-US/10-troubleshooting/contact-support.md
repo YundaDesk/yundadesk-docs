@@ -8,7 +8,7 @@ updated_at: 2026-08-01
 
 # Prepare an effective support request
 
-Clear reproduction steps are more useful than saying a feature is broken. First identify whether the issue is in the page, AI generation, tool execution, or channel delivery.
+Clear reproduction steps are more useful than saying a feature is broken. First identify whether the issue is in the page, AI answer, connected app, or channel delivery.
 
 ## Include
 
@@ -26,4 +26,4 @@ Passwords, verification codes, access tokens, bot secrets, complete customer pri
 
 ## AI or delivery issues
 
-For AI and delivery issues, include the answer detail, execution path, or delivery-state entry when available. "AI answered incorrectly" alone cannot distinguish a knowledge, skill, memory, tool, or model problem.
+For AI and delivery issues, include the answer details or delivery status when available. "AI answered incorrectly" alone cannot distinguish a knowledge, skill, memory, connected-app, or answer problem.

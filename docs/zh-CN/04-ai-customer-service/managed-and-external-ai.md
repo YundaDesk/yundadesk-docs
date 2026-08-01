@@ -3,7 +3,7 @@ title: 选择内置 AI 或外接 AI
 description: 理解两种 AI 来源的能力差异和切换影响。
 category: AI 客服
 order: 5
-updated_at: 2026-07-17
+updated_at: 2026-08-01
 ---
 
 # 选择内置 AI 或外接 AI
@@ -12,7 +12,7 @@ updated_at: 2026-07-17
 
 ## 内置 AI
 
-内置 AI 使用 YundaDesk 的知识库、学习评审、AI 技能、客户记忆和回答链路。适合希望在一个系统内持续改进和审计回答的团队。
+内置 AI 使用 YundaDesk 的知识库、学习评审、AI 技能、客户记忆和回答详情。适合希望在一个系统内持续改进和检查回答的团队。
 
 ## 外接 AI
 

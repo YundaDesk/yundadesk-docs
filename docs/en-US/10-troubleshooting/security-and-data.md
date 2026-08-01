@@ -17,10 +17,10 @@ Channel tokens, API keys, mailbox passwords, and store secrets must be submitted
 ## AI authorization
 
 - AI can use only capabilities registered and ready for the current workspace.
-- Permission is checked again when a tool runs.
+- Customer data and actions remain subject to the current member's permissions.
 - Refunds, price changes, and outbound messages require confirmation or approval.
-- The capability center describes readiness; it does not replace execution authorization.
-- When a tool, memory service, or retrieval system fails, the AI should degrade or refuse rather than invent success.
+- The capability center shows availability; permissions and confirmation requirements still apply.
+- When required business information, memory, or a connected feature is unavailable, the AI should explain the limitation rather than invent success.
 
 ## Knowledge and memory
 

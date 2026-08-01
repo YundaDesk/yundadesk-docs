@@ -3,7 +3,7 @@ title: Build and maintain the knowledge base
 description: Give the AI reliable business knowledge from documents, websites, and FAQs.
 category: Knowledge and learning
 order: 1
-updated_at: 2026-07-30
+updated_at: 2026-08-01
 ---
 
 # Build and maintain the knowledge base
@@ -33,7 +33,7 @@ After upload or crawling, YundaDesk parses, compiles, and indexes the content. O
 - State the scope and effective period of prices, timelines, and refund policies.
 - Remove conflicting outdated versions.
 - Never upload keys, identity documents, payment data, or unrelated sensitive information.
-- Use connected tools for real-time orders, inventory, and tracking. Static documents cannot stand in for live facts.
+- Connect the appropriate business app for real-time orders, inventory, and tracking. Static documents cannot stand in for live facts.
 
 ## Update and verify
 
