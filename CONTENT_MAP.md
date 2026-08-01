@@ -26,6 +26,7 @@ The Chinese and English trees are identical. Paths below are relative to each lo
 | AI customer service | AI identity and response style | `04-ai-customer-service/identity-and-style.md` |
 | AI customer service | Managed and external AI | `04-ai-customer-service/managed-and-external-ai.md` |
 | AI customer service | Handoff and fallback boundaries | `04-ai-customer-service/handoff-and-fallback.md` |
+| AI customer service | How AI answers reliably | `04-ai-customer-service/reliable-answers.md` |
 | Knowledge and learning | Build the knowledge base | `05-knowledge-and-learning/knowledge-base.md` |
 | Knowledge and learning | Suggested questions | `05-knowledge-and-learning/suggested-questions.md` |
 | Knowledge and learning | Review learning suggestions | `05-knowledge-and-learning/learning-review.md` |
@@ -37,12 +38,14 @@ The Chinese and English trees are identical. Paths below are relative to each lo
 | Knowledge and learning | Knowledge processing status | `05-knowledge-and-learning/processing-status.md` |
 | Knowledge and learning | Learning suggestion states | `05-knowledge-and-learning/learning-states.md` |
 | Knowledge and learning | Manage the skill lifecycle | `05-knowledge-and-learning/manage-skill-lifecycle.md` |
+| Knowledge and learning | Teach the first business rule | `05-knowledge-and-learning/teach-first-rule.md` |
 | Yuna | Meet Yuna | `06-yuna/overview.md` |
 | Yuna | Ask, act, and teach | `06-yuna/ask-act-learn.md` |
 | Yuna | Tasks and long-term memory | `06-yuna/tasks-and-memory.md` |
 | Yuna | Connect Yuna to a phone channel | `06-yuna/mobile-connection.md` |
 | Yuna | Confirmation questions | `06-yuna/confirm-actions.md` |
 | Yuna | Action receipts | `06-yuna/action-receipts.md` |
+| Yuna | Common tasks | `06-yuna/common-tasks.md` |
 | Proactive outreach | Create and govern proactive outreach | `07-proactive-outreach/overview.md` |
 | Proactive outreach | Choose an outreach mode | `07-proactive-outreach/outreach-modes.md` |
 | Proactive outreach | Inspect delivery | `07-proactive-outreach/outreach-delivery.md` |

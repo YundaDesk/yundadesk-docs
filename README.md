@@ -62,6 +62,6 @@ When product behavior changes:
 
 ## Current release
 
-The current bilingual release contains 65 customer articles per locale. It covers onboarding, channels, the Inbox, AI customer service, knowledge and learning, Yuna, proactive outreach, customers and teams, reporting and billing, troubleshooting, and security boundaries.
+The current bilingual release contains 68 customer articles per locale. It covers onboarding, channels, the Inbox, AI customer service, knowledge and learning, Yuna, proactive outreach, customers and teams, reporting and billing, troubleshooting, and security boundaries.
 
 The content is intentionally task-based. It documents only capabilities that exist in YundaDesk or clearly marks integration and availability boundaries; it does not copy unrelated features from other help centers.

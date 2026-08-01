@@ -3,7 +3,7 @@ title: AI customer service
 description: Configure, test, and explain customer-facing AI answers.
 category: AI customer service
 order: 0
-updated_at: 2026-07-17
+updated_at: 2026-08-01
 ---
 
 # AI customer service
@@ -14,5 +14,6 @@ updated_at: 2026-07-17
 - [Set the AI name and response style](./identity-and-style.md)
 - [Choose managed or external AI](./managed-and-external-ai.md)
 - [Define AI handoff boundaries](./handoff-and-fallback.md)
+- [Understand how AI answers reliably](./reliable-answers.md)
 
 Validate the AI in the Playground before enabling real reception channel by channel.

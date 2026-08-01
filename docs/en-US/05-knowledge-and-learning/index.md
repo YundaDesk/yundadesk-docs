@@ -3,7 +3,7 @@ title: Knowledge and learning
 description: Give the AI reliable knowledge, review learning, and manage skills and memory.
 category: Knowledge and learning
 order: 0
-updated_at: 2026-07-29
+updated_at: 2026-08-01
 ---
 
 # Knowledge and learning
@@ -19,5 +19,6 @@ updated_at: 2026-07-29
 - [Understand knowledge processing status](./processing-status.md)
 - [Understand learning suggestion states](./learning-states.md)
 - [Test, pause, and roll back an AI skill](./manage-skill-lifecycle.md)
+- [Teach the AI its first business rule](./teach-first-rule.md)
 
 Knowledge, skills, and memory have different responsibilities. Do not use one asset to bypass the governance of another.
