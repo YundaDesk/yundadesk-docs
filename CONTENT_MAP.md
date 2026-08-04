@@ -56,6 +56,11 @@ The Chinese and English trees are identical. Paths below are relative to each lo
 | Reports and billing | Reports, subscription, and AI usage | `09-reports-and-billing/reports-and-ai-usage.md` |
 | Reports and billing | AI reception report | `09-reports-and-billing/reception-report.md` |
 | Reports and billing | AI Credit usage | `09-reports-and-billing/ai-credit.md` |
+| Apps and integrations | Install YundaDesk on WordPress | `11-apps/wordpress/install-yundadesk.md` |
+| Apps and integrations | Connect a WordPress site | `11-apps/wordpress/connect-yundadesk.md` |
+| Apps and integrations | Enable WooCommerce read-only enhancement | `11-apps/wordpress/enable-woocommerce.md` |
+| Apps and integrations | WordPress and WooCommerce data and permissions | `11-apps/wordpress/data-and-permissions.md` |
+| Apps and integrations | Lifecycle, privacy, and troubleshooting | `11-apps/wordpress/lifecycle-privacy-troubleshooting.md` |
 | Troubleshooting | AI does not answer correctly | `10-troubleshooting/ai-answering.md` |
 | Troubleshooting | Messages are not delivered | `10-troubleshooting/message-delivery.md` |
 | Troubleshooting | Security and data boundaries | `10-troubleshooting/security-and-data.md` |
@@ -75,3 +80,4 @@ The Chinese and English trees are identical. Paths below are relative to each lo
 8. Manage customers and teams
 9. Understand reports and usage
 10. Troubleshoot and stay secure
+11. Connect apps and stores

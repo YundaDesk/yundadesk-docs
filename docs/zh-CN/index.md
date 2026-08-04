@@ -26,6 +26,7 @@ YundaDesk 把网站、Telegram 等渠道的客户对话汇聚到一个工作台�
 - **让 AI 学会业务**：[知识库](./05-knowledge-and-learning/knowledge-base.md)、[学习评审](./05-knowledge-and-learning/learning-review.md)、[技能与客户记忆](./05-knowledge-and-learning/skills-and-memory.md)
 - **使用 Yuna**：[认识 Yuna](./06-yuna/overview.md)、[问、做与教](./06-yuna/ask-act-learn.md)、[任务与长期记忆](./06-yuna/tasks-and-memory.md)
 - **主动联系客户**：[主动触达](./07-proactive-outreach/overview.md)
+- **连接 WordPress 或 WooCommerce**：[安装 YundaDesk](./11-apps/wordpress/install-yundadesk.md)、[连接 WordPress](./11-apps/wordpress/connect-yundadesk.md)、[启用 WooCommerce](./11-apps/wordpress/enable-woocommerce.md)
 - **排查问题**：[AI 回答异常](./10-troubleshooting/ai-answering.md)、[消息投递失败](./10-troubleshooting/message-delivery.md)
 
 产品中的渠道、套餐、额度和可执行能力可能因工作区配置而不同，请始终以当前页面显示为准。
