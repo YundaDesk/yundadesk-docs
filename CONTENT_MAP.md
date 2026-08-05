@@ -11,6 +11,7 @@ The Chinese and English trees are identical. Paths below are relative to each lo
 | Channels | Channel overview | `02-channels/overview.md` |
 | Channels | Website widget | `02-channels/website-widget.md` |
 | Channels | Telegram | `02-channels/telegram.md` |
+| Channels | WeChat Customer Service | `02-channels/wecom-kf.md` |
 | Channels | Custom API and event webhooks | `02-channels/developer-integrations.md` |
 | Channels | Verify real channel delivery | `02-channels/verify-channel-delivery.md` |
 | Channels | Customize the website widget | `02-channels/customize-widget.md` |

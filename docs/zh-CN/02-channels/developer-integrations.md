@@ -2,7 +2,7 @@
 title: 配置 Custom API 与事件推送
 description: 配置开发者集成、回调地址、签名和固定出口 IP。
 category: 渠道
-order: 4
+order: 5
 updated_at: 2026-07-31
 ---
 

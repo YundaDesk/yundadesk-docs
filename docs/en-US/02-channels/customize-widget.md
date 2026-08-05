@@ -2,7 +2,7 @@
 title: Customize the website widget
 description: Adjust customer-visible branding and content in the website chat widget.
 category: Channels
-order: 6
+order: 7
 updated_at: 2026-08-01
 ---
 

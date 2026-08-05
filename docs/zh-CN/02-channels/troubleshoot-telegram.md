@@ -2,7 +2,7 @@
 title: 排查 Telegram 渠道
 description: 排查 Telegram 收不到客户消息或客户收不到回复的问题。
 category: 渠道
-order: 7
+order: 8
 updated_at: 2026-08-01
 ---
 

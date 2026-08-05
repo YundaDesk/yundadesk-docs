@@ -3,7 +3,7 @@ title: 渠道
 description: 把客户消息接入 YundaDesk，并验证真实收发。
 category: 渠道
 order: 0
-updated_at: 2026-07-28
+updated_at: 2026-08-04
 ---
 
 # 渠道
@@ -11,6 +11,7 @@ updated_at: 2026-07-28
 - [渠道概览](./overview.md)
 - [安装网站聊天组件](./website-widget.md)
 - [连接 Telegram](./telegram.md)
+- [连接微信客服](./wecom-kf.md)
 - [配置 Custom API 与事件推送](./developer-integrations.md)
 - [验证渠道真实收发](./verify-channel-delivery.md)
 - [设置网站聊天组件的外观](./customize-widget.md)

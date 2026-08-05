@@ -2,7 +2,7 @@
 title: 验证渠道真实收发
 description: 用真实客户客户端验证渠道入站、回复和投递状态。
 category: 渠道
-order: 5
+order: 6
 updated_at: 2026-08-01
 ---
 
