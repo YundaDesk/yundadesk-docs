@@ -3,7 +3,7 @@ title: YundaDesk Help Center
 description: Learn how to manage customer conversations, configure AI customer service, and work with Yuna.
 category: Home
 order: 0
-updated_at: 2026-08-01
+updated_at: 2026-08-05
 ---
 
 # YundaDesk Help Center
@@ -26,7 +26,7 @@ YundaDesk brings customer conversations from your website, Telegram, and other c
 - **Teach the AI:** [Knowledge base](./05-knowledge-and-learning/knowledge-base.md), [learning review](./05-knowledge-and-learning/learning-review.md), and [skills and memory](./05-knowledge-and-learning/skills-and-memory.md)
 - **Work with Yuna:** [Meet Yuna](./06-yuna/overview.md), [ask, act, and teach](./06-yuna/ask-act-learn.md), and [tasks and memory](./06-yuna/tasks-and-memory.md)
 - **Reach customers proactively:** [Proactive outreach](./07-proactive-outreach/overview.md)
-- **Connect a WordPress or WooCommerce site:** [Install YundaDesk](./11-apps/wordpress/install-yundadesk.md), [connect WordPress](./11-apps/wordpress/connect-yundadesk.md), and [enable WooCommerce](./11-apps/wordpress/enable-woocommerce.md)
+- **Connect a WordPress or WooCommerce site:** [Install YundaDesk](./11-apps/wordpress-woocommerce/install-yundadesk.md), [connect WordPress](./11-apps/wordpress-woocommerce/connect-yundadesk.md), and [enable WooCommerce](./11-apps/wordpress-woocommerce/enable-woocommerce.md)
 - **Troubleshoot:** [AI answering](./10-troubleshooting/ai-answering.md) and [message delivery](./10-troubleshooting/message-delivery.md)
 
 Available channels, plan entitlements, quotas, and executable capabilities can vary by workspace. The current product page is always authoritative.
