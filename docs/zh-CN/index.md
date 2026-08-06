@@ -3,7 +3,7 @@ title: YundaDesk 帮助中心
 description: 使用 YundaDesk 统一接待客户、配置 AI 客服，并让 Yuna 帮助团队工作。
 category: 首页
 order: 0
-updated_at: 2026-08-05
+updated_at: 2026-08-06
 ---
 
 # YundaDesk 帮助中心
@@ -27,6 +27,7 @@ YundaDesk 把网站、Telegram 等渠道的客户对话汇聚到一个工作台�
 - **使用 Yuna**：[认识 Yuna](./06-yuna/overview.md)、[问、做与教](./06-yuna/ask-act-learn.md)、[任务与长期记忆](./06-yuna/tasks-and-memory.md)
 - **主动联系客户**：[主动触达](./07-proactive-outreach/overview.md)
 - **连接 WordPress 或 WooCommerce**：[安装 YundaDesk](./11-apps/wordpress-woocommerce/install-yundadesk.md)、[连接 WordPress](./11-apps/wordpress-woocommerce/connect-yundadesk.md)、[启用 WooCommerce](./11-apps/wordpress-woocommerce/enable-woocommerce.md)
+- **连接 BigCommerce**：[安装并授权应用](./11-apps/bigcommerce/install-bigcommerce-app.md)、[同步数据并启用店面聊天](./11-apps/bigcommerce/use-yundadesk-with-bigcommerce.md)、[数据权限与卸载](./11-apps/bigcommerce/data-permissions-and-lifecycle.md)
 - **排查问题**：[AI 回答异常](./10-troubleshooting/ai-answering.md)、[消息投递失败](./10-troubleshooting/message-delivery.md)
 
 产品中的渠道、套餐、额度和可执行能力可能因工作区配置而不同，请始终以当前页面显示为准。

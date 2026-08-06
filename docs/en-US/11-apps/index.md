@@ -1,13 +1,14 @@
 ---
 title: Apps and integrations
-description: Connect WordPress, WooCommerce, and other business systems to YundaDesk.
+description: Connect BigCommerce, WordPress, WooCommerce, and other business systems to YundaDesk.
 category: Apps and integrations
 order: 0
-updated_at: 2026-08-05
+updated_at: 2026-08-06
 ---
 
 # Apps and integrations
 
 - [WordPress/WooCommerce](./wordpress-woocommerce/index.md): Use the same YundaDesk plugin to connect WordPress and optionally enable read-only store capabilities when WooCommerce is detected.
+- [BigCommerce](./bigcommerce/index.md): Use BigCommerce single-click installation to connect a workspace, sync read-only store context, and enable the Widget on compatible storefronts.
 
-WordPress live chat and the optional WooCommerce enhancement use one YundaDesk plugin. WooCommerce store access remains off until a site administrator approves the separate read-only authorization.
+Each integration follows its platform's official installation and independent authorization lifecycle. YundaDesk reads store data or enables a storefront Widget only after an administrator explicitly approves it.

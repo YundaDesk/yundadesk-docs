@@ -3,7 +3,7 @@ title: YundaDesk Help Center
 description: Learn how to manage customer conversations, configure AI customer service, and work with Yuna.
 category: Home
 order: 0
-updated_at: 2026-08-05
+updated_at: 2026-08-06
 ---
 
 # YundaDesk Help Center
@@ -27,6 +27,7 @@ YundaDesk brings customer conversations from your website, Telegram, and other c
 - **Work with Yuna:** [Meet Yuna](./06-yuna/overview.md), [ask, act, and teach](./06-yuna/ask-act-learn.md), and [tasks and memory](./06-yuna/tasks-and-memory.md)
 - **Reach customers proactively:** [Proactive outreach](./07-proactive-outreach/overview.md)
 - **Connect a WordPress or WooCommerce site:** [Install YundaDesk](./11-apps/wordpress-woocommerce/install-yundadesk.md), [connect WordPress](./11-apps/wordpress-woocommerce/connect-yundadesk.md), and [enable WooCommerce](./11-apps/wordpress-woocommerce/enable-woocommerce.md)
+- **Connect BigCommerce:** [Install and authorize the app](./11-apps/bigcommerce/install-bigcommerce-app.md), [sync data and enable storefront chat](./11-apps/bigcommerce/use-yundadesk-with-bigcommerce.md), and [review data permissions and uninstall](./11-apps/bigcommerce/data-permissions-and-lifecycle.md)
 - **Troubleshoot:** [AI answering](./10-troubleshooting/ai-answering.md) and [message delivery](./10-troubleshooting/message-delivery.md)
 
 Available channels, plan entitlements, quotas, and executable capabilities can vary by workspace. The current product page is always authoritative.

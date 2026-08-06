@@ -62,6 +62,9 @@ The Chinese and English trees are identical. Paths below are relative to each lo
 | Apps and integrations | Enable WooCommerce read-only enhancement | `11-apps/wordpress-woocommerce/enable-woocommerce.md` |
 | Apps and integrations | WordPress and WooCommerce data and permissions | `11-apps/wordpress-woocommerce/data-and-permissions.md` |
 | Apps and integrations | Lifecycle, privacy, and troubleshooting | `11-apps/wordpress-woocommerce/lifecycle-privacy-troubleshooting.md` |
+| Apps and integrations | Install and authorize the YundaDesk BigCommerce app | `11-apps/bigcommerce/install-bigcommerce-app.md` |
+| Apps and integrations | Use YundaDesk with BigCommerce | `11-apps/bigcommerce/use-yundadesk-with-bigcommerce.md` |
+| Apps and integrations | BigCommerce data permissions and app lifecycle | `11-apps/bigcommerce/data-permissions-and-lifecycle.md` |
 | Troubleshooting | AI does not answer correctly | `10-troubleshooting/ai-answering.md` |
 | Troubleshooting | Messages are not delivered | `10-troubleshooting/message-delivery.md` |
 | Troubleshooting | Security and data boundaries | `10-troubleshooting/security-and-data.md` |
