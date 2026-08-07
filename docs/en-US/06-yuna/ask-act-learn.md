@@ -3,7 +3,7 @@ title: Ask, act, and teach with Yuna
 description: Use natural language to query data, complete actions, and teach AI customer service.
 category: Yuna
 order: 2
-updated_at: 2026-08-01
+updated_at: 2026-08-07
 ---
 
 # Ask, act, and teach with Yuna
@@ -24,7 +24,13 @@ For setup changes such as connecting a channel, creating knowledge, configuring 
 
 ## Teach the AI
 
-Examples include a standard cash-on-delivery answer or a temporary holiday shipping policy. Yuna classifies the request as knowledge, a temporary skill, a multi-step skill, customer memory, or proactive outreach, then creates a learning card for review.
+Examples include a standard cash-on-delivery answer or a temporary holiday shipping policy. When Yuna detects that you may be teaching it, it first asks whether to enter the learning flow. Only an explicit confirmation allows Yuna to prepare a structured draft and create a learning card. Declining continues the normal conversation and creates no learning content.
+
+For a multi-step skill, the draft includes when it applies, information to collect, handling steps, and test scenarios. After confirmation, open the skill detail to review the flow and branches and run customer scenarios.
+
+The system creates multiple customer scenarios for normal handling, missing information, conditional branches, external capability failures, declined confirmation, and human handoff where applicable. You can run one scenario or all scenarios. Simulation does not perform real external actions. Editing a field or asking Yuna to revise the skill makes earlier results stale, so the new revision must be tested again. The skill can be enabled only when every required scenario for the current revision passes, required capabilities are available, and risk checks succeed.
+
+Yuna does not claim that it has learned something before the learning card actually exists. After enablement, AI customer service follows the reviewed flow. If a required capability or permission becomes unavailable at runtime, the system does not bypass the check and continue.
 
 ## Capability boundaries
 

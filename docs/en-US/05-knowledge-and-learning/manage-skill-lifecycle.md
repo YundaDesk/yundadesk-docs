@@ -3,7 +3,7 @@ title: Test, pause, and roll back an AI skill
 description: Manage an adopted skill from testing through activation, pause, and rollback.
 category: Knowledge and learning
 order: 11
-updated_at: 2026-08-01
+updated_at: 2026-08-07
 ---
 
 # Test, pause, and roll back an AI skill
@@ -12,11 +12,17 @@ An AI skill is a manageable answer or action. Verify when it applies, what it do
 
 ## Test before activation
 
-1. Open the skill detail.
-2. Review its source, scope, and handling steps.
-3. Test typical, rephrased, and unrelated questions.
-4. Confirm that it triggers only when appropriate.
+1. Open the skill detail and select the customer scenario you want to verify.
+2. Review the handling steps and confirm the order of questions, decisions, actions, replies, or handoff.
+3. Run the simulation, continue as a real customer, and inspect the result.
+4. Cover structurally relevant paths such as successful completion, missing information, tool failure, declined confirmation, or handoff.
 5. Check required knowledge, connected apps, and confirmation steps.
+
+Scenario tests never message customers or perform real external actions. A skill can be enabled only after every required scenario passes and all required capabilities are available.
+
+## Review live usage
+
+The Logs view shows real skill calls from customer conversations and excludes scenario simulations. Each record includes the customer question, the AI's final answer, and the run status. When a conversation is linked, you can open the original customer conversation for further review.
 
 ## Pause a skill
 
