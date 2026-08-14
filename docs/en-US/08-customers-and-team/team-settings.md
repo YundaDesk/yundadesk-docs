@@ -1,9 +1,10 @@
 ---
 title: Manage members, permissions, and shared resources
 description: Invite teammates, assign access, and maintain shared labels and quick replies.
+search_terms: use saved team quick replies, insert quick reply in agent composer, shared quick reply location
 category: Customers and team
 order: 2
-updated_at: 2026-08-01
+updated_at: 2026-08-11
 ---
 
 # Manage members, permissions, and shared resources
@@ -15,6 +16,8 @@ Team settings determine who can view customers, handle conversations, change AI 
 Open **Settings > Members and permissions**, enter the member's email address, and select Administrator or Agent. The invited member follows the page instructions to join before accessing the workspace.
 
 Administrators can invite either administrators or agents. **Invite agents** is a separate sensitive permission: a regular agent who receives it can see the invitation action and invite regular agents, but cannot create an administrator.
+
+For members with team-management access, the member list shows each person's most recent successful Web or App sign-in and most recent workspace use, helping identify accounts that have been inactive for a long time. Members who have never signed in or used the workspace show the corresponding empty state, while pending invitations show an em dash. The regular member directory does not expose these activity times.
 
 ## Roles and permissions
 

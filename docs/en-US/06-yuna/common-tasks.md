@@ -3,28 +3,47 @@ title: Complete common tasks with Yuna
 description: Give Yuna a clear goal, target, and constraints for queries, setup, teaching, and follow-up.
 category: Yuna
 order: 7
-updated_at: 2026-08-01
+updated_at: 2026-08-14
 ---
 
 # Complete common tasks with Yuna
 
 Tell Yuna the goal, target, time range, and constraints. You do not need to remember feature names. Use these examples according to the channels, apps, and permissions available in the current workspace.
 
+## Ask how to use YundaDesk
+
+Ask questions such as “Where do agents use a saved team quick reply?”, “How do I verify Telegram after connecting it?”, or “Why is confirmation required before changing settings?”. Yuna consults the current published help for navigation, steps, prerequisites, expected effects, and verification.
+
+When no matching guidance exists, Yuna should say so instead of guessing. Product help explains how YundaDesk works; it does not prove what is configured in the current workspace. Ask Yuna to inspect the relevant object when you need the current channel, member, or setting state.
+
+After reading the steps, you can continue with “Set that up for me.” Yuna switches to the corresponding action, collects missing information, and shows a draft or confirmation. Asking for instructions alone does not create a draft or change settings.
+
 ## Ask about the business
 
 - “Summarize the most common handoff reasons from the last seven days and group them by cause.”
 - “Compare yesterday's conversation volume and AI participation by channel.”
+- “List our current quick replies and tell me which ones are disabled.”
+- “Which custom fields are configured for customer profiles?”
+- “Which knowledge sources exist, and which ones have not finished indexing?”
 - On a customer or conversation page, select **Current page**, then ask: “Summarize the main needs from this customer's recent conversations.”
 
-Results use only data the current member may view. Yuna should explain the limitation when report, customer, or channel access is missing.
+Results use only data the current member may view. Quick-reply, custom-field, and knowledge-source queries read existing configuration without creating or changing it. Yuna should explain the limitation when report, customer, knowledge, channel, or settings access is missing.
 
 ## Get help with setup
 
 - “Help me prepare a Telegram connection and tell me what information I need.”
 - “Prepare knowledge settings for the new return policy and let me review them first.”
 - “Make the AI customer service tone more concise without changing the refund policy.”
+- “Rename customer service to Global Support, set the reception focus to pre-sales, and turn off emoji. Keep every other setting unchanged.”
+- “Add this to Your instructions: collect an email for high-value orders. Show me the confirmation before applying it.”
+- “Add a refund-status quick reply and show me the content before saving it.”
+- “Add a membership-tier customer field and create a high-value customer tag.”
+- “Automatically translate incoming English messages and close conversations after 30 minutes of inactivity.”
+- “Turn off AI reception for the website channel, enable automatic assignment, and use only the selected agents.”
+- “Set support hours to 9:00–18:00 on weekdays in the Singapore time zone, with an offline message.”
+- “Change an existing agent's display name and set the concurrent conversation limit to 8. Let me confirm first.”
 
-A request that changes settings should first show a draft, choice, or confirmation. No real change should occur before confirmation.
+A request that changes settings should read the current configuration first, then show a draft, choice, or confirmation. No real change occurs before confirmation. Yuna can help configure AI customer service, quick replies, customer fields, tags, agent translation and auto-close tools, channel reception and assignment, welcome copy, business hours, offline messages, and an existing member's display name, role, or concurrent conversation limit. Disable or delete a member from member settings instead. Actions always follow current permissions; they stop when the required permission is revoked or the account is disabled. After confirmation, inspect the action receipt and, when needed, verify the corresponding settings page.
 
 ## Teach and correct the AI
 
@@ -38,9 +57,12 @@ Teaching requests enter learning review. One conversation does not directly chan
 
 - “Prepare a follow-up draft for the current customer, but do not send it.”
 - “Design a follow-up rule for customers who stop replying for 30 minutes, starting with confirmation for each message.”
+- “List the current marketing plans, then send the VIP launch plan.” Yuna reads the existing plan list first; it does not ask you for an internal ID or guess the plan.
 - Open the previous outreach failure in Yuna tasks to review why it was not sent.
 
-Sending requires an available channel, a clear target, and the necessary permission. Broadcast, segmented, or automatic sending normally requires stricter confirmation and safety conditions.
+Sending requires an available channel, a clear target, and the necessary permission. Broadcast, segmented, or automatic sending normally requires stricter confirmation and safety conditions. A technical failure does not mean a message was sent or a human handoff occurred; without a real receipt, treat it as failed and review the reason.
+
+Enabling proactive outreach or changing quiet hours and frequency limits only updates pre-send safety policy. It does not create a marketing plan or send a message. A real send still shows the audience and content for separate confirmation, and only a delivery receipt proves it was sent.
 
 ## Review tasks and results
 

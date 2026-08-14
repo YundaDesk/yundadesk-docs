@@ -1,6 +1,7 @@
 ---
 title: 连接 Telegram
 description: 把 Telegram 客户消息接入 YundaDesk 工作台。
+search_terms: 接入 Telegram 机器人渠道, 配置 Telegram Bot, Telegram 渠道接入
 category: 渠道
 order: 3
 updated_at: 2026-08-01

@@ -3,7 +3,7 @@ title: Install the website widget
 description: Add customer chat to your website and verify both messages and AI replies.
 category: Channels
 order: 2
-updated_at: 2026-08-01
+updated_at: 2026-08-11
 ---
 
 # Install the website widget
@@ -46,7 +46,7 @@ Manage contact methods in the separate **Contact us** setting for each Website W
 
 Editing requires the **Manage channels** permission. Read-only members can see the configuration but cannot change it. Other channel settings pages now show only which Website Widgets use that channel and provide a **Manage in Widget** link; they no longer assign Widgets in reverse. If a provider public address is not ready, you can still add the contact manually from the Widget manager.
 
-Visitors never see internal channel configuration names. The home screen shows **Contact us** only when at least one public contact method is enabled. Selecting it shows enabled options such as Email, Telegram, LINE, QR codes, or contact images inside the Widget. The optional email form for identifying a visitor appears only after **Chat with support** is selected for the first conversation and never appears as a contact method; add a separate Email contact method when you want to publish a support address. The settings-page preview reflects enabled, ordered, and newly added contact methods before save, while sensitive configuration remains hidden from visitors. Telegram usernames appear as `@username` in channel settings; when one cannot be detected automatically, you can enter a valid public username manually.
+Visitors first see the public name you configure under **Manage contact methods**. A connected channel without a separate public name uses that channel's configured name. Only an empty name falls back to the standard channel type in the visitor's UI language, such as **微信** in Chinese and **WeChat** in English. The home screen shows **Contact us** only when at least one public contact method is enabled. Selecting it shows enabled options such as Email, Telegram, LINE, QR codes, or contact images inside the Widget. The optional email form for identifying a visitor appears only after **Chat with support** is selected for the first conversation and never appears as a contact method; add a separate Email contact method when you want to publish a support address. The settings-page preview reflects enabled, ordered, and newly added contact methods before save and follows the selected Chinese / English preview language, while sensitive configuration remains hidden from visitors. Telegram usernames appear as `@username` in channel settings; when one cannot be detected automatically, you can enter a valid public username manually.
 
 **Show suggestions on Home** and **Show suggestions in empty chats** are enabled independently by default under Display settings. When safe knowledge candidates are available, Widget Home shows 1–3 questions in one list card between **Chat with support** and **Contact us**, separated by dividers. Selecting one immediately enters chat and sends it through the normal AI answer flow. When the empty-chat switch is enabled, suggestions appear below and align with the welcome message, or at the top when the welcome message is unavailable. They disappear after the first visitor message.
 

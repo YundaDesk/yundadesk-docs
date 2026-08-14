@@ -3,7 +3,7 @@ title: 知识与学习
 description: 给 AI 可靠知识，评审学习，并管理技能和记忆。
 category: 知识与学习
 order: 0
-updated_at: 2026-08-01
+updated_at: 2026-08-10
 ---
 
 # 知识与学习
@@ -18,7 +18,7 @@ updated_at: 2026-08-01
 - [连接 Notion 知识](./connect-notion-feishu.md)
 - [理解知识处理状态](./processing-status.md)
 - [理解学习建议的状态](./learning-states.md)
-- [测试、暂停和回滚 AI 技能](./manage-skill-lifecycle.md)
+- [测试、暂停、回滚和删除 AI 技能](./manage-skill-lifecycle.md)
 - [第一次教会 AI 一条业务规则](./teach-first-rule.md)
 
 知识、技能和记忆各有边界；不要用一种资产替代另一种资产的职责。

@@ -1,9 +1,9 @@
 ---
 title: Teach the AI its first business rule
-description: Complete a governed learning cycle from correction through review, testing, and activation.
+description: Complete a governed learning cycle from Yuna teaching or correction through review, testing, and activation.
 category: Knowledge and learning
 order: 12
-updated_at: 2026-08-01
+updated_at: 2026-08-11
 ---
 
 # Teach the AI its first business rule
@@ -14,12 +14,9 @@ This example uses a temporary rule: “During the holiday period, in-stock order
 
 Confirm who the rule applies to, its start and end dates, exceptions, and whether it requires live order or inventory data. Stable policy belongs in knowledge. A rule with triggers, time limits, or handling steps is usually better suited to an AI skill.
 
-## Create a correction
+## Create a learning proposal
 
-1. Find an incorrect or incomplete AI answer in an Inbox conversation.
-2. Select **Correct AI** below that answer.
-3. Explain what was wrong, the correct handling, and its scope.
-4. After submission, confirm that a learning suggestion appears. One manual reply does not mean that the AI has learned it.
+You can tell Yuna the durable rule directly. Yuna first asks whether it should continue organizing the instruction and creates a reviewable proposal only after confirmation. If the rule comes from an incorrect answer, select **Correct AI** in the Inbox and explain what was wrong, the correct handling, and its scope. Correct AI carries the customer question and original answer, but both entry points use the same suggestion, review, and testing flow.
 
 ## Review the learning suggestion
 

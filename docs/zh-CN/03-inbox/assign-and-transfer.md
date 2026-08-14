@@ -1,6 +1,7 @@
 ---
 title: 分配和转接会话
 description: 把客户会话分配给合适的人工成员或交回 AI 接待。
+search_terms: 会话转给坐席, 转给另一个坐席, 重新分配会话
 category: 工作台
 order: 3
 updated_at: 2026-08-01

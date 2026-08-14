@@ -3,19 +3,19 @@ title: Configure Custom API and event webhooks
 description: Set up developer integrations, callback URLs, signatures, and fixed egress IPs.
 category: Channels
 order: 5
-updated_at: 2026-07-31
+updated_at: 2026-08-09
 ---
 
 # Configure Custom API and event webhooks
 
-Custom API channels and event webhooks connect your own systems to YundaDesk. They are grouped as developer integrations. Current availability is shown on the in-product plan page; Pro, Enterprise, and custom plans that inherit the entitlement can create and enable them.
+Custom API channels and event webhooks connect your own systems to YundaDesk. Current availability is shown on the in-product plan page.
 
 ## What happens after a plan change
 
-If the workspace moves to a plan without developer integrations:
+If the workspace moves to a plan that no longer includes a developer-integration capability:
 
 - Existing configuration, signing secrets, and delivery history are preserved.
-- Enabled Custom API channels and event webhooks are disabled and stop sending new requests.
+- The corresponding Custom API channel or event webhook is disabled and stops sending new requests.
 - You can still view, disable, or delete existing configuration, but you cannot create, enable, test, replay, or rotate secrets.
 - Regaining the entitlement does not restore integrations automatically. Review the configuration and enable it manually.
 

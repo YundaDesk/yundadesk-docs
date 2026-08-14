@@ -3,7 +3,7 @@ title: Build and maintain the knowledge base
 description: Give the AI reliable business knowledge from documents, websites, and FAQs.
 category: Knowledge and learning
 order: 1
-updated_at: 2026-08-01
+updated_at: 2026-08-14
 ---
 
 # Build and maintain the knowledge base
@@ -20,8 +20,14 @@ Open **AI → Knowledge base** and use the methods available on the page:
 
 After upload or crawling, YundaDesk parses, compiles, and indexes the content. Only successfully processed content is available to AI search.
 
+You can turn off **Use in AI answers** for an individual FAQ without deleting it. The FAQ remains in the list and can be enabled again later. A website can also be paused as a whole without changing its automatic sync setting.
+
 ## File formats and limitations
 
+- Documents: DOC, DOCX, DOCM, ODT, RTF, and EPUB.
+- Spreadsheets: XLS, XLSX, XLSM, XLSB, ODS, and CSV.
+- Presentations: PPT, PPS, POT, PPTX, PPTM, PPSX, PPSM, and ODP.
+- Other text sources: PDF, TXT, Markdown, JSON, YAML, and EML.
 - Standalone PNG, JPG, JPEG, and WebP images can be uploaded. YundaDesk uses OCR to extract readable text; clear, high-contrast Chinese or English text works best.
 - A scanned or image-only PDF is not OCR-processed as a PDF. Export its pages as supported image files or add a selectable text layer before uploading.
 - Images embedded inside another document are not read separately. Include important information in the document text.

@@ -1,9 +1,10 @@
 ---
 title: Manage conversations in the Inbox
 description: Claim, reply to, transfer, and close customer conversations.
+search_terms: automatically translate incoming messages, incoming customer message translation, agent translation
 category: Inbox
 order: 1
-updated_at: 2026-08-07
+updated_at: 2026-08-11
 ---
 
 # Manage conversations in the Inbox
@@ -29,7 +30,7 @@ Message status distinguishes sending, sent, delivered, and failed states. Follow
 
 ### Continuously translate a draft
 
-If an administrator has enabled outbound translation under Chat tools, you can choose whether continuous translation is on by default in your personal settings. Open the translation menu in the composer toolbar to override it and choose the customer language for the current conversation.
+If an administrator has enabled outbound translation under Chat tools, go to **Settings → Chat tools → Translation settings** to choose whether continuous translation is on by default for your new conversations. Open the translation menu in the composer toolbar to override it and choose the customer language for the current conversation.
 
 When enabled, the composer keeps your original text and shows a preview of what the customer will receive. Quick replies and agent-assistant suggestions follow the same rule. When you send, YundaDesk translates the final source text again. If translation or sending fails, the original text is not sent automatically and the draft remains available to edit or retry.
 

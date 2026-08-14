@@ -3,7 +3,7 @@ title: Meet Yuna
 description: Understand how Yuna differs from AI customer service and what it can do for your team.
 category: Yuna
 order: 1
-updated_at: 2026-08-01
+updated_at: 2026-08-09
 ---
 
 # Meet Yuna
@@ -35,7 +35,9 @@ When a full-page conversation contains at least two real messages, a rail appear
 
 When you open the floating window on a supported page, a neutral Current page chip may appear above the composer. It can represent a selected customer, conversation, knowledge document, channel, setting, or report.
 
-The chip is only a choice until you select it. After selection, it appears in the composer with a readable label and applies to the next message. After sending, it remains below that message so you can see which context was used.
+The chip is only a choice until you select it. After selection, it appears as a compact attachment beside pending files in the composer and applies to the next message. You can remove it before sending. After sending, the context attachment remains below that message so you can see which context was used.
+
+Within the current browser session, unsent text, images, page context, and shortcut mode remain available when you move between the floating Yuna window and the full page, or leave Yuna and return. Starting a new conversation opens a blank composer.
 
 Selected context can narrow Yuna's answer to the current customer, conversation, knowledge document, channel, setting, or report range. Yuna uses only information you are allowed to access. Unsupported pages do not show the chip, and Yuna may ignore it when your request is unrelated.
 

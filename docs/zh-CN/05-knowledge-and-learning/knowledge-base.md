@@ -3,7 +3,7 @@ title: 建立和维护知识库
 description: 通过文档、网站和问答为 AI 提供可靠业务知识。
 category: 知识与学习
 order: 1
-updated_at: 2026-08-01
+updated_at: 2026-08-14
 ---
 
 # 建立和维护知识库
@@ -20,8 +20,14 @@ updated_at: 2026-08-01
 
 上传或同步后，系统需要先处理内容。只有处理成功的内容才会用于回答。
 
+对于常见问答，可以逐条关闭“参与 AI 回答”而不删除内容；关闭的问答仍留在列表中，之后可以重新开启。网站也可以整体暂停参与回答，且不会影响自动同步设置。
+
 ## 文件格式与限制
 
+- 文档：DOC、DOCX、DOCM、ODT、RTF、EPUB；
+- 表格：XLS、XLSX、XLSM、XLSB、ODS、CSV；
+- 演示文稿：PPT、PPS、POT、PPTX、PPTM、PPSX、PPSM、ODP；
+- 其他文本资料：PDF、TXT、Markdown、JSON、YAML、EML；
 - 可以上传独立的 PNG、JPG、JPEG 和 WebP 图片；YundaDesk 会通过 OCR 提取可读文字，清晰、高对比度的中文或英文效果更好；
 - 扫描版或仅包含页面图片的 PDF 不会按 PDF 自动做 OCR。请先把页面导出为支持的图片文件，或补充可选择的文字层后再上传；
 - 嵌入其他文档中的图片不会被单独读取。需要用于回答的信息应同时写入正文；

@@ -3,7 +3,7 @@ title: Understand how AI answers reliably
 description: Learn how knowledge, skills, customer context, and live capabilities support trustworthy answers.
 category: AI customer service
 order: 7
-updated_at: 2026-08-01
+updated_at: 2026-08-11
 ---
 
 # Understand how AI answers reliably
@@ -18,6 +18,12 @@ A reliable answer is more than fluent text. YundaDesk selects information that f
 - **Live capabilities:** Orders, inventory, shipping, or other changing data from connected apps.
 
 Knowledge cannot replace live data, and customer memory cannot override an official policy. When the workspace lacks a required capability, the AI should explain what is missing.
+
+## Safe general questions
+
+The AI can directly answer simple utility questions and safe public-fact questions when they do not depend on merchant knowledge, customer-private data, or external live data. A tool is not required first, and a question is not refused merely because it is unrelated to the merchant's business.
+
+For relative time questions such as “today” or “what time is it,” the AI uses only a reliable visitor time zone supplied by the channel. If the visitor time zone is unknown, it asks first. Live weather, prices, and news still require a reliable live source; the AI does not guess the current result from old knowledge.
 
 ## Verify an answer
 

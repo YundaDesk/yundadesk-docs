@@ -1,6 +1,7 @@
 ---
 title: Answer Yuna confirmation questions
 description: Use a choice card to provide missing scope and choose preview, confirmation, or cancellation.
+search_terms: confirmation before changing settings, why Yuna asks for confirmation, action confirmation reason
 category: Yuna
 order: 5
 updated_at: 2026-08-01

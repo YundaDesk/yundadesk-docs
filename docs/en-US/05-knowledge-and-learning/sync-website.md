@@ -3,7 +3,7 @@ title: Sync website content
 description: Crawl public pages and refresh knowledge after the website changes.
 category: Knowledge and learning
 order: 7
-updated_at: 2026-08-07
+updated_at: 2026-08-10
 ---
 
 # Sync website content
@@ -21,6 +21,8 @@ Website sync is intended for public, stable, crawlable help content. Authenticat
 ## After the website changes
 
 After the website changes, resync it. The previous successful version should remain available until a new version succeeds; a failed refresh must not erase working knowledge.
+
+**Automatic sync** and **Use in AI answers** are independent settings in the website menu. Turn off **Use in AI answers** when the AI should temporarily ignore a site. Existing pages and automatically generated FAQs stop participating in answers, while the content and sync schedule remain available. You can turn it back on without adding the site again.
 
 ## Missing content
 

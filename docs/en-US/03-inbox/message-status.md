@@ -1,6 +1,7 @@
 ---
 title: Understand message status
 description: Distinguish between saved, accepted, delivered, and failed messages.
+search_terms: sending sent failed status, message status meaning, delivery state
 category: Inbox
 order: 5
 updated_at: 2026-08-01

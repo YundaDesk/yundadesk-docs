@@ -1,6 +1,7 @@
 ---
 title: Connect Telegram
 description: Bring Telegram customer messages into the YundaDesk Inbox.
+search_terms: set up Telegram bot channel, configure Telegram Bot, Telegram channel setup
 category: Channels
 order: 3
 updated_at: 2026-08-01

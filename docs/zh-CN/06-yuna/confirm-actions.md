@@ -1,6 +1,7 @@
 ---
 title: 回答 Yuna 的确认问题
 description: 通过选择卡片补齐信息，并决定预览、确认还是取消操作。
+search_terms: 修改设置前确认, Yuna 为什么要确认, 操作确认原因
 category: Yuna
 order: 5
 updated_at: 2026-08-01

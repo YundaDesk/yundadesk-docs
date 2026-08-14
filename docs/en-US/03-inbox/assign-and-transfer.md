@@ -1,6 +1,7 @@
 ---
 title: Assign and transfer conversations
 description: Assign a customer conversation to a teammate or return it to AI reception.
+search_terms: transfer active conversation, assign another agent, reassign conversation
 category: Inbox
 order: 3
 updated_at: 2026-08-01

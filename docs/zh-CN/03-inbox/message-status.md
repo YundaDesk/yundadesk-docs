@@ -1,6 +1,7 @@
 ---
 title: 理解消息状态
 description: 区分消息已保存、已接受、已投递和发送失败。
+search_terms: 发送中已发送失败状态, 消息旁状态含义, sending sent failed
 category: 工作台
 order: 5
 updated_at: 2026-08-01

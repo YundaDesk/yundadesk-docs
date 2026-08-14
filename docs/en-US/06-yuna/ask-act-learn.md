@@ -3,12 +3,89 @@ title: Ask, act, and teach with Yuna
 description: Use natural language to query data, complete actions, and teach AI customer service.
 category: Yuna
 order: 2
-updated_at: 2026-08-07
+updated_at: 2026-08-14
 ---
 
 # Ask, act, and teach with Yuna
 
 You do not need to remember feature locations or customer numbers. Describe the goal, target, and constraints. Yuna will decide the next step from the features available in the current workspace.
+
+## Use composer shortcuts
+
+Yuna's composer provides shortcuts for translation, polishing, conversation review, teaching AI customer service, customer insight, and business briefs. When space is limited, some shortcuts move under **More**. After you select one, the input prompt changes to match the task, such as **Enter text to translate**, and the current mode remains visible until you exit it. Translation mode also lets you choose the target language.
+
+After you send, the user message keeps the original text and shows a blue task label at the beginning, such as **Translate to English**. Yuna's next message contains only the result. A task label describes what Yuna should do this time. A page, conversation, or customer context label identifies which information Yuna may use.
+
+| Shortcut | Example | Requirements and result |
+|---|---|---|
+| Translate | Enter “Please confirm your delivery address” and select Chinese | Returns the text in the target language without changing the source or adding facts |
+| Polish | Enter a draft reply that you plan to send to a customer | Improves tone and clarity while preserving meaning, numbers, and commitments |
+| Review conversation | From the target conversation, enter “Find out why this conversation was handed to a person” | Requires the relevant conversation; returns key facts, handling issues, and suggested next steps |
+| Teach AI customer service | Enter “When customers ask about cash on delivery, check the country and product first” | Prepares a learning draft; it does not affect customer replies until it is reviewed, tested, and enabled |
+| Customer insight | From the target customer page, enter “Summarize this customer's needs and risks” | Requires access to that customer and uses only information the current member can view |
+| Business brief | Enter “Summarize conversation volume, AI participation, and human handoffs for the last seven days” | Requires the relevant data and report permission; Yuna explains missing data instead of inventing numbers |
+
+### Translate a passage
+
+1. Select **Translate** below the Yuna composer.
+2. Choose the target language, such as Chinese.
+3. Enter the source text and send it.
+
+**Example:** “Please confirm your delivery address. We will ship within two business days after payment.”
+
+Yuna returns only the translated result. The meaning, numbers, and commitments should remain unchanged. Use **Polish** instead when you want to change the tone.
+
+### Polish a reply draft
+
+1. Select **Polish**.
+2. Paste the reply you plan to send and describe the desired tone, such as “Friendlier, but do not add any commitments.”
+3. Send it, review the result, and then decide whether to use it.
+
+**Example:** “Make this professional and concise: This color is out of stock. Choose another one.”
+
+Yuna improves the wording without changing inventory facts, prices, timing, or refund commitments.
+
+### Review a customer conversation
+
+1. Open the customer conversation you want to analyze.
+2. Under **Current page** above the Yuna composer, select the conversation label so that it moves into the composer.
+3. Select **Review conversation**, describe what you want to examine, and send it.
+
+**Example:** “Find out why this conversation was handed to a person. List what the AI knew, what was missing, and the next improvements to make.”
+
+Yuna organizes key facts, handling steps, risks, and suggestions from that conversation. If no conversation is selected, Yuna asks you to choose a target instead of guessing.
+
+### Teach AI customer service a handling method
+
+1. Select **Teach AI customer service**.
+2. Describe when the method applies, the handling steps, constraints, and when a person should take over.
+3. Send it, review the learning draft prepared by Yuna, and then follow the prompts to test and enable it.
+
+**Example:** “When customers ask about cash on delivery, check the destination country and product first. If it is not supported, explain why and offer another payment method. Do not promise an exception.”
+
+This step creates content for review only. It does not change customer-facing replies until the draft is reviewed, tested, and enabled.
+
+### Get insight about a customer
+
+1. Open the target customer's detail page.
+2. Under **Current page** above the Yuna composer, select the customer label so that it moves into the composer.
+3. Select **Customer insight**, ask a specific question, and send it.
+
+**Example:** “Summarize the products this customer has recently asked about, recurring issues, churn risks, and a recommended follow-up.”
+
+Yuna uses only customer details, conversations, and connected business data that the current member can access. It identifies missing information when the available record is incomplete.
+
+### Create a business brief
+
+1. Open Reports and select the time range you need.
+2. Under **Current page** above the Yuna composer, select the report label so that the current range moves into the composer.
+3. Select **Business brief**, specify the metrics and output format, and send it.
+
+**Example:** “In five bullet points, summarize conversation volume, AI participation, human handoffs, and unusual changes for the last seven days.”
+
+Yuna queries data within the current report range and the member's permissions. It identifies unavailable metrics instead of replacing them with estimates.
+
+A shortcut gives Yuna a task-specific starting point. It does not expand the current member's data access or bypass action confirmation. Conversation review, customer insight, and business briefs still require the relevant current page, available data, and permission. Yuna asks for the missing target or context when needed.
 
 ## Ask questions
 
@@ -31,6 +108,12 @@ For a multi-step skill, the draft includes when it applies, information to colle
 The system creates multiple customer scenarios for normal handling, missing information, conditional branches, external capability failures, declined confirmation, and human handoff where applicable. You can run one scenario or all scenarios. Simulation does not perform real external actions. Editing a field or asking Yuna to revise the skill makes earlier results stale, so the new revision must be tested again. The skill can be enabled only when every required scenario for the current revision passes, required capabilities are available, and risk checks succeed.
 
 Yuna does not claim that it has learned something before the learning card actually exists. After enablement, AI customer service follows the reviewed flow. If a required capability or permission becomes unavailable at runtime, the system does not bypass the check and continue.
+
+### Correct an existing knowledge fact
+
+If an existing contact detail, address, policy, or similar fact is wrong, tell Yuna the correct information. Yuna first locates the current knowledge source and asks you to choose when several targets are possible. Review the **current answer → corrected answer** preview, then confirm it. Yuna submits that knowledge change directly instead of creating another learning proposal for review.
+
+After confirmation, the completion receipt lists the updated question and answer. Correcting knowledge created from an uploaded file or website does not rewrite the original file or external site; edit and resync the source when that content must also change. Then ask the customer's original question and one paraphrase in a real Widget or the Playground to confirm that the new knowledge is used.
 
 ## Capability boundaries
 
