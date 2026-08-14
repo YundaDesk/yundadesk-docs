@@ -115,6 +115,8 @@ If an existing contact detail, address, policy, or similar fact is wrong, tell Y
 
 After confirmation, the completion receipt lists the updated question and answer. Correcting knowledge created from an uploaded file or website does not rewrite the original file or external site; edit and resync the source when that content must also change. Then ask the customer's original question and one paraphrase in a real Widget or the Playground to confirm that the new knowledge is used.
 
+If the source file, website, or connector content changes later, the system does not silently overwrite the confirmed answer. When the new source conflicts with that answer, Yuna shows a **Knowledge correction needs review** task and opens the exact FAQ entry so you can compare the current answer with the new source suggestion. You can keep the current answer, edit it, or adopt the suggestion. The review is complete only after you save, and it is not a new learning proposal.
+
 ## Capability boundaries
 
 Order, inventory, logistics, customer records, broadcast, and similar actions require a connected app or channel. A knowledge article cannot replace live business information.
