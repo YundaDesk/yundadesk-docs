@@ -38,12 +38,14 @@ Results use only data the current member may view. Quick-reply, custom-field, an
 - “Add this to Your instructions: collect an email for high-value orders. Show me the confirmation before applying it.”
 - “Add a refund-status quick reply and show me the content before saving it.”
 - “Add a membership-tier customer field and create a high-value customer tag.”
+- “Assign the high-value tag to the current customer and add the note ‘Prefer email contact.’ Let me confirm first.”
+- “Bind the returns and shipping knowledge sources to the current AI customer service. Keep other knowledge settings unchanged.”
 - “Automatically translate incoming English messages and close conversations after 30 minutes of inactivity.”
 - “Turn off AI reception for the website channel, enable automatic assignment, and use only the selected agents.”
 - “Set support hours to 9:00–18:00 on weekdays in the Singapore time zone, with an offline message.”
 - “Change an existing agent's display name and set the concurrent conversation limit to 8. Let me confirm first.”
 
-A request that changes settings should read the current configuration first, then show a draft, choice, or confirmation. No real change occurs before confirmation. Yuna can help configure AI customer service, quick replies, customer fields, tags, agent translation and auto-close tools, channel reception and assignment, welcome copy, business hours, offline messages, and an existing member's display name, role, or concurrent conversation limit. Disable or delete a member from member settings instead. Actions always follow current permissions; they stop when the required permission is revoked or the account is disabled. After confirmation, inspect the action receipt and, when needed, verify the corresponding settings page.
+A request that changes settings should read the current configuration first, then show a draft, choice, or confirmation. No real change occurs before confirmation. Yuna can help configure AI customer service, bind knowledge sources, manage quick replies, customer fields and the tag catalog, assign existing tags or notes to a selected customer, configure agent translation and auto-close tools, channel reception and assignment, welcome copy, business hours, offline messages, and an existing member's display name, role, or concurrent conversation limit. Disable or delete a member from member settings instead. Actions always follow current permissions; they stop when the required permission is revoked or the account is disabled. After confirmation, inspect the action receipt and, when needed, verify the corresponding settings page.
 
 ## Teach and correct the AI
 

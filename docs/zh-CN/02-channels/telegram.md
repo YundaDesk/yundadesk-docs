@@ -4,7 +4,7 @@ description: 把 Telegram 客户消息接入 YundaDesk 工作台。
 search_terms: 接入 Telegram 机器人渠道, 配置 Telegram Bot, Telegram 渠道接入
 category: 渠道
 order: 3
-updated_at: 2026-08-01
+updated_at: 2026-08-14
 ---
 
 # 连接 Telegram
@@ -19,7 +19,7 @@ updated_at: 2026-08-01
 
 1. 打开“渠道”，选择 Telegram。
 2. 按页面提示填写 Bot 信息和凭证。
-3. 保存并等待渠道状态变为可用。
+3. 保存；系统会先向 Telegram 校验 Bot Token，校验失败时不会创建渠道。
 4. 用另一个 Telegram 账号给 Bot 发一条测试消息。
 5. 在工作台回复，确认 Telegram 端真实收到。
 

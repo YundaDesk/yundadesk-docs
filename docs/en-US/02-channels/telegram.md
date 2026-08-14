@@ -4,7 +4,7 @@ description: Bring Telegram customer messages into the YundaDesk Inbox.
 search_terms: set up Telegram bot channel, configure Telegram Bot, Telegram channel setup
 category: Channels
 order: 3
-updated_at: 2026-08-01
+updated_at: 2026-08-14
 ---
 
 # Connect Telegram
@@ -19,7 +19,7 @@ You need a Telegram Bot created and managed through Telegram's official process,
 
 1. Open Channels and select Telegram.
 2. Enter the Bot details and credentials requested by the page.
-3. Save and wait for the channel to become available.
+3. Save. YundaDesk verifies the Bot Token with Telegram first; a failed check does not create the channel.
 4. Use a different Telegram account to send a test message to the Bot.
 5. Reply from the Inbox and confirm that Telegram actually receives it.
 
