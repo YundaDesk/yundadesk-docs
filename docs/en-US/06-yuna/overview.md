@@ -3,7 +3,7 @@ title: Meet Yuna
 description: Understand how Yuna differs from AI customer service and what it can do for your team.
 category: Yuna
 order: 1
-updated_at: 2026-08-09
+updated_at: 2026-08-14
 ---
 
 # Meet Yuna
@@ -26,6 +26,10 @@ Yuna checks the current workspace setup. Available actions depend on product fea
 ## Confirmation and safety
 
 Read-only questions can usually return immediately. Actions that change configuration, send messages, or affect customers display a confirmation card first. Without confirmation, no real side effect should occur. Permission, approval, cooldown, and channel policy still apply even when a capability exists.
+
+## Plans and allowance
+
+Yuna availability and allowance depend on the current subscription and workspace settings. Open the subscription page to review current availability, usage, and the remaining allowance. Yuna usage is shown separately from AI Credit.
 
 ## Entry
 

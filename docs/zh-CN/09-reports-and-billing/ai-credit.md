@@ -3,12 +3,12 @@ title: 查看 AI Credit 用量
 description: 查看本月 AI 用量、分类明细和剩余额度。
 category: 报告与订阅
 order: 3
-updated_at: 2026-08-01
+updated_at: 2026-08-14
 ---
 
 # 查看 AI Credit 用量
 
-AI Credit 用于记录 AI 客服、Yuna、知识处理和其他 AI 能力的使用。实际分类和额度以订阅页面为准。
+AI Credit 用于记录 AI 客服、知识处理和其他计费 AI 能力的使用。Yuna 用量与 AI Credit 分开显示；实际分类和额度以订阅页面为准。
 
 ## 查看用量
 

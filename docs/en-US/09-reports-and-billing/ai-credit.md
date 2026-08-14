@@ -3,12 +3,12 @@ title: Review AI Credit usage
 description: Review monthly AI usage, category details, and remaining credit.
 category: Reports and billing
 order: 3
-updated_at: 2026-08-01
+updated_at: 2026-08-14
 ---
 
 # Review AI Credit usage
 
-AI Credit records the use of AI customer service, Yuna, knowledge processing, and other AI capabilities. Current categories and allowances are shown on the subscription page.
+AI Credit records the use of AI customer service, knowledge processing, and other metered AI capabilities. Yuna usage is shown separately from AI Credit. Current categories and allowances are shown on the subscription page.
 
 ## Review usage
 
