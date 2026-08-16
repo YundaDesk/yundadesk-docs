@@ -3,7 +3,7 @@ title: 15-minute quick start
 description: Connect a channel, add knowledge, and complete an AI answer test.
 category: Getting started
 order: 2
-updated_at: 2026-08-01
+updated_at: 2026-08-16
 ---
 
 # 15-minute quick start
@@ -27,6 +27,8 @@ Open **AI → Knowledge base** and choose one of the available methods:
 - add clear answers to high-frequency questions.
 
 Only successfully processed content is searchable by the AI.
+
+During initial setup, if you provide a website URL, Yuna reads the homepage first and prepares a few clickable test questions. You can start testing as soon as the homepage knowledge is answerable while the remaining pages continue in the background. If setup still needs to wait, it shows the processed page count and real progress. If the site is unreachable, yields no usable pages, or finishes without safe test questions, setup skips this test and you can retry later from the Knowledge base.
 
 ## 4. Configure AI reception
 
