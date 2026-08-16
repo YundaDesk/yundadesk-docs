@@ -3,7 +3,7 @@ title: Manage Yuna tasks and long-term memory
 description: Handle Yuna reminders and manage workspace and personal preference memory.
 category: Yuna
 order: 3
-updated_at: 2026-08-01
+updated_at: 2026-08-18
 ---
 
 # Manage Yuna tasks and long-term memory
@@ -24,7 +24,11 @@ Yuna can remember:
 - expression or workflow preferences for the current team member;
 - confirmed context that is useful across sessions.
 
-Use the Yuna memory page to view, correct, delete, or clear a scope. Memory is available by default to support answers. When memory is temporarily unavailable, Yuna should continue working and explain the limitation.
+Use the Yuna memory page to view, correct, delete, or clear a scope. Repeated wording for the same preference is merged into one record. A clear and newer preference automatically replaces the old value, which remains in version history. If a new statement is ambiguous, Yuna keeps using the current trusted value instead of waiting for manual approval or letting uncertain content overwrite it. Invalidated records remain visible only as history and no longer affect Yuna.
+
+You can also tell Yuna, “Remember that I prefer ...” in the conversation. Yuna saves it as your personal preference by default. It becomes a shared preference only when you explicitly say that it applies to the team or workspace. If saving fails, Yuna says it was not remembered instead of reporting success.
+
+Memory is available by default to support answers. When memory is temporarily unavailable, Yuna should continue working and explain the limitation.
 
 ## What not to store
 

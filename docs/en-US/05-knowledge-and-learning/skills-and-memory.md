@@ -3,7 +3,7 @@ title: Manage AI skills and customer memory
 description: Inspect learned capabilities, disable incorrect skills, and manage customer-specific memory.
 category: Knowledge and learning
 order: 4
-updated_at: 2026-08-01
+updated_at: 2026-08-18
 ---
 
 # Manage AI skills and customer memory
@@ -26,7 +26,9 @@ Skill details explain how the skill handles a request without requiring merchant
 
 Customer memory stores preferences, restrictions, or durable context for one customer, such as language preference or a material allergy. It does not become a skill shared with every customer.
 
-Open **AI → Customer memory** or the customer profile to manage it. Incorrect memory can be edited or removed. Customer memory cannot override policy facts in the knowledge base and should not contain unnecessary sensitive data.
+Open **AI → Customer memory** or the customer profile to manage it. Repeated statements of the same preference are merged for that customer. A clear and newer preference automatically replaces the old value while preserving version history. If a new statement is ambiguous, the system keeps the current trusted value instead of letting uncertain content overwrite it or waiting for team approval. Incorrect memory can still be edited or removed.
+
+Customer memory cannot override policy facts in the knowledge base and should not contain unnecessary sensitive data.
 
 ## How to choose
 
