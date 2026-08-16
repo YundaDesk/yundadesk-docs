@@ -3,7 +3,7 @@ title: Manage customer profiles
 description: Review customer identity, channels, labels, history, and AI memory in one profile.
 category: Customers and team
 order: 1
-updated_at: 2026-08-09
+updated_at: 2026-08-15
 ---
 
 # Manage customer profiles
@@ -12,7 +12,7 @@ Customer profiles bring together identity, source channels, conversation history
 
 ## Find a customer
 
-Open Customers to search by name, social ID, or email, and switch between Customers and Archived. The default list shows customer, contact, channel/source, location, and last interaction. Location is shown in the current interface language when available. A store-only customer with no conversation does not present a profile-sync timestamp as an interaction. A customer may use different identities across channels. YundaDesk automatically merges them only when a channel provides an exact, verified identity relationship; an email or phone number entered by a visitor in website chat is not treated as verified identity. When identity cannot be established reliably, profiles stay separate.
+Open Contacts to search by name, social ID, or email, and switch between Customers and Archived. The default list shows customer, contact, channel/source, location, and last interaction. Location is shown in the current interface language when available. A store-only customer with no conversation does not present a profile-sync timestamp as an interaction. A customer may use different identities across channels. YundaDesk automatically merges them only when a channel provides an exact, verified identity relationship; an email or phone number entered by a visitor in website chat is not treated as verified identity. When identity cannot be established reliably, profiles stay separate.
 
 The Contact, Channel/source, and Location columns provide structured filters. Choose has email, has phone, or no contact details; filter by messaging channel or store source; and narrow by country/region or unknown location. You can select multiple values within each group, while conditions from different groups apply together. Continue using search for names; Last interaction has no time filter.
 

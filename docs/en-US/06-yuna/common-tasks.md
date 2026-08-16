@@ -25,9 +25,12 @@ After reading the steps, you can continue with “Set that up for me.” Yuna sw
 - “List our current quick replies and tell me which ones are disabled.”
 - “Which custom fields are configured for customer profiles?”
 - “Which knowledge sources exist, and which ones have not finished indexing?”
+- “Inspect the knowledge, channels, and capabilities that are actually effective for AI customer service, and explain any blockers.”
+- “Is knowledge retrieval enabled for the current AI customer service, and which phone-number FAQs can participate in answers?”
+- “Preview how AI customer service answers ‘What is your phone number?’ without sending anything to a customer.”
 - On a customer or conversation page, select **Current page**, then ask: “Summarize the main needs from this customer's recent conversations.”
 
-Results use only data the current member may view. Quick-reply, custom-field, and knowledge-source queries read existing configuration without creating or changing it. Yuna should explain the limitation when report, customer, knowledge, channel, or settings access is missing.
+Results use only data the current member may view. Quick-reply, custom-field, and knowledge-source queries read existing configuration without creating or changing it. Yuna should explain the limitation when report, customer, knowledge, channel, or settings access is missing. AI customer-service inspection reports the knowledge scope, bound and ready channels, and capabilities that are actually effective instead of only repeating a saved settings value. Knowledge inspection further distinguishes the overall switch, bound sources, and each FAQ's answer-participation state. A preview uses the current AI customer-service configuration and returns run evidence, but it creates no customer message. A channel marked ready means its configuration conditions are met; it does not prove that a particular customer conversation received a message. Verify real delivery through the Widget or customer channel.
 
 ## Get help with setup
 
@@ -54,6 +57,8 @@ A request that changes settings should read the current configuration first, the
 - “Use these repeated questions I am providing to prepare a suggestion for review.”
 
 Teaching requests enter learning review. One conversation does not directly change answers for every customer.
+
+After confirming a correction to an existing FAQ, ask Yuna to preview the same question first. Final acceptance should still ask again through the Widget or a real customer channel and compare the customer-visible answer with the preview.
 
 ## Contact customers and plan outreach
 

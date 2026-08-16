@@ -3,7 +3,7 @@ title: Review AI learning suggestions
 description: Decide what the AI should learn, then continue managing the adopted content.
 category: Knowledge and learning
 order: 3
-updated_at: 2026-08-12
+updated_at: 2026-08-15
 ---
 
 # Review AI learning suggestions
@@ -12,7 +12,7 @@ Learning suggestions can come from real conversations, agent answers, teaching t
 
 When you give Yuna a durable rule, Yuna first asks whether it should continue organizing the instruction. Confirming only authorizes a reviewable proposal; it does not publish or activate the rule. **Correct AI** also carries the customer question and original answer, but both entry points use the same learning-review flow.
 
-Proactive outreach or marketing plans must first include the goal, audience, trigger, channel, content, and frequency limits, with a complete preview shown before confirmation. If no safe proposal can be produced, Yuna says that nothing was created; the result is not treated as success and nothing is enabled or sent.
+Proactive outreach or marketing plans must first include the plan name, audience, trigger, channel, content, and frequency limits, with a complete preview shown before confirmation; there is no separate marketing-goal field. If no safe proposal can be produced, Yuna says that nothing was created; the result is not treated as success and nothing is enabled or sent.
 
 ## What a suggestion should contain
 

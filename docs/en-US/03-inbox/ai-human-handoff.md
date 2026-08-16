@@ -3,7 +3,7 @@ title: Switch between AI and human service
 description: Understand the difference between global AI reception and taking over one conversation.
 category: Inbox
 order: 2
-updated_at: 2026-08-01
+updated_at: 2026-08-15
 ---
 
 # Switch between AI and human service
@@ -19,6 +19,7 @@ YundaDesk supports AI-first service with human takeover at any time. Global rece
 Open the conversation and select **Take over** or the equivalent action. After takeover:
 
 - the AI stops replying automatically in that conversation;
+- if the agent-joined notice is enabled, the customer receives it as a normal message from the agent who takes over;
 - the assigned agent can reply directly;
 - the service state and assignee are updated.
 

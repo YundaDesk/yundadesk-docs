@@ -3,7 +3,7 @@ title: Manage apps and workspace capabilities
 description: Understand how apps, plugins, channels, and platform features determine what a workspace can do.
 category: Customers and team
 order: 3
-updated_at: 2026-08-12
+updated_at: 2026-08-15
 ---
 
 # Manage apps and workspace capabilities
@@ -38,6 +38,6 @@ Agent reading translation also applies to completed AI customer service replies.
 
 When Yuna or AI customer service needs an order, tracking, or customer lookup, it uses business information from apps that are connected to the current workspace and available to the current member. After store customers sync, Yuna can query their store, platform order count, and total spend. Selecting a customer before asking Yuna narrows the question to that customer. A customer without a linked messaging channel is query-only and cannot receive a private message.
 
-Yuna serves the merchant team; AI customer service serves visitors. A customer selected on the Customers page is used only as Yuna's current customer. AI customer service can use information for the customer in the current conversation, but it cannot search other workspace customers.
+Yuna serves the merchant team; AI customer service serves visitors. A customer selected on the Contacts page is used only as Yuna's current customer. AI customer service can use information for the customer in the current conversation, but it cannot search other workspace customers.
 
 Keep store credentials only in the product's secure configuration fields, and do not copy live business data into the knowledge base as a substitute for an app connection.

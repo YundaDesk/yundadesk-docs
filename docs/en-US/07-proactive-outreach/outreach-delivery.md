@@ -3,7 +3,7 @@ title: Inspect outreach delivery
 description: Verify each stage from the trigger and decision to final channel delivery.
 category: Proactive outreach
 order: 3
-updated_at: 2026-08-13
+updated_at: 2026-08-15
 ---
 
 # Inspect outreach delivery
@@ -13,10 +13,11 @@ An outreach message passes through a trigger, decision, safety checks, and chann
 ## Inspect the path
 
 1. Open the outreach record in Marketing history. A one-off single-customer send does not create a marketing plan.
-2. Verify the real trigger event and target customer.
+2. Verify the real trigger event, target customer, and exact message.
 3. Check cooldown, quiet hours, consent, and permission gates.
 4. Confirm that the outreach item was created.
-5. Open the delivery record and inspect the final channel status.
+5. Select **View conversation and execution trace** to inspect Yuna's confirmation and the matching run.
+6. Open the delivery record and inspect the final channel status.
 
 ## Common reasons a message was not sent
 
