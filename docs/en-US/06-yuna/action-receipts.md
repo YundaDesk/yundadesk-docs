@@ -3,7 +3,7 @@ title: Read Yuna action receipts
 description: Confirm that an action really completed and review its status and failure reason.
 category: Yuna
 order: 6
-updated_at: 2026-08-01
+updated_at: 2026-08-16
 ---
 
 # Read Yuna action receipts
@@ -17,6 +17,8 @@ Natural-language acknowledgements such as "done" are not proof of execution. A r
 - A summary of important content;
 - Processing or delivery state;
 - A link to processing details.
+
+After success, Yuna keeps one durable receipt rather than a second completed card above the composer. For a message to one customer, the link opens that customer conversation. For a broadcast or segment send, it opens the matching Marketing history detail.
 
 ## Understand receipt states
 
