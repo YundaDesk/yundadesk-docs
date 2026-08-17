@@ -2,7 +2,7 @@
 title: Troubleshoot Telegram
 description: Diagnose missing Telegram inbound messages and undelivered replies.
 category: Channels
-order: 8
+order: 9
 updated_at: 2026-08-01
 ---
 

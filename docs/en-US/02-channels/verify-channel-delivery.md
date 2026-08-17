@@ -2,7 +2,7 @@
 title: Verify real channel delivery
 description: Test inbound messages, replies, and delivery from a real customer client.
 category: Channels
-order: 6
+order: 7
 updated_at: 2026-08-01
 ---
 

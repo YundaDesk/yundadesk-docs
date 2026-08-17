@@ -2,7 +2,7 @@
 title: 设置网站聊天组件的外观
 description: 调整网站聊天组件的品牌信息和访客可见内容。
 category: 渠道
-order: 7
+order: 8
 updated_at: 2026-08-15
 ---
 
