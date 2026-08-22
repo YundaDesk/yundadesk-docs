@@ -3,7 +3,7 @@ title: Set the AI name and response style
 description: Configure the customer-visible AI identity, tone, and emoji preference.
 category: AI customer service
 order: 4
-updated_at: 2026-08-14
+updated_at: 2026-08-22
 ---
 
 # Set the AI name and response style
@@ -16,13 +16,16 @@ The AI name is the single reception identity customers and agents see. Switching
 2. Edit the customer-service name and choose a reception focus.
 3. Add workspace-wide brand preferences under **Your instructions**.
 4. Select a tone and turn emoji use on or off.
-5. Edit the online-queue and no-agents-online messages, then save.
+5. Turn on **Progressive replies** if one answer should arrive as several natural messages organized by meaning.
+6. Edit the online-queue and no-agents-online messages, then save.
 
 You can also tell Yuna which item to change. Yuna reads the current configuration and prepares a delta draft first. The change is applied only after confirmation, and settings you did not mention remain unchanged.
 
 ## Verify the result
 
 Ask a typical customer question in the Playground and inspect the greeting, tone, and formatting. Then spot-check a real channel reply because channel context can affect wording.
+
+With **Progressive replies** enabled, AI customer service can send two or three messages with distinct meaning when the answer naturally supports it—for example, a direct conclusion followed by conditions or the next step. It does not add empty updates such as “please wait” or “checking now” just to create more messages. When the setting is off, each turn sends one final reply. If the customer continues typing, the AI still restarts from the latest message; that reliability behavior does not depend on this setting.
 
 ## Reply language
 
