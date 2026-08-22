@@ -4,7 +4,7 @@ description: Invite teammates, assign access, and maintain shared labels and qui
 search_terms: use saved team quick replies, insert quick reply in agent composer, shared quick reply location
 category: Customers and team
 order: 2
-updated_at: 2026-08-11
+updated_at: 2026-08-22
 ---
 
 # Manage members, permissions, and shared resources
@@ -13,7 +13,7 @@ Team settings determine who can view customers, handle conversations, change AI 
 
 ## Invite a member
 
-Open **Settings > Members and permissions**, enter the member's email address, and select Administrator or Agent. The invited member follows the page instructions to join before accessing the workspace.
+Open **Settings > Team members**, enter the member's email address, and select Administrator or Agent. The invited member follows the page instructions to join before accessing the workspace.
 
 Administrators can invite either administrators or agents. **Invite agents** is a separate sensitive permission: a regular agent who receives it can see the invitation action and invite regular agents, but cannot create an administrator.
 
