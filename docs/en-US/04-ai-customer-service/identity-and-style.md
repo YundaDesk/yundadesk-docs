@@ -23,7 +23,7 @@ You can also tell Yuna which item to change. Yuna reads the current configuratio
 
 ## Verify the result
 
-Ask a typical customer question in the Playground and inspect the greeting, tone, and formatting. Then spot-check a real channel reply because channel context can affect wording.
+Ask a typical customer question in the Playground and inspect the greeting, tone, and formatting. With **Progressive replies** enabled, the Playground also shows the ordered reply as separate bubbles without sending those test messages to a customer. Then spot-check a real channel reply because channel context can affect wording.
 
 With **Progressive replies** enabled, AI customer service can send two or three messages with distinct meaning when the answer naturally supports it—for example, a direct conclusion followed by conditions or the next step. It does not add empty updates such as “please wait” or “checking now” just to create more messages. When the setting is off, each turn sends one final reply. If the customer continues typing, the AI still restarts from the latest message; that reliability behavior does not depend on this setting.
 
