@@ -3,7 +3,7 @@ title: Set the AI name and response style
 description: Configure the customer-visible AI identity, tone, and emoji preference.
 category: AI customer service
 order: 4
-updated_at: 2026-08-22
+updated_at: 2026-08-23
 ---
 
 # Set the AI name and response style
@@ -12,12 +12,12 @@ The AI name is the single reception identity customers and agents see. Switching
 
 ## Configure the identity
 
-1. Open AI reception settings.
+1. Open AI reception settings and select **General**.
 2. Edit the customer-service name and choose a reception focus.
 3. Add workspace-wide brand preferences under **Your instructions**.
 4. Select a tone and turn emoji use on or off.
 5. Turn on **Progressive replies** if one answer should arrive as several natural messages organized by meaning.
-6. Edit the online-queue and no-agents-online messages, then save.
+6. To edit the online-queue and no-agents-online messages, switch to **Handoff**, then save.
 
 You can also tell Yuna which item to change. Yuna reads the current configuration and prepares a delta draft first. The change is applied only after confirmation, and settings you did not mention remain unchanged.
 
