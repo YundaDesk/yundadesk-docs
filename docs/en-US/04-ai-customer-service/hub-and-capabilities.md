@@ -3,12 +3,12 @@ title: Review the AI overview and capability center
 description: Understand AI summary metrics and what the workspace can currently do.
 category: AI customer service
 order: 3
-updated_at: 2026-08-01
+updated_at: 2026-08-22
 ---
 
 # Review the AI overview and capability center
 
-The AI overview summarizes recent reception, learning, and action items. The capability center answers: “What can this workspace do right now?”
+Open **Customer Service Agent** from the main navigation, then select **Overview**. The AI overview summarizes recent reception, learning, and action items. The capability center answers: “What can this workspace do right now?”
 
 ## AI overview
 
