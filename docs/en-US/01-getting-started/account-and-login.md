@@ -3,7 +3,7 @@ title: Sign in and enter your workspace
 description: Sign in to YundaDesk and confirm that you are in the correct workspace.
 category: Getting started
 order: 3
-updated_at: 2026-07-17
+updated_at: 2026-08-23
 ---
 
 # Sign in and enter your workspace
@@ -20,6 +20,15 @@ Use the account created for you by a team member. Conversations, customers, chan
 ## Check access
 
 Confirm that you can open the Inbox, view connected channels, see the workspace AI configuration, and access the features required by your role.
+
+## Change your avatar
+
+1. Open **Settings → Profile & project**.
+2. Under **Agent identity**, select **Change avatar**.
+3. Choose a PNG, JPG, or WebP image no larger than 5 MB.
+4. Wait for the confirmation and check that the round avatar shows the new image.
+
+Select **Remove avatar** to return to your initials. Each member can change only their own avatar, and the change applies to that member identity in the current workspace.
 
 ## If sign-in fails
 
