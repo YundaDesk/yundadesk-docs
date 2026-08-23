@@ -3,7 +3,7 @@ title: Meet Yuna
 description: Understand how Yuna differs from AI customer service and what it can do for your team.
 category: Yuna
 order: 1
-updated_at: 2026-08-14
+updated_at: 2026-08-23
 ---
 
 # Meet Yuna
@@ -34,6 +34,10 @@ Yuna availability and allowance depend on the current subscription and workspace
 ## Entry
 
 Open Yuna from the AI area. The full page and floating window share the same conversation state and should continue the same in-progress operation across page changes.
+
+Use the mode picker at the bottom of the composer to switch between **Base** and **Thinking**. After you select **Thinking**, it stays active after sending, changing pages, or refreshing until you switch back to **Base**. Yuna shows a temporary, collapsible reasoning section while generating and keeps the final answer separate. The reasoning process is not saved as a visible Yuna conversation message.
+
+When you open Yuna again, the browser resumes only a locally remembered conversation that was active recently. If no conversation is remembered, or it has been inactive for a while, Yuna opens a new conversation page.
 
 When a full-page conversation contains at least two real messages, a rail appears on the left on desktop. User messages and Yuna replies with text each receive a tick, and every message intersecting the viewport is emphasized. Moving the pointer near the rail continuously magnifies neighboring ticks, pausing briefly opens a message preview, and selecting a tick jumps to that message. Supporting activity, data cards, and action receipts do not create separate ticks. The rail is not shown in mobile or floating-window layouts.
 
