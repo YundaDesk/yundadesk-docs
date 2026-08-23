@@ -3,7 +3,7 @@ title: Manage customer profiles
 description: Review customer identity, channels, labels, history, and AI memory in one profile.
 category: Customers and team
 order: 1
-updated_at: 2026-08-15
+updated_at: 2026-08-23
 ---
 
 # Manage customer profiles
@@ -16,7 +16,9 @@ Open Contacts to search by name, social ID, or email, and switch between Custome
 
 The Contact, Channel/source, and Location columns provide structured filters. Choose has email, has phone, or no contact details; filter by messaging channel or store source; and narrow by country/region or unknown location. You can select multiple values within each group, while conditions from different groups apply together. Continue using search for names; Last interaction has no time filter.
 
-Select any customer row to open the profile. The profile is organized into Overview, AI memory, Store, and Linked identities tabs; cross-channel merge and unlink actions live in the final tab. Use the close button, press `Esc`, or select outside the profile to return to the list.
+Select any customer row to open the profile. The profile is organized into Overview, Conversation history, AI memory, Store, and Linked identities tabs; cross-channel merge and unlink actions live in the final tab. Use the close button, press `Esc`, or select outside the profile to return to the list.
+
+When the customer has a reachable messaging identity, select View conversation. The customer profile remains in its Sheet on the right, while a narrower quick-reply Sheet opens beside it on the left. Quick reply shows the customer's real conversation messages and follows the same assignment rules as Inbox: take an unassigned or AI-handled conversation first, and handle a conversation owned by another agent in Inbox. Closing quick reply or pressing `Esc` the first time closes only the left Sheet and keeps the customer profile open.
 
 After the first business message on the website, Telegram, or another messaging channel, the corresponding person is added to Customers automatically. A visitor with only initialization or system events and no message interaction is not added. It may take a short time for the customer to appear; if the customer is still missing after a refresh, first confirm that the message was accepted.
 

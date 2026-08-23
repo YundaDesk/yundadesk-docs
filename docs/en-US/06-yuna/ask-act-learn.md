@@ -3,7 +3,7 @@ title: Ask, act, and teach with Yuna
 description: Use natural language to query data, complete actions, and teach AI customer service.
 category: Yuna
 order: 2
-updated_at: 2026-08-14
+updated_at: 2026-08-23
 ---
 
 # Ask, act, and teach with Yuna
@@ -12,7 +12,7 @@ You do not need to remember feature locations or customer numbers. Describe the 
 
 ## Use composer shortcuts
 
-Yuna's composer provides shortcuts for translation, polishing, conversation review, teaching AI customer service, customer insight, and business briefs. When space is limited, some shortcuts move under **More**. After you select one, the input prompt changes to match the task, such as **Enter text to translate**, and the current mode remains visible until you exit it. Translation mode also lets you choose the target language.
+The **+** menu at the bottom of Yuna's composer provides shortcuts for translation, polishing, conversation review, teaching AI customer service, customer insight, and business briefs. After you select one, the input prompt changes to match the task, such as **Enter text to translate**. Select the active shortcut again to exit it. Translation also provides a submenu for choosing the target language.
 
 After you send, the user message keeps the original text and shows a blue task label at the beginning, such as **Translate to English**. Yuna's next message contains only the result. A task label describes what Yuna should do this time. A page, conversation, or customer context label identifies which information Yuna may use.
 
@@ -27,7 +27,7 @@ After you send, the user message keeps the original text and shows a blue task l
 
 ### Translate a passage
 
-1. Select **Translate** below the Yuna composer.
+1. Select **+** at the bottom of the Yuna composer, then select **Translate**.
 2. Choose the target language, such as Chinese.
 3. Enter the source text and send it.
 
