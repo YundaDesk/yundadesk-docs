@@ -3,7 +3,7 @@ title: Review reports, subscription, and AI usage
 description: Understand channel, team, AI performance, plan entitlements, and AI consumption.
 category: Reports and billing
 order: 1
-updated_at: 2026-08-14
+updated_at: 2026-08-23
 ---
 
 # Review reports, subscription, and AI usage
@@ -20,6 +20,8 @@ Depending on the current report page, you can review:
 - learning, skill usage, and proactive outreach results.
 
 Always read the time range and metric definition. A percentage based on a very small sample can look extreme, so review the underlying count as well.
+
+After you select the last 7, 30, or 90 days, or a custom date range, the overview metrics, trends, hourly new conversations, and dimension details use that same range. The hourly card updates its range label and period total. Ranges up to seven days can be compared day by day; longer ranges combine the full period into 24 hourly buckets so you can see when new conversations usually start.
 
 ## AI usage
 
