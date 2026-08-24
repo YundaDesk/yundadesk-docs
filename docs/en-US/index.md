@@ -3,7 +3,7 @@ title: YundaDesk Help Center
 description: Learn how to manage customer conversations, configure AI customer service, and work with Yuna.
 category: Home
 order: 0
-updated_at: 2026-08-06
+updated_at: 2026-08-24
 ---
 
 # YundaDesk Help Center
@@ -31,3 +31,7 @@ YundaDesk brings customer conversations from your website, Telegram, and other c
 - **Troubleshoot:** [AI answering](./10-troubleshooting/ai-answering.md) and [message delivery](./10-troubleshooting/message-delivery.md)
 
 Available channels, plan entitlements, quotas, and executable capabilities can vary by workspace. The current product page is always authoritative.
+
+## Get more help
+
+Select **Help & Support** at the bottom of the YundaDesk sidebar. Use the upper section to open `yundadesk.com/help`, or email the Direct support desk at `support@yundadesk.com` for account and product help.

@@ -3,7 +3,7 @@ title: YundaDesk 帮助中心
 description: 使用 YundaDesk 统一接待客户、配置 AI 客服，并让 Yuna 帮助团队工作。
 category: 首页
 order: 0
-updated_at: 2026-08-06
+updated_at: 2026-08-24
 ---
 
 # YundaDesk 帮助中心
@@ -31,3 +31,7 @@ YundaDesk 把网站、Telegram 等渠道的客户对话汇聚到一个工作台�
 - **排查问题**：[AI 回答异常](./10-troubleshooting/ai-answering.md)、[消息投递失败](./10-troubleshooting/message-delivery.md)
 
 产品中的渠道、套餐、额度和可执行能力可能因工作区配置而不同，请始终以当前页面显示为准。
+
+## 需要更多帮助
+
+在 YundaDesk 左侧导航底部选择「帮助与支持」：上半部分可打开 `yundadesk.com/help` 继续查找指南；下半部分的 Direct support desk 可通过 `support@yundadesk.com` 接收账户或产品问题。
