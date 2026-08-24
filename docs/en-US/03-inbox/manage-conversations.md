@@ -4,7 +4,7 @@ description: Claim, reply to, transfer, and close customer conversations.
 search_terms: automatically translate incoming messages, incoming customer message translation, agent translation
 category: Inbox
 order: 1
-updated_at: 2026-08-11
+updated_at: 2026-08-24
 ---
 
 # Manage conversations in the Inbox
@@ -20,6 +20,12 @@ The Inbox brings customer conversations from connected channels into one workspa
 5. Transfer the conversation when another teammate is needed, and close it when the issue is resolved.
 
 Message status distinguishes sending, sent, delivered, and failed states. Follow the retry or delivery-detail action when a message fails.
+
+### Read and reply to email conversations
+
+Email conversations remain in the same Inbox list. When you open one, the middle area shows the subject, sender, recipients, copies, and email body in an email layout. HTML formatting is displayed after safety filtering. The customer panel and other conversation actions remain unchanged.
+
+When an agent is serving the conversation, verify the recipient and subject before replying, then expand Cc or Bcc when needed. The reply stays in the existing email thread after it is sent. Correct the body, recipients, or subject before sending if anything is wrong. While AI is serving the conversation, these customer-reply fields are hidden; you can still add an internal note or take over before replying to the customer.
 
 ## Reply faster
 
