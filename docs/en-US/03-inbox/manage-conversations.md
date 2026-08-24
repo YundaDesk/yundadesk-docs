@@ -25,7 +25,7 @@ Message status distinguishes sending, sent, delivered, and failed states. Follow
 
 Email conversations remain in the same Inbox list. When you open one, the middle area shows the subject, sender, recipients, copies, and email body in an email layout. HTML formatting is displayed after safety filtering. The customer panel and other conversation actions remain unchanged.
 
-When an agent is serving the conversation, verify the recipient and subject before replying, then expand Cc or Bcc when needed. The reply stays in the existing email thread after it is sent. Correct the body, recipients, or subject before sending if anything is wrong. While AI is serving the conversation, these customer-reply fields are hidden; you can still add an internal note or take over before replying to the customer.
+When an agent is serving the conversation, each email card provides **Reply** and **Forward** actions. Reply fills the selected email's reply address and subject. Forward clears the recipient so you can choose a new one and prepares a `Fwd:` subject. Expand Cc or Bcc when needed. Replies stay in the existing email thread after they are sent. Correct the body, recipients, or subject before sending if anything is wrong. While AI is serving the conversation, these customer-reply fields and card actions are hidden; you can still add an internal note or take over before replying to the customer.
 
 ## Reply faster
 
