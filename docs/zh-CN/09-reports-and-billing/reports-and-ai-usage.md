@@ -3,7 +3,7 @@ title: 查看报告、订阅和 AI 用量
 description: 理解渠道、团队、AI 表现以及当前套餐与用量。
 category: 报告与订阅
 order: 1
-updated_at: 2026-08-23
+updated_at: 2026-08-24
 ---
 
 # 查看报告、订阅和 AI 用量
@@ -25,7 +25,7 @@ updated_at: 2026-08-23
 
 ## AI 用量
 
-AI 客服回答、知识处理和其他计费 AI 能力可能消耗 AI Credit。Yuna 用量与 AI Credit 分开显示。进入设置中的订阅与 AI 用量页面查看当前总量、分类明细和记录。
+AI 客服回答过程中的模型生成、规划、重试、知识检索和其他计费 AI 能力可能消耗 AI Credit。知识导入、解析、索引和离线编译不消耗 AI Credit；Yuna 用量也与 AI Credit 分开显示。进入设置中的订阅与 AI 用量页面查看当前总量、分类明细和记录。
 
 ## 套餐和购买
 
