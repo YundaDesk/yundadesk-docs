@@ -3,7 +3,7 @@ title: Build and maintain the knowledge base
 description: Give the AI reliable business knowledge from documents, websites, and FAQs.
 category: Knowledge and learning
 order: 1
-updated_at: 2026-08-14
+updated_at: 2026-08-25
 ---
 
 # Build and maintain the knowledge base
@@ -21,6 +21,18 @@ Open **AI → Knowledge base** and use the methods available on the page:
 After upload or crawling, YundaDesk parses, compiles, and indexes the content. Only successfully processed content is available to AI search.
 
 You can turn off **Use in AI answers** for an individual FAQ without deleting it. The FAQ remains in the list and can be enabled again later. A website can also be paused as a whole without changing its automatic sync setting.
+
+## Browse and locate content
+
+The knowledge base uses a file-manager layout to organize real sources:
+
+- **All content** shows uploaded documents, websites, and connected sources.
+- **Needs attention** collects documents that failed processing and need review.
+- Each website domain and connected source is its own directory. Open it to browse only that source's documents.
+- Use the path above the document list to return to **All content**.
+- **Documents** and **FAQ** remain separate content types and are managed on their own tabs.
+
+These directories represent actual knowledge sources rather than arbitrary drive folders. The page does not expose unrelated move, favorite, or recycle-bin actions.
 
 ## File formats and limitations
 
