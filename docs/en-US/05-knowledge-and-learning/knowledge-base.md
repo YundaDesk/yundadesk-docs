@@ -30,9 +30,12 @@ The knowledge base uses a file-manager layout to organize real sources:
 - **Needs attention** collects documents that failed processing and need review.
 - Each website domain and connected source is its own directory. Open it to browse only that source's documents.
 - Use the path above the document list to return to **All content**.
+- Open a document to read it inside the current file-manager view; the source rail stays visible. Select **Back to documents** to return to the same directory.
 - **Documents** and **FAQ** remain separate content types and are managed on their own tabs.
 
 These directories represent actual knowledge sources rather than arbitrary drive folders. The page does not expose unrelated move, favorite, or recycle-bin actions.
+
+The reader formats Markdown headings, lists, tables, quotes, and code. Word, PDF, and website sources are first converted into a safe text structure; HTML or scripts carried by a document are not executed. If a source depends on complex layout, images, or scanned pages, the reader may show only the successfully extracted text, which is also the content available to AI search.
 
 ## File formats and limitations
 
