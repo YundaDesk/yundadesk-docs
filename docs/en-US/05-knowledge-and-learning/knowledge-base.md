@@ -3,7 +3,7 @@ title: Build and maintain the knowledge base
 description: Give the AI reliable business knowledge from documents, websites, and FAQs.
 category: Knowledge and learning
 order: 1
-updated_at: 2026-08-25
+updated_at: 2026-08-26
 ---
 
 # Build and maintain the knowledge base
@@ -28,12 +28,17 @@ The knowledge base uses a file-manager layout to organize real sources:
 
 - **All content** shows uploaded documents, websites, and connected sources.
 - **Needs attention** collects documents that failed processing and need review.
+- **Recent** sits above **Trash** at the bottom of the source rail and uses the times you actually opened documents. Each member has their own recent list.
+- Create single-level folders and move standalone uploaded documents into them. Select a folder, then choose **New document → Upload file**. The upload area shows the destination as **data source / folder** before you choose a file, and the new file is saved directly in that folder. Folders cannot be nested.
+- Every folder, including an empty folder, keeps a disclosure arrow. Expand it to view and open documents without leaving the current file-manager view.
 - Each website domain and connected source is its own directory. Open it to browse only that source's documents.
-- Use the path above the document list to return to **All content**.
+- Website and connected-source directories are managed by their sync source and cannot be renamed or moved into custom folders.
+- **Trash** keeps removed documents so you can restore or permanently delete them.
+- After opening a document, use the clickable **All content** and current source or folder segments in the path above the document list to return.
 - Open a document to read it inside the current file-manager view; the source rail stays visible. Select **Back to documents** to return to the same directory.
 - **Documents** and **FAQ** remain separate content types and are managed on their own tabs.
 
-These directories represent actual knowledge sources rather than arbitrary drive folders. The page does not expose unrelated move, favorite, or recycle-bin actions.
+Custom folders only organize documents; they do not change how AI uses the knowledge. Deleting a folder does not delete its documents. The documents return to the root.
 
 The reader formats Markdown headings, lists, tables, quotes, and code. Word, PDF, and website sources are first converted into a safe text structure; HTML or scripts carried by a document are not executed. If a source depends on complex layout, images, or scanned pages, the reader may show only the successfully extracted text, which is also the content available to AI search.
 
@@ -62,4 +67,4 @@ After a successful website resync or document update, the new compiled result re
 
 ## Delete content
 
-Before deleting knowledge, check whether any AI skills or customer processes still depend on it. Retest after the index updates.
+Before deleting knowledge, check whether any AI skills or customer processes still depend on it. Moving a document to Trash removes it from new AI answers immediately. You can restore it to its previous folder when needed. Permanent deletion is available only in Trash and cannot be undone. Retest related questions after making changes.
