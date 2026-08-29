@@ -3,7 +3,7 @@ title: Switch between AI and human service
 description: Understand the difference between global AI reception and taking over one conversation.
 category: Inbox
 order: 2
-updated_at: 2026-08-15
+updated_at: 2026-08-28
 ---
 
 # Switch between AI and human service
@@ -12,7 +12,7 @@ YundaDesk supports AI-first service with human takeover at any time. Global rece
 
 ## Global reception settings
 
-**AI → Reception settings** determines the active AI source and the channels that allow automatic AI replies. When AI reception is disabled for a channel, new customer messages from that channel will not trigger AI replies.
+**AI Agents** determines which Agent serves customers and which channels are bound to each Agent. A channel without a bound, available Agent does not trigger automatic AI replies for new customer messages.
 
 ## Take over one conversation
 

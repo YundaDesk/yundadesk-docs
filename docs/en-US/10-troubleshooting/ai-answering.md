@@ -1,9 +1,10 @@
 ---
 title: AI does not answer or gives the wrong answer
 description: Check reception, knowledge, skills, connected apps, usage, and answer details in the right order.
+search_terms: inaccurate AI answer, ungrounded AI answer, troubleshoot AI answer, wrong AI response
 category: Troubleshooting
 order: 1
-updated_at: 2026-08-01
+updated_at: 2026-08-29
 ---
 
 # AI does not answer or gives the wrong answer
@@ -12,15 +13,15 @@ First determine whether the AI did not reply, lacked reliable information, neede
 
 ## AI does not reply at all
 
-1. Confirm that an AI source is configured under **AI → Reception settings**.
-2. Confirm that AI reception is enabled for the current channel.
+1. Open **AI Agents** and confirm that the Agent serving customers is configured and available.
+2. Confirm that the current channel is bound to that Agent.
 3. Check whether a person has taken over the conversation.
 4. Check available AI usage.
 5. Inspect channel and message delivery state.
 
 ## AI gives the wrong answer
 
-1. Reproduce the question in the Playground.
+1. Reproduce the question with **Test conversation** on the **AI Agents** page.
 2. Open answer details and inspect matched knowledge, skills, and customer memory.
 3. Confirm that knowledge processing succeeded and no conflicting old version remains.
 4. Confirm that the relevant skill is enabled and tested.

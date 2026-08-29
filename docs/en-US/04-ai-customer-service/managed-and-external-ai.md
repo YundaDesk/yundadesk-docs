@@ -1,14 +1,14 @@
 ---
-title: Choose managed or external AI
-description: Understand the capabilities and switching impact of each AI source.
+title: Choose a managed or external Agent
+description: Understand the capabilities and reception boundaries of each Agent source.
 category: AI customer service
 order: 5
-updated_at: 2026-08-01
+updated_at: 2026-08-29
 ---
 
-# Choose managed or external AI
+# Choose a managed or external Agent
 
-A workspace can use only one customer-facing AI source at a time. Switching does not create a second AI identity.
+A workspace can have both managed and external Agents, but each Agent uses only one reply source. Different Agents can be bound to different channels.
 
 ## Managed AI
 
@@ -18,8 +18,15 @@ YundaDesk managed AI uses the knowledge base, learning review, AI skills, custom
 
 External AI uses your configured third-party AI service. It only generates replies and does not participate in managed YundaDesk learning or automatically use managed skills.
 
-## Before switching
+To connect an OpenAI-compatible endpoint:
 
-Confirm that the new source is configured, test typical questions, understand which learning and answer-detail features will change, and complete a real inbound and outbound test on a low-risk channel.
+1. Go to **Apps → App Store → AI Service**.
+2. Select **View** on the **Custom Agent API** card.
+3. Enter the endpoint, API key, and model in Reception Settings, then save.
+4. Test typical replies before switching reception to external AI.
 
-Selecting the source and enabling reception channels are separate actions. AI only answers on enabled channels.
+## Before binding channels
+
+Confirm that the source is configured, test typical questions, understand which managed learning and answer-detail features are unavailable, and complete a real inbound and outbound test on a low-risk channel.
+
+Selecting an Agent source and binding reception channels are separate actions. The Agent answers only on enabled channels that are explicitly bound to it.

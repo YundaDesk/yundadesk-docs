@@ -2,7 +2,7 @@
 title: Invite team members
 description: Invite agents or administrators and assign an appropriate role.
 category: Getting started
-order: 4
+order: 5
 updated_at: 2026-08-01
 ---
 

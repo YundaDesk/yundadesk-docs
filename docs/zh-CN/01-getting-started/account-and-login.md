@@ -2,7 +2,7 @@
 title: 登录并进入工作区
 description: 登录 YundaDesk，并确认自己进入了正确的工作区。
 category: 快速开始
-order: 3
+order: 4
 updated_at: 2026-08-23
 ---
 

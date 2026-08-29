@@ -3,7 +3,7 @@ title: Connect Notion knowledge
 description: Authorize a read-only scope and import Notion pages into the knowledge base.
 category: Knowledge and learning
 order: 8
-updated_at: 2026-08-01
+updated_at: 2026-08-28
 ---
 
 # Connect Notion knowledge
@@ -12,14 +12,15 @@ You can connect Notion pages to YundaDesk. The AI can use the content after sync
 
 ## Connect a source
 
-1. Open Knowledge and select **New document**.
-2. Open the **Notion** entry, then select **Connect Notion**.
-3. YundaDesk opens a new tab. Confirm the read-only access scope on the Notion authorization page.
-4. After authorization returns, choose a page as the sync root in the new tab.
-5. Confirm and start the first sync.
-6. Wait for the status to become **Healthy**, then test important questions in the AI Playground.
+1. Open **Apps → Self-service → Notion** and select **View**. You can also open **Workspace** and select **Knowledges**.
+2. Select **New document** in the knowledge base.
+3. Open the **Notion** entry, then select **Connect Notion**.
+4. YundaDesk opens a new tab. Confirm the read-only access scope on the Notion authorization page.
+5. After authorization returns, choose a page as the sync root in the new tab.
+6. Confirm and start the first sync.
+7. Wait for the status to become **Healthy**, then select **Test knowledge** and ask important questions.
 
-**New document** currently provides three entries: **Upload file / Crawl web page / Notion**. If the connect button is disabled, Notion is not available for this workspace yet. Contact YundaDesk support to confirm availability; once it is enabled, you can authorize it without creating another knowledge base. Feishu knowledge connections are not currently available.
+The Notion card is visible in Apps by default and does not require installation; it only opens the existing knowledge-base entry. **New document** currently provides three entries: **Upload file / Crawl web page / Notion**. If the connect button is disabled, Notion is not available for this workspace yet. Contact YundaDesk support to confirm availability; once it is enabled, you can authorize it without creating another knowledge base. Feishu knowledge connections are not currently available.
 
 If the expected scope is missing:
 
@@ -35,7 +36,7 @@ Synchronized documents appear in the existing Knowledge table as one expandable 
 - **Partial failure**: some documents or provider requests failed. Existing usable knowledge is preserved and is not removed by an incomplete round.
 - **Authorization invalid**: the credential expired or the connection must be authorized again.
 
-New or changed content must still finish knowledge processing before the AI can use it. Check document processing status and the Playground for confirmation.
+New or changed content must still finish knowledge processing before the AI can use it. Check document processing status and **Test knowledge** for confirmation.
 
 ## Updates and limits
 

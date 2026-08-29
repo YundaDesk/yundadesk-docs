@@ -1,14 +1,14 @@
 ---
-title: Test, pause, roll back, and delete an AI skill
-description: Manage an adopted skill from testing through activation, pause, rollback, and deletion.
+title: Test, copy, pause, roll back, and delete a skill
+description: Manage an adopted skill from testing through activation, copy, pause, rollback, and deletion.
 category: Knowledge and learning
 order: 11
-updated_at: 2026-08-10
+updated_at: 2026-08-28
 ---
 
-# Test, pause, roll back, and delete an AI skill
+# Test, copy, pause, roll back, and delete a skill
 
-An AI skill is a manageable answer or action. Verify when it applies, what it does, and its boundaries before enabling it.
+A skill is a manageable answer or action. Verify when it applies, what it does, and its boundaries before enabling it.
 
 ## Test before activation
 
@@ -23,6 +23,12 @@ Scenario tests never message customers or perform real external actions. A skill
 ## Review live usage
 
 The Logs view shows real skill calls from customer conversations and excludes scenario simulations. Each record includes the customer question, the AI's final answer, and the run status. When a conversation is linked, you can open the original customer conversation for further review.
+
+## Copy to another Agent
+
+To let another Agent start from the same handling method, select **Copy to another Agent** in the skill detail, then explicitly choose the target Agent. YundaDesk creates an independent testing version under the target Agent and leaves the original unchanged.
+
+Copying does not create a shared binding. Each Agent can test, edit, enable, pause, or delete its own version independently. The copy is never enabled automatically; test it under the target Agent before enabling it. The source Agent, external AI Agents, and Agents that already have a skill with the same name are not available as targets.
 
 ## Pause a skill
 

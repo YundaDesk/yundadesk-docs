@@ -1,30 +1,30 @@
 ---
-title: Set the AI name and response style
-description: Configure the customer-visible AI identity, tone, and emoji preference.
+title: Set an Agent name and response style
+description: Configure the customer-visible name, tone, and emoji preference for one Agent.
 category: AI customer service
 order: 4
-updated_at: 2026-08-26
+updated_at: 2026-08-28
 ---
 
-# Set the AI name and response style
+# Set an Agent name and response style
 
-The AI name is the single reception identity customers and agents see. Switching between managed and external AI does not create another employee.
+Each Agent has its own customer-visible name and response preferences. Editing one Agent does not overwrite another Agent.
 
 ## Configure the identity
 
-1. Open AI reception settings and select **General**.
-2. Edit the customer-service name and choose a reception focus.
+1. Open **AI Agents** and select the target Agent.
+2. Under **Role**, edit the name and confirm the Role.
 3. Add workspace-wide brand preferences under **Your instructions**.
 4. Select a tone and turn emoji use on or off.
 5. Turn on **Deep reasoning** if the AI should analyze more thoroughly before replying. Customers never see the reasoning process, and replies may take longer.
 6. Turn on **Progressive replies** if the AI should send a confirmed stage result before continuing with another required stage of the same request.
 7. To edit the online-queue and no-agents-online messages, switch to **Handoff**, then save.
 
-You can also tell Yuna which item to change. Yuna reads the current configuration and prepares a delta draft first. The change is applied only after confirmation, and settings you did not mention remain unchanged.
+You can also tell Yuna which setting to change for a named Agent. Yuna confirms the target and prepares a delta draft first. The change is applied only after confirmation, and settings you did not mention remain unchanged.
 
 ## Verify the result
 
-Ask a typical customer question in the Playground and inspect the greeting, tone, and formatting. To verify **Progressive replies**, use a request that genuinely requires more than one available business step. The Playground shows each confirmed stage in order without sending those test messages to a customer; ordinary replies still appear as one bubble. Then spot-check a real channel reply because channel context can affect wording.
+Ask a typical customer question with **Test conversation** on the **AI Agents** page and inspect the greeting, tone, and formatting. To verify **Progressive replies**, use a request that genuinely requires more than one available business step. Test conversation shows each confirmed stage in order without sending those test messages to a customer; ordinary replies still appear as one bubble. Then spot-check a real channel reply because channel context can affect wording.
 
 After enabling **Deep reasoning**, open the Trace for that reply. It should show a **Deep reasoning** step with a **Trace only** label. Even when there is no reasoning text to display, Trace still shows that deep reasoning was enabled for the reply. Customers always see only the final answer.
 

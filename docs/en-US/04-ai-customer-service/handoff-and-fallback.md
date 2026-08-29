@@ -3,7 +3,7 @@ title: Define AI handoff boundaries
 description: Hand uncertain, sensitive, or unsupported requests to a person.
 category: AI customer service
 order: 6
-updated_at: 2026-08-16
+updated_at: 2026-08-28
 ---
 
 # Define AI handoff boundaries
@@ -20,7 +20,7 @@ AI should not guess facts just to preserve automation. High-risk, low-confidence
 
 ## Verify behavior
 
-Test one answerable and one unsupported question in the Playground. The first should answer normally; the second must not invent data and should provide a clear next step.
+Test one answerable and one unsupported question with **Test conversation** on the **AI Agents** page. The first should answer normally; the second must not invent data and should provide a clear next step.
 
 ## After handoff
 
@@ -28,12 +28,14 @@ After a person takes over, AI should not compete for the conversation. Return it
 
 ## Configure customer-facing messages
 
+Channel human reception uses one **Channel agent pool** selector. Choose **Entire workspace** or one or more specific members; these choices are mutually exclusive, so there is no separate scope switch. After choosing specific members, you can optionally fall back to the entire workspace when none are available. Automatic assignment only controls whether YundaDesk assigns an available agent automatically.
+
 1. Open the AI customer service reception settings.
 2. The online queue, no-agents-online, and agent-joined notices can be enabled or disabled independently. The agent-joined notice appears as a normal message from the agent who takes over. Disabling a notice only hides that message; it does not change queueing or assignment.
 3. Online queue, no-agents-online, and agent-joined notices are sent in the language the visitor is currently using, so you do not maintain separate language versions.
 4. Enter the default-language messages for the online queue and for no agents online. When a conversation enters the human queue, YundaDesk checks the channel's effective reception scope and sends only one of them: online queue when an eligible agent is available but has not joined yet, or no agents online when nobody is online. An online workspace agent outside the channel's reception list does not make that channel available; those agents are considered only when workspace-pool fallback is enabled.
 5. The workspace shows “Reception settings” below each of these notices so you can return directly to the relevant settings.
-6. Verify the handoff in the Playground, then check the visible state changes in a real channel.
+6. Verify the handoff with **Test conversation**, then check the visible state changes in a real channel.
 
 The waiting status is sent only once during the same human-waiting episode. Additional customer messages do not repeat it, restart the queue, or let AI take the conversation back. The agent-joined notice is sent once after an agent accepts the conversation.
 

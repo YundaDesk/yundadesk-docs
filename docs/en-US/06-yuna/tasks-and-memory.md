@@ -3,7 +3,7 @@ title: Manage Yuna tasks and long-term memory
 description: Handle Yuna reminders and manage workspace and personal preference memory.
 category: Yuna
 order: 3
-updated_at: 2026-08-18
+updated_at: 2026-08-28
 ---
 
 # Manage Yuna tasks and long-term memory
@@ -32,4 +32,4 @@ Memory is available by default to support answers. When memory is temporarily un
 
 ## What not to store
 
-Prices, refund rules, customer commitments, and standard response policies must be managed through knowledge or learning review, not only in Yuna memory. Customer preferences belong in customer memory. Never store passwords, keys, or payment information.
+Prices, refund rules, customer commitments, and standard response policies must be managed through knowledge or improvement suggestions, not only in Yuna memory. Customer preferences belong in customer memory. Never store passwords, keys, or payment information.

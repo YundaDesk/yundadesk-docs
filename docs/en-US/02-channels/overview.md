@@ -3,7 +3,7 @@ title: Channel overview
 description: Connect, enable, and maintain customer messaging channels.
 category: Channels
 order: 1
-updated_at: 2026-07-17
+updated_at: 2026-08-28
 ---
 
 # Channel overview
@@ -20,7 +20,7 @@ Channel cards show connection state and required actions. A channel must be full
 
 1. **Inbound:** Send a message from the customer side and confirm that it appears in the Inbox.
 2. **Human reply:** Reply from the Inbox and confirm that the customer actually receives it.
-3. **AI reception:** Enable the channel under **AI → Reception settings**, then start a new customer-side test.
+3. **AI reception:** Open the channel's **Reception settings**, choose the **Reception Agent**, and then start a new customer-side test. Select **Human reception** when the channel should not be bound to an Agent.
 
 ## Channels and apps are different
 

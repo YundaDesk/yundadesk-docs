@@ -2,8 +2,8 @@
 title: 15-minute quick start
 description: Connect a channel, add knowledge, and complete an AI answer test.
 category: Getting started
-order: 2
-updated_at: 2026-08-16
+order: 3
+updated_at: 2026-08-28
 ---
 
 # 15-minute quick start
@@ -20,7 +20,7 @@ The website widget is usually the fastest starting point. Open Channels, select 
 
 ## 3. Add AI knowledge
 
-Open **AI → Knowledge base** and choose one of the available methods:
+Open **Workspace**, select **Knowledges**, and choose one of the available methods:
 
 - upload product guides or policies;
 - add a website URL and wait for crawling and compilation;
@@ -32,11 +32,11 @@ During initial setup, if you provide a website URL, Yuna reads the homepage firs
 
 ## 4. Configure AI reception
 
-Open **AI → Reception settings**, choose managed or external AI, and select the channels the AI should serve. Unselected channels will not receive automatic AI replies.
+Open **AI Agents**, create or select an Agent, then bind the channels it should serve under **Channels**. Channels without a bound Agent do not receive automatic AI replies.
 
-## 5. Test in the Playground
+## 5. Test the Agent
 
-Ask a question that has an answer in your content. Open the answer details and confirm that the correct knowledge or skill was used. Then send one message through the real website or Telegram channel to verify the complete delivery path.
+Open **AI Agents**, select **Test conversation** in the top-right corner, choose the Agent, and ask a question that has an answer in your content. Open the answer details and confirm that the correct knowledge or skill was used. Then send one message through the real website or Telegram channel to verify the complete delivery path.
 
 ## 6. Observe the first week
 

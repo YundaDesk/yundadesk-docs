@@ -3,7 +3,7 @@ title: Teach the AI its first business rule
 description: Complete a governed learning cycle from Yuna teaching or correction through review, testing, and activation.
 category: Knowledge and learning
 order: 12
-updated_at: 2026-08-11
+updated_at: 2026-08-27
 ---
 
 # Teach the AI its first business rule
@@ -28,7 +28,7 @@ Merge duplicate or equivalent suggestions into existing knowledge or skills to a
 
 Test at least the original question, a rephrased version with the same intent, and an unrelated question that should not trigger the rule. Confirm that the answer does not broaden the commitment and that the rule is not used after expiry, without evidence, or when its conditions do not apply.
 
-Activate only after review and Playground testing pass. Then spot-check the final answer received through a real channel.
+Activate only after review and **Test conversation** pass. Then spot-check the final answer received through a real channel.
 
 ## Pause or roll back
 

@@ -5,6 +5,7 @@ The Chinese and English trees are identical. Paths below are relative to each lo
 | Category | Article | Path |
 |---|---|---|
 | Getting started | Product overview | `01-getting-started/overview.md` |
+| Getting started | Day-to-day product experience | `01-getting-started/day-to-day-experience.md` |
 | Getting started | Quick start | `01-getting-started/quick-start.md` |
 | Getting started | Sign in and enter the workspace | `01-getting-started/account-and-login.md` |
 | Getting started | Invite team members | `01-getting-started/invite-your-team.md` |
@@ -22,11 +23,11 @@ The Chinese and English trees are identical. Paths below are relative to each lo
 | Inbox | Assign and transfer conversations | `03-inbox/assign-and-transfer.md` |
 | Inbox | Search and filter conversations | `03-inbox/search-and-filter.md` |
 | Inbox | Understand message status | `03-inbox/message-status.md` |
-| AI customer service | Configure AI reception | `04-ai-customer-service/configure.md` |
+| AI customer service | Create and configure an Agent | `04-ai-customer-service/configure.md` |
 | AI customer service | Test answers and review details | `04-ai-customer-service/playground-and-trace.md` |
 | AI customer service | AI overview and capability center | `04-ai-customer-service/hub-and-capabilities.md` |
-| AI customer service | AI identity and response style | `04-ai-customer-service/identity-and-style.md` |
-| AI customer service | Managed and external AI | `04-ai-customer-service/managed-and-external-ai.md` |
+| AI customer service | Agent identity and response style | `04-ai-customer-service/identity-and-style.md` |
+| AI customer service | Managed and external Agents | `04-ai-customer-service/managed-and-external-ai.md` |
 | AI customer service | Handoff and fallback boundaries | `04-ai-customer-service/handoff-and-fallback.md` |
 | AI customer service | How AI answers reliably | `04-ai-customer-service/reliable-answers.md` |
 | Knowledge and learning | Build the knowledge base | `05-knowledge-and-learning/knowledge-base.md` |

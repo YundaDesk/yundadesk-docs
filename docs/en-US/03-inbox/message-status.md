@@ -4,7 +4,7 @@ description: Distinguish between saved, accepted, delivered, and failed messages
 search_terms: sending sent failed status, message status meaning, delivery state
 category: Inbox
 order: 5
-updated_at: 2026-08-01
+updated_at: 2026-08-28
 ---
 
 # Understand message status
@@ -21,6 +21,10 @@ An Inbox message may be saved before it is delivered asynchronously through a ch
 ## After refresh
 
 A message must still appear after refresh to count as saved. Its order should remain stable when the reply finishes loading.
+
+## Who has read a customer message
+
+An incoming customer message may show a “Read” avatar group. These are the agents whose reading position has reached that message. Hover over the group to view the full list. This means they have seen it; it does not mean the conversation has been replied to or resolved.
 
 ## Handle failures
 

@@ -2,7 +2,7 @@
 title: 邀请团队成员
 description: 邀请客服或管理员加入工作区并分配合适角色。
 category: 快速开始
-order: 4
+order: 5
 updated_at: 2026-08-01
 ---
 

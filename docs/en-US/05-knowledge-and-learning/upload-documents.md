@@ -3,7 +3,7 @@ title: Upload knowledge documents
 description: Add reliable customer-service material to the knowledge base.
 category: Knowledge and learning
 order: 6
-updated_at: 2026-08-14
+updated_at: 2026-08-27
 ---
 
 # Upload knowledge documents
@@ -22,7 +22,7 @@ Supported formats include DOC/DOCX/DOCM, PPT/PPS/POT/PPTX/PPTM/PPSX/PPSM, XLS/XL
 2. Select the file upload action.
 3. Choose a format currently supported by the product.
 4. Wait for processing to finish.
-5. Ask a real question from the document in the Playground and inspect its source.
+5. Select **Test knowledge**, ask a real question from the document, and inspect its source.
 
 ## After upload
 

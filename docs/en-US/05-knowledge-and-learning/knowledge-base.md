@@ -3,7 +3,7 @@ title: Build and maintain the knowledge base
 description: Give the AI reliable business knowledge from documents, websites, and FAQs.
 category: Knowledge and learning
 order: 1
-updated_at: 2026-08-26
+updated_at: 2026-08-28
 ---
 
 # Build and maintain the knowledge base
@@ -12,7 +12,7 @@ The knowledge base is the primary source for product, policy, and service answer
 
 ## Add knowledge
 
-Open **AI → Knowledge base** and use the methods available on the page:
+Open **Workspace** from the main navigation, select **Knowledges**, and use the methods available on the page:
 
 - upload product guides, policies, or service documents;
 - add a website URL and crawl public pages;
@@ -63,7 +63,7 @@ The reader formats Markdown headings, lists, tables, quotes, and code. Word, PDF
 
 ## Update and verify
 
-After a successful website resync or document update, the new compiled result replaces the previous one. If a new compilation fails, the last successful result may remain available. Test different phrasings in the Playground and verify that answer details use the latest content.
+After a successful website resync or document update, the new compiled result replaces the previous one. If a new compilation fails, the last successful result may remain available. Select **Test knowledge** at the top of the knowledge base; it appears immediately before **New folder**. Test different phrasings and verify that answer details use the latest content.
 
 ## Delete content
 

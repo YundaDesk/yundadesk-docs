@@ -1,27 +1,33 @@
 ---
-title: Review the AI overview and capability center
-description: Understand AI summary metrics and what the workspace can currently do.
+title: Review the AI Agents overview and readiness
+description: Understand Agents, channel coverage, readiness, and current reception state.
 category: AI customer service
 order: 3
-updated_at: 2026-08-24
+updated_at: 2026-08-28
 ---
 
-# Review the AI overview and capability center
+# Review the AI Agents overview and readiness
 
-Open **AI Agent** from the main navigation, then select **Overview**. The AI overview summarizes recent reception, learning, and action items. The capability center answers: “What can this workspace do right now?”
+Open **AI Agents** from the main navigation. The Agent control plane opens directly without an AI secondary menu.
 
-## AI overview
+## Read the overview
 
-The overview may show AI-served conversations, resolution or handoff performance, pending learning, recently learned skills, and issues that need attention. Read percentages together with sample counts. When there is not enough data, an empty value is more accurate than interpreting zero samples as 100%.
+The four summaries show the current configuration at a glance:
 
-Select a card to open its detailed source, such as learning review, skills, reports, or failure logs. The overview is a navigation and summary surface, not the only business record.
+- **Total agents:** The number of Agents in the workspace.
+- **Receiving customers:** Agents that are enabled and can accept new conversations.
+- **Action required:** Agents paused by a reception-source or channel issue.
+- **Channels covered:** Channels currently bound to an Agent.
 
-## Capability center
+These numbers come from current Agent and channel configuration. They do not represent automated tasks, time saved, or cost.
 
-Capabilities are grouped into areas such as customer outreach, customer data, orders and logistics, and channel delivery. State is calculated from platform features, connected channels, installed apps, and tenant configuration.
+## Check the list
 
-- **Available:** The workspace has the capability, but permission and parameters are still checked when it runs.
-- **Integration required:** An app, channel, or business system must be connected.
-- **Not available yet:** This capability cannot currently be used in the product.
+The list shows each Agent, Role, reception channels, readiness, and current status:
 
-The capability center does not turn planned features into available actions and does not replace permission checks. Yuna should use the same capability state when explaining what it can do.
+- **Ready:** The current configuration can receive customers.
+- **Reception source not ready:** The managed or external reply source needs attention.
+- **Channel unavailable:** At least one bound channel is currently unavailable.
+- **Setup incomplete:** The Agent still needs setup or a channel binding.
+
+Use search to find an Agent, or filter by Role or channel. Select an Agent name to review Role and behavior, knowledge, capabilities, skills, reception settings, reception channels, and run history. For a quick check, select **Test conversation** in the top-right corner and explicitly choose the Agent in the dialog.

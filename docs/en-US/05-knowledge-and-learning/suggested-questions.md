@@ -1,9 +1,9 @@
 ---
 title: Understand suggested questions
-description: Learn how the website widget and Playground receive knowledge-based suggested questions.
+description: Learn how the website widget and test conversation receive knowledge-based suggested questions.
 category: Knowledge and learning
 order: 2
-updated_at: 2026-08-01
+updated_at: 2026-08-27
 ---
 
 # Understand suggested questions
@@ -25,7 +25,7 @@ The system aims for topic diversity instead of repeating several versions of the
 
 - **Widget Home:** When **Show suggestions on Home** is enabled, 1–3 questions appear in one list card between **Chat with support** and **Contact us**, separated by dividers. Selecting one immediately sends it as a real visitor message.
 - **First empty conversation:** If the visitor enters chat without selecting a Home question, suggested questions can still appear below the welcome message. They disappear after the first visitor message.
-- **Playground:** A group of clickable questions appears with an option to load another set.
+- **Test conversation:** A group of clickable questions appears with an option to load another set.
 
 Clicking a question sends it through the normal AI answer flow. It does not reveal a static stored answer.
 

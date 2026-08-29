@@ -3,7 +3,7 @@ title: Meet Yuna
 description: Understand how Yuna differs from AI customer service and what it can do for your team.
 category: Yuna
 order: 1
-updated_at: 2026-08-23
+updated_at: 2026-08-29
 ---
 
 # Meet Yuna
@@ -25,7 +25,7 @@ Yuna checks the current workspace setup. Available actions depend on product fea
 
 ## Confirmation and safety
 
-Read-only questions can usually return immediately. Actions that change configuration, send messages, or affect customers display a confirmation card first. Without confirmation, no real side effect should occur. Permission, approval, cooldown, and channel policy still apply even when a capability exists.
+Read-only questions can usually return immediately. Sending messages, affecting customers, changing permissions, or making broad configuration changes displays a confirmation card first. Without confirmation, no real side effect should occur. Service style on the current Agent page is a low-risk, reversible edit with an explicit target: Yuna can ask natural follow-up questions and save directly once the request is clear, without adding a confirmation card. Permission, approval, cooldown, and channel policy still apply even when a capability exists.
 
 ## Plans and allowance
 

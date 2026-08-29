@@ -3,7 +3,7 @@ title: Understand how AI answers reliably
 description: Learn how knowledge, skills, customer context, and live capabilities support trustworthy answers.
 category: AI customer service
 order: 7
-updated_at: 2026-08-11
+updated_at: 2026-08-28
 ---
 
 # Understand how AI answers reliably
@@ -27,7 +27,7 @@ For relative time questions such as “today” or “what time is it,” the AI
 
 ## Verify an answer
 
-1. Ask a real customer question in the Playground.
+1. Ask a real customer question with **Test conversation** on the **AI Agents** page.
 2. Open the answer details and confirm that the correct knowledge, skill, or customer context was used.
 3. Check that the answer does not add promises or numbers absent from the source.
 4. Test a rephrased version and one unsupported question.

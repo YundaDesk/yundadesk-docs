@@ -3,7 +3,7 @@ title: Ask, act, and teach with Yuna
 description: Use natural language to query data, complete actions, and teach AI customer service.
 category: Yuna
 order: 2
-updated_at: 2026-08-23
+updated_at: 2026-08-28
 ---
 
 # Ask, act, and teach with Yuna
@@ -113,7 +113,7 @@ Yuna does not claim that it has learned something before the learning card actua
 
 If an existing contact detail, address, policy, or similar fact is wrong, tell Yuna the correct information. Yuna first locates the current knowledge source and asks you to choose when several targets are possible. Review the **current answer → corrected answer** preview, then confirm it. Yuna submits that knowledge change directly instead of creating another learning proposal for review.
 
-After confirmation, the completion receipt lists the updated question and answer. Correcting knowledge created from an uploaded file or website does not rewrite the original file or external site; edit and resync the source when that content must also change. Then ask the customer's original question and one paraphrase in a real Widget or the Playground to confirm that the new knowledge is used.
+After confirmation, the completion receipt lists the updated question and answer. Correcting knowledge created from an uploaded file or website does not rewrite the original file or external site; edit and resync the source when that content must also change. Then ask the customer's original question and one paraphrase in a real Widget or with **Test conversation** on the **AI Agents** page to confirm that the new knowledge is used.
 
 If the source file, website, or connector content changes later, the system does not silently overwrite the confirmed answer. When the new source conflicts with that answer, Yuna shows a **Knowledge correction needs review** task and opens the exact FAQ entry so you can compare the current answer with the new source suggestion. You can keep the current answer, edit it, or adopt the suggestion. The review is complete only after you save, and it is not a new learning proposal.
 

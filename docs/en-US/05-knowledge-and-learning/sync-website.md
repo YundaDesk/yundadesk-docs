@@ -3,7 +3,7 @@ title: Sync website content
 description: Crawl public pages and refresh knowledge after the website changes.
 category: Knowledge and learning
 order: 7
-updated_at: 2026-08-10
+updated_at: 2026-08-27
 ---
 
 # Sync website content
@@ -16,7 +16,7 @@ Website sync is intended for public, stable, crawlable help content. Authenticat
 2. Enter the full starting URL. HTTPS is used by default. If a public website intentionally supports HTTP only, enter the complete `http://` URL.
 3. Review the discovered page scope.
 4. Start the sync and wait for processing.
-5. Test important page questions in the Playground.
+5. Select **Test knowledge** at the top of the knowledge base and ask important page questions.
 
 ## After the website changes
 

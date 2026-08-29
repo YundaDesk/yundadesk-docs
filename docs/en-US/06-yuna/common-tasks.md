@@ -3,7 +3,7 @@ title: Complete common tasks with Yuna
 description: Give Yuna a clear goal, target, and constraints for queries, setup, teaching, and follow-up.
 category: Yuna
 order: 7
-updated_at: 2026-08-14
+updated_at: 2026-08-28
 ---
 
 # Complete common tasks with Yuna
@@ -56,7 +56,7 @@ A request that changes settings should read the current configuration first, the
 - “This answer treated a customer preference as a global rule. Make it apply only to the current customer.”
 - “Use these repeated questions I am providing to prepare a suggestion for review.”
 
-Teaching requests enter learning review. One conversation does not directly change answers for every customer.
+Teaching requests become improvement suggestions. One conversation does not directly change answers for every customer.
 
 After confirming a correction to an existing FAQ, ask Yuna to preview the same question first. Final acceptance should still ask again through the Widget or a real customer channel and compare the customer-visible answer with the preview.
 

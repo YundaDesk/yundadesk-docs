@@ -2,7 +2,7 @@
 title: Sign in and enter your workspace
 description: Sign in to YundaDesk and confirm that you are in the correct workspace.
 category: Getting started
-order: 3
+order: 4
 updated_at: 2026-08-23
 ---
 

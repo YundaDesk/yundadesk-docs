@@ -16,15 +16,17 @@ Write for a merchant owner, support manager, or support agent who wants to finis
 
 | Chinese | English | Meaning |
 |---|---|---|
-| AI 客服 | AI customer service | The customer-facing AI that answers across connected channels |
+| AI 客服 | AI customer service | The customer-facing capability provided by channel-bound Agents |
+| Agent | Agent | One customer-facing AI configuration with one Role and its own knowledge, capabilities, behavior, and channels |
 | Yuna | Yuna | The merchant-facing assistant for questions, actions, learning, and reminders |
 | 工作台 | Inbox | The workspace where teams manage customer conversations |
-| 知识库 | Knowledge base | Merchant-provided sources used to ground AI answers |
-| 学习评审 | Learning review | The approval queue for proposed AI learning |
-| AI 技能 | AI skills | Adopted, manageable AI capabilities and response procedures |
+| 工作空间 | Workspace | The grouped navigation for Knowledge, Skills, Marketing, and Improvement suggestions |
+| 知识库 | Knowledges | Merchant-provided sources used to ground AI answers |
+| 改进建议 | Improvement suggestions | The review queue for proposed AI improvements |
+| 技能 | Skills | Adopted, manageable AI capabilities and response procedures |
 | 客户记忆 | Customer memory | Customer-specific preferences used only for that customer |
 | 主动触达 | Proactive outreach | Governed outbound messages initiated by a trigger or schedule |
-| 调试台 | Playground | A safe place to test the AI before serving customers |
+| 测试对话 | Test conversation | A safe dialog for testing a selected Agent before serving customers |
 
 ## Accuracy rules
 
