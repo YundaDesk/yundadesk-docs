@@ -1,6 +1,7 @@
 ---
 title: Review improvement suggestions
 description: Decide which improvements can update managed content, then continue managing the adopted result.
+search_terms: AI learning suggestions, review learning suggestions, suggestions before taking effect
 category: Knowledge and learning
 order: 3
 updated_at: 2026-08-30

@@ -1,6 +1,7 @@
 ---
 title: 评审改进建议
 description: 在改进建议列表中决定哪些内容可以更新，并继续管理采纳后的内容。
+search_terms: AI 学习建议, 评审学习建议, 建议生效前
 category: 知识与学习
 order: 3
 updated_at: 2026-08-30
