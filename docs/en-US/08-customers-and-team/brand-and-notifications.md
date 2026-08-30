@@ -3,7 +3,7 @@ title: Configure brand and notifications
 description: Manage customer-facing identity and team reminder preferences.
 category: Customers and team
 order: 4
-updated_at: 2026-08-29
+updated_at: 2026-08-30
 ---
 
 # Configure brand and notifications
@@ -35,8 +35,8 @@ If a category has unread notifications but its latest record is outside the bell
 - Select a category to view its notifications, or select **View all notifications** for the complete list.
 - The detailed list supports All/Unread, search, category filtering, and pagination.
 - Failure notifications remain normal rows. A plain-language reason appears only when a reason fact exists, and a log appears only when it can be shown safely. Older notifications without a stored reason do not invent a failure-reason block.
-- Notification rows do not navigate. Use the action button on the right—such as **Open conversation**, **Open Agent**, **Open channel**, **Review failure**, or **View details**—to open the relevant destination.
-- Failure actions prioritize the affected conversation or related settings page and never open an answer trace directly from the notification. When an AI reply fails, the conversation briefly highlights the customer message that triggered the reply, or the generated AI message when one exists. A delivery failure highlights the message that was not delivered.
+- Notification rows do not navigate. A normal notification shows **Open conversation** or **Open channel** only when it can identify one exact destination. It does not send you to an Agent page, list, settings home, or generic details page to investigate on your own.
+- A failure notification shows **Ask Yuna**. Yuna opens in a new conversation with the exact failure task already selected, explains the known reason and impact, and provides an exact conversation location only when that fact exists. It does not retry, change settings, guess an unknown cause, or mark the failure as resolved.
 - **Mark all read** clears unread notification state but does not complete the underlying conversation, task, or failure.
 
 ## Recommendations
