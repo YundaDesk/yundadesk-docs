@@ -3,7 +3,7 @@ title: AI 客服
 description: 配置、测试并解释对客 AI 的回答。
 category: AI 客服
 order: 0
-updated_at: 2026-08-28
+updated_at: 2026-08-30
 ---
 
 # AI 客服
@@ -16,4 +16,4 @@ updated_at: 2026-08-28
 - [设置 AI 转人工边界](./handoff-and-fallback.md)
 - [了解 AI 如何可靠回答](./reliable-answers.md)
 
-建议先从 **AI Agents** 页面右上角的 **测试对话** 验证每个 Agent，再逐个绑定渠道并开启真实 AI 接待。
+建议先从 **智能体** 页面右上角的 **测试对话** 验证每个 Agent，再逐个绑定渠道并开启真实 AI 接待。

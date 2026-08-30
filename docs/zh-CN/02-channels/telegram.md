@@ -4,7 +4,7 @@ description: 把 Telegram 客户消息接入 YundaDesk 工作台。
 search_terms: 接入 Telegram 机器人渠道, 配置 Telegram Bot, Telegram 渠道接入
 category: 渠道
 order: 3
-updated_at: 2026-08-28
+updated_at: 2026-08-30
 ---
 
 # 连接 Telegram
@@ -23,7 +23,7 @@ updated_at: 2026-08-28
 4. 用另一个 Telegram 账号给 Bot 发一条测试消息。
 5. 在工作台回复，确认 Telegram 端真实收到。
 
-需要 AI 自动回复时，打开 **AI Agents**，选择负责接待的 Agent，再在“渠道”中绑定这个 Telegram 渠道。
+需要 AI 自动回复时，打开 **智能体**，选择负责接待的 Agent，再在“渠道”中绑定这个 Telegram 渠道。
 
 ## 验收建议
 

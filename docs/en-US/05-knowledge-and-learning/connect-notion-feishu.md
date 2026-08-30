@@ -3,7 +3,7 @@ title: Connect Notion knowledge
 description: Authorize a read-only scope and import Notion pages into the knowledge base.
 category: Knowledge and learning
 order: 8
-updated_at: 2026-08-28
+updated_at: 2026-08-30
 ---
 
 # Connect Notion knowledge
@@ -12,7 +12,7 @@ You can connect Notion pages to YundaDesk. The AI can use the content after sync
 
 ## Connect a source
 
-1. Open **Apps → Self-service → Notion** and select **View**. You can also open **Workspace** and select **Knowledges**.
+1. Open **Apps → Self-service → Notion** and select **View**. You can also expand **AI Agents** and select **Knowledges**.
 2. Select **New document** in the knowledge base.
 3. Open the **Notion** entry, then select **Connect Notion**.
 4. YundaDesk opens a new tab. Confirm the read-only access scope on the Notion authorization page.

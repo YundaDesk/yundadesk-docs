@@ -3,7 +3,7 @@ title: Ask, act, and teach with Yuna
 description: Use natural language to query data, complete actions, and teach AI customer service.
 category: Yuna
 order: 2
-updated_at: 2026-08-28
+updated_at: 2026-08-30
 ---
 
 # Ask, act, and teach with Yuna
@@ -107,7 +107,7 @@ For a multi-step skill, the draft includes when it applies, information to colle
 
 The system creates multiple customer scenarios for normal handling, missing information, conditional branches, external capability failures, declined confirmation, and human handoff where applicable. You can run one scenario or all scenarios. Simulation does not perform real external actions. Editing a field or asking Yuna to revise the skill makes earlier results stale, so the new revision must be tested again. The skill can be enabled only when every required scenario for the current revision passes, required capabilities are available, and risk checks succeed.
 
-Yuna does not claim that it has learned something before the learning card actually exists. After enablement, AI customer service follows the reviewed flow. If a required capability or permission becomes unavailable at runtime, the system does not bypass the check and continue.
+Yuna does not claim that it has learned something before the learning card actually exists. After enablement, AI customer service follows the reviewed flow. If a required capability or permission later becomes unavailable, the system does not bypass the check and continue.
 
 ### Correct an existing knowledge fact
 

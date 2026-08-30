@@ -27,7 +27,7 @@ Review each section on the detail page:
 - **Role & behavior:** Confirm the name, Role, service style, additional instructions, tone, and reply behavior. To create or adjust the service style, select **Create/Adjust with Yuna**.
 - **Knowledge scope:** Select the files, folders, Notion content, or websites this Agent may use in answers.
 - **Tools & actions:** Enable only the query or action tools this Agent needs.
-- **Skills:** Enable or disable customer-reception skills that belong to this Agent. Manage proactive outreach plans from **Workspace → Marketing**.
+- **Skills:** Enable or disable customer-reception skills that belong to this Agent. For repeated outreach, use **Yuna → Automations**.
 - **Reception settings:** Define when an unknown, sensitive, or unsupported request should go to a person.
 - **Reception channels:** Select the channels this Agent should handle.
 - **Run history:** Review recent test or reception runs and open answer details to inspect supporting evidence.
@@ -42,9 +42,9 @@ You can also open **Channels**, enter a channel's **Reception settings**, and ch
 
 The picker separates files and folders, Notion and other connections, and websites. Folder contents keep their hierarchy, so you can select one file or the whole folder. Websites are selected as a whole; individual crawled pages are not selectable. A folder, connection, or website also includes newly synced content within that scope. Choose at least one item before saving; the system never expands the scope automatically.
 
-Tools and actions from apps or plugins appear alongside built-in tools only after they are connected to the runtime. Workspace extensions that are not connected do not appear again in the Agent form; follow the contextual prompt to install or connect an app when needed. Enabling a tool lets the Agent prepare a call but does not bypass member permissions. Actions such as refunds, order cancellations, or sending messages may still require confirmation from an authorized member before execution because they change money, orders, or customer communications.
+Tools and actions from connected apps or plugins appear alongside built-in tools. An extension that is not connected does not appear in the Agent form; follow the page prompt to install or connect an app when needed. Enabling a tool does not bypass member permissions. Actions such as refunds, order cancellations, or sending messages may still require confirmation from an authorized member because they change money, orders, or customer communications.
 
-Run history helps the team review answers, identify knowledge gaps, and decide whether to create a marketing plan or learning suggestion. A run never sends marketing messages or updates knowledge or skills by itself.
+Run history helps the team review answers, identify knowledge gaps, and decide on the next follow-up or learning suggestion. Reviewing a run never sends customer messages or updates knowledge or skills by itself.
 
 ## Enable and verify
 

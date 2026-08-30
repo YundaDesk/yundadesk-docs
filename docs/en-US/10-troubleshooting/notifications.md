@@ -3,7 +3,7 @@ title: Fix missing Inbox notifications
 description: Troubleshoot browser notifications, sounds, and unread reminders.
 category: Troubleshooting
 order: 5
-updated_at: 2026-08-13
+updated_at: 2026-08-29
 ---
 
 # Fix missing Inbox notifications
@@ -32,6 +32,12 @@ For a real test, close the YundaDesk tab and have another member or visitor trig
 ## Incorrect unread count
 
 If the unread count is wrong, refresh and verify whether conversations are actually read. Preserve the steps and time if the count and list remain inconsistent; do not repeatedly click items just to hide the mismatch.
+
+## Understand a failure notification
+
+Open the relevant category from the notification bell. When reliable details are available, a failure notification shows a concise reason and log. Select **Ask Yuna** to have Yuna explain what is known, what may be affected, and whether you need to do anything.
+
+A failure notification does not send you directly to technical logs, an Agent page, or a broad list. If the notification is linked to a specific conversation or message, Yuna can identify it in the answer. If the available facts are incomplete, Yuna says so instead of guessing. Asking marks the notification as read; it does not retry the task or change workspace settings.
 
 ## Mobile notifications
 

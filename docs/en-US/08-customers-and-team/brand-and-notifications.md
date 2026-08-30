@@ -3,7 +3,7 @@ title: Configure brand and notifications
 description: Manage customer-facing identity and team reminder preferences.
 category: Customers and team
 order: 4
-updated_at: 2026-08-13
+updated_at: 2026-08-29
 ---
 
 # Configure brand and notifications
@@ -26,13 +26,18 @@ When a visitor sends a message in the conversation you are currently viewing, th
 
 Use **Send test** to verify the current browser. It sends a real browser push and, when sound alerts are enabled, plays a short local test tone. The test push is shown even while the page is in the foreground, but it does not appear in the in-app notification list. Whether the system notification itself makes a sound still depends on browser, operating-system notification, and focus-mode settings.
 
-The bell in the top-right corner is the in-app notification entry point. It opens a dedicated panel, lightly dims the current page, and keeps scrolling inside the panel:
+The bell in the top-right corner is the in-app notification entry point. It first shows four categories: Customer conversations, AI & automation, Channels & settings, and System & announcements. Each category shows its unread count and latest notification; the bell does not expand every individual notification.
 
-- **To do** answers “What needs my attention now?” and separates conversations needing replies, confirmations, and issues to investigate. Unfinished work remains here even after its notification is read.
-- **Activity** answers “What happened recently?” and includes messages, announcements, configuration changes, read items, and completed work.
-- Repeated reminders for the same conversation, task, or shared diagnostic destination may be grouped. Unrelated work is never merged into one destination.
-- Select a notification to open its conversation or destination page.
-- **Mark all read** is available in Activity. It clears unread notification state but does not complete the underlying conversation or task.
+Categories follow what you need to handle next. For example, channel-delivery failures and configuration reviews appear under **Channels & settings** instead of being placed under **AI & automation** only because AI detected them.
+
+If a category has unread notifications but its latest record is outside the bell's preview range, the category shows its notification count. Select the category to load its concrete notifications; it is not incorrectly labeled as empty.
+
+- Select a category to view its notifications, or select **View all notifications** for the complete list.
+- The detailed list supports All/Unread, search, category filtering, and pagination.
+- Failure notifications remain normal rows. A plain-language reason appears only when a reason fact exists, and a log appears only when it can be shown safely. Older notifications without a stored reason do not invent a failure-reason block.
+- Notification rows do not navigate. Use the action button on the right—such as **Open conversation**, **Open Agent**, **Open channel**, **Review failure**, or **View details**—to open the relevant destination.
+- Failure actions prioritize the affected conversation or related settings page and never open an answer trace directly from the notification. When an AI reply fails, the conversation briefly highlights the customer message that triggered the reply, or the generated AI message when one exists. A delivery failure highlights the message that was not delivered.
+- **Mark all read** clears unread notification state but does not complete the underlying conversation, task, or failure.
 
 ## Recommendations
 

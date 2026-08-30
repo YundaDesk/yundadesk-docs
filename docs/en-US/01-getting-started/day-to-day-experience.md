@@ -3,7 +3,7 @@ title: What using YundaDesk looks like day to day
 description: Understand how AI customer service, the human team, Yuna, knowledge, and reports work together from setup to daily operations.
 category: Getting started
 order: 2
-updated_at: 2026-08-29
+updated_at: 2026-08-30
 ---
 
 # What using YundaDesk looks like day to day
@@ -48,6 +48,7 @@ Yuna serves the merchant team. It is separate from the customer-facing Agent tha
 - explain conversations, customers, reports, and current workspace settings;
 - find product instructions and describe the entry point, steps, and verification;
 - help prepare channel, Agent, knowledge, and team settings;
+- create and manage workspace tasks that run on demand or on a schedule;
 - organize a business rule into reviewable learning content;
 - summarize tasks that need confirmation, failed, or require follow-up.
 
@@ -69,7 +70,7 @@ These results help identify frequent questions, knowledge gaps, channel-delivery
 
 Channels send and receive customer messages. Apps provide order, customer, or other business context. Available data and actions depend on the channels and apps connected to the current workspace, the member's permission, and their current status. A live order or shipment question should use an available business capability rather than rely only on a static knowledge article.
 
-Proactive outreach can prepare follow-ups, broadcasts, or messages for a segment. Drafts, audiences, and sending policy must be reviewed as shown in the product. Only a real delivery result or failure reason proves what happened. Changing frequency limits or quiet hours does not create or send a message by itself.
+Proactive outreach can prepare follow-ups, broadcasts, or messages for a segment. To repeat prepared outreach, open **Yuna → Automations** and use **Customer outreach** when that task type is available on the page. Every send still freezes the audience and message for human approval. Only a real delivery result or failure reason proves what happened. Changing frequency limits or quiet hours does not create or send a message by itself.
 
 ## A reliable operating rhythm
 

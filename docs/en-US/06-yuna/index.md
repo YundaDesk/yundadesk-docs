@@ -1,15 +1,16 @@
 ---
 title: Yuna
-description: Ask questions, perform actions, teach AI, handle tasks, and manage long-term memory.
+description: Ask questions, perform actions, teach AI, manage Automations, handle tasks, and manage long-term memory.
 category: Yuna
 order: 0
-updated_at: 2026-08-01
+updated_at: 2026-08-30
 ---
 
 # Yuna
 
 - [Meet Yuna](./overview.md)
 - [Ask, act, and teach with Yuna](./ask-act-learn.md)
+- [Create and manage Yuna Automations](./automations.md)
 - [Manage Yuna tasks and long-term memory](./tasks-and-memory.md)
 - [Connect Yuna to a phone channel](./mobile-connection.md)
 - [Answer Yuna confirmation questions](./confirm-actions.md)

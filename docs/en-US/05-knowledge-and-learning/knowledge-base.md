@@ -3,7 +3,7 @@ title: Build and maintain the knowledge base
 description: Give the AI reliable business knowledge from documents, websites, and FAQs.
 category: Knowledge and learning
 order: 1
-updated_at: 2026-08-28
+updated_at: 2026-08-30
 ---
 
 # Build and maintain the knowledge base
@@ -12,7 +12,7 @@ The knowledge base is the primary source for product, policy, and service answer
 
 ## Add knowledge
 
-Open **Workspace** from the main navigation, select **Knowledges**, and use the methods available on the page:
+Expand **AI Agents** in the main navigation, select **Knowledges**, and use the methods available on the page:
 
 - upload product guides, policies, or service documents;
 - add a website URL and crawl public pages;

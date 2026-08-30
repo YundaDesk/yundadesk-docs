@@ -3,12 +3,12 @@ title: Review the AI Agents overview and readiness
 description: Understand Agents, channel coverage, readiness, and current reception state.
 category: AI customer service
 order: 3
-updated_at: 2026-08-28
+updated_at: 2026-08-30
 ---
 
 # Review the AI Agents overview and readiness
 
-Open **AI Agents** from the main navigation. The Agent control plane opens directly without an AI secondary menu.
+Select **AI Agents** in the main navigation. The primary entry opens the Agent control plane and reveals Knowledge, Skills, and Improvement suggestions; the secondary menu does not repeat an All Agents entry.
 
 ## Read the overview
 

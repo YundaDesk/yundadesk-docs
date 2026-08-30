@@ -44,6 +44,7 @@ The Chinese and English trees are identical. Paths below are relative to each lo
 | Knowledge and learning | Teach the first business rule | `05-knowledge-and-learning/teach-first-rule.md` |
 | Yuna | Meet Yuna | `06-yuna/overview.md` |
 | Yuna | Ask, act, and teach | `06-yuna/ask-act-learn.md` |
+| Yuna | Create and manage Yuna Automations | `06-yuna/automations.md` |
 | Yuna | Tasks and long-term memory | `06-yuna/tasks-and-memory.md` |
 | Yuna | Connect Yuna to a phone channel | `06-yuna/mobile-connection.md` |
 | Yuna | Confirmation questions | `06-yuna/confirm-actions.md` |

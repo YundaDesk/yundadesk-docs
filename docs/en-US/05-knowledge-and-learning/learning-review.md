@@ -3,7 +3,7 @@ title: Review improvement suggestions
 description: Decide which improvements can update managed content, then continue managing the adopted result.
 category: Knowledge and learning
 order: 3
-updated_at: 2026-08-28
+updated_at: 2026-08-30
 ---
 
 # Review improvement suggestions
@@ -12,7 +12,7 @@ Learning suggestions can come from real conversations, agent answers, teaching t
 
 When you give Yuna a durable rule, Yuna first asks whether it should continue organizing the instruction. Confirming only authorizes a reviewable proposal; it does not publish or activate the rule. **Correct AI** also carries the customer question and original answer, but both entry points use the same learning-review flow.
 
-Proactive outreach or marketing plans must first include the plan name, audience, trigger, channel, content, and frequency limits, with a complete preview shown before confirmation; there is no separate marketing-goal field. If no safe proposal can be produced, Yuna says that nothing was created; the result is not treated as success and nothing is enabled or sent.
+A proactive-outreach suggestion must first include its audience, trigger, channel, content, and frequency limits, with a complete preview shown before confirmation. If no safe proposal can be produced, Yuna says that nothing was created; the result is not treated as success and nothing is enabled or sent.
 
 ## What a suggestion should contain
 
@@ -38,4 +38,4 @@ Different suggestions become knowledge, AI skills, customer memory, or proactive
 
 The **After adoption** section explains what to do next. Knowledge becomes available to AI after it is saved and prepared for search. AI skills must be simulated and published. Temporary skills expire on schedule. Customer memory applies only to that customer. Proactive outreach still requires testing and approval.
 
-Open **Workspace → Improvement suggestions** to search customer questions or proposed answers, then filter by To confirm, Adopted, or Ignored. Lists show the latest update time and are ordered newest first. Adopted suggestions link to the related content. Skill testing and publication still happen from the skill detail.
+Open **AI Agents → Improvement suggestions** to search customer questions or proposed answers, then filter by To confirm, Adopted, or Ignored. Lists show the latest update time and are ordered newest first. Adopted suggestions link to the related content. Skill testing and publication still happen from the skill detail.

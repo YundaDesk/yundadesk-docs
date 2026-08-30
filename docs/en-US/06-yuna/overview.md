@@ -35,6 +35,8 @@ Yuna availability and allowance depend on the current subscription and workspace
 
 Open Yuna from the AI area. The full page and floating window share the same conversation state and should continue the same in-progress operation across page changes.
 
+For work that needs to repeat, expand **Yuna** in the main navigation and select **Automations**. You can [create a workspace-task Automation with Yuna](./automations.md) or manually set up work that runs on demand, every day, on weekdays, or every week. If the manual form offers Customer outreach, every send still requires a person to review and approve the audience and message.
+
 Use the mode picker at the bottom of the composer to switch between **Base** and **Thinking**. After you select **Thinking**, it stays active after sending, changing pages, or refreshing until you switch back to **Base**. Yuna shows a temporary, collapsible reasoning section while generating and keeps the final answer separate. The reasoning process is not saved as a visible Yuna conversation message.
 
 When you open Yuna again, the browser resumes only a locally remembered conversation that was active recently. If no conversation is remembered, or it has been inactive for a while, Yuna opens a new conversation page.

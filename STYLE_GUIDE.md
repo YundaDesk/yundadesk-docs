@@ -20,16 +20,17 @@ Write for a merchant owner, support manager, or support agent who wants to finis
 | Agent | Agent | One customer-facing AI configuration with one Role and its own knowledge, capabilities, behavior, and channels |
 | Yuna | Yuna | The merchant-facing assistant for questions, actions, learning, and reminders |
 | 工作台 | Inbox | The workspace where teams manage customer conversations |
-| 工作空间 | Workspace | The grouped navigation for Knowledge, Skills, Marketing, and Improvement suggestions |
 | 知识库 | Knowledges | Merchant-provided sources used to ground AI answers |
 | 改进建议 | Improvement suggestions | The review queue for proposed AI improvements |
 | 技能 | Skills | Adopted, manageable AI capabilities and response procedures |
 | 客户记忆 | Customer memory | Customer-specific preferences used only for that customer |
 | 主动触达 | Proactive outreach | Governed outbound messages initiated by a trigger or schedule |
 | 测试对话 | Test conversation | A safe dialog for testing a selected Agent before serving customers |
+| Yuna 自动化 | Yuna Automations | On-demand or scheduled workspace tasks and approval-backed customer outreach |
 
 ## Accuracy rules
 
+- Update help only for a changed user entry point, action, permission or prerequisite, visible result or status, verification step, or troubleshooting path. Do not document an ordinary setting-value or internal implementation change by itself.
 - Say “available channels are shown on the Channels page” instead of listing every roadmap channel as supported.
 - Say “some actions depend on connected store or channel capabilities” when an integration is required.
 - A learning suggestion is not active until the merchant adopts it.

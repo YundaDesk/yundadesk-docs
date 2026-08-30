@@ -55,14 +55,15 @@ STYLE_GUIDE.md
 
 When product behavior changes:
 
-1. Verify the current UI and backend behavior in the YundaDesk product.
-2. Update both locales in the same change.
-3. Update `updated_at` in article front matter.
-4. Check links, headings, and terminology.
-5. Keep implementation notes and internal evidence out of this customer-facing repository, including non-rendered root files and Git history.
+1. Update help only when the change affects a user entry point, action, permission or prerequisite, visible result or status, verification step, or troubleshooting. A setting value or internal change by itself does not belong in help.
+2. Verify the current customer-visible behavior in YundaDesk.
+3. Update both locales in the same change.
+4. Update `updated_at` in article front matter.
+5. Check links, headings, and terminology.
+6. Keep implementation notes and internal evidence out of this customer-facing repository, including non-rendered root files and Git history.
 
 ## Current release
 
-The current bilingual release contains 84 customer articles per locale. It covers onboarding, channels, the Inbox, AI customer service, knowledge and learning, Yuna, proactive outreach, customers and teams, reporting and billing, troubleshooting, apps and integrations, and security boundaries.
+The current bilingual release contains 85 customer articles per locale. It covers onboarding, channels, the Inbox, AI customer service, knowledge and learning, Yuna, Yuna Automations, proactive outreach, customers and teams, reporting and billing, troubleshooting, apps and integrations, and security boundaries.
 
 The content is intentionally task-based. It documents only capabilities that exist in YundaDesk or clearly marks integration and availability boundaries; it does not copy unrelated features from other help centers.

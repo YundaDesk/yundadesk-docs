@@ -3,7 +3,7 @@ title: Complete common tasks with Yuna
 description: Give Yuna a clear goal, target, and constraints for queries, setup, teaching, and follow-up.
 category: Yuna
 order: 7
-updated_at: 2026-08-28
+updated_at: 2026-08-30
 ---
 
 # Complete common tasks with Yuna
@@ -60,16 +60,16 @@ Teaching requests become improvement suggestions. One conversation does not dire
 
 After confirming a correction to an existing FAQ, ask Yuna to preview the same question first. Final acceptance should still ask again through the Widget or a real customer channel and compare the customer-visible answer with the preview.
 
-## Contact customers and plan outreach
+## Contact customers and automate outreach
 
 - “Prepare a follow-up draft for the current customer, but do not send it.”
 - “Design a follow-up rule for customers who stop replying for 30 minutes, starting with confirmation for each message.”
-- “List the current marketing plans, then send the VIP launch plan.” Yuna reads the existing plan list first; it does not ask you for an internal ID or guess the plan.
+- “Prepare a VIP launch outreach draft and let me review the audience and message before anything is sent.”
 - Open the previous outreach failure in Yuna tasks to review why it was not sent.
 
 Sending requires an available channel, a clear target, and the necessary permission. Broadcast, segmented, or automatic sending normally requires stricter confirmation and safety conditions. A technical failure does not mean a message was sent or a human handoff occurred; without a real receipt, treat it as failed and review the reason.
 
-Enabling proactive outreach or changing quiet hours and frequency limits only updates pre-send safety policy. It does not create a marketing plan or send a message. A real send still shows the audience and content for separate confirmation, and only a delivery receipt proves it was sent.
+Changing quiet hours or frequency limits only updates pre-send safety policy. It does not prepare or send outreach by itself. A real send still shows the audience and content for separate confirmation, and only a delivery receipt proves it was sent.
 
 ## Review tasks and results
 

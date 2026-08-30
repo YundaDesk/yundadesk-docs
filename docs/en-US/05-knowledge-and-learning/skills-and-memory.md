@@ -3,7 +3,7 @@ title: Manage skills and customer memory
 description: Inspect learned capabilities, disable incorrect skills, and manage customer-specific memory.
 category: Knowledge and learning
 order: 4
-updated_at: 2026-08-28
+updated_at: 2026-08-30
 ---
 
 # Manage skills and customer memory
@@ -12,7 +12,7 @@ Skills and customer memory solve different problems. Skills are reusable busines
 
 ## Skills
 
-Open **Workspace**, select **Skills**, and inspect adopted and generated capabilities. A skill detail can show:
+Expand **AI Agents**, select **Skills**, and inspect adopted and generated capabilities. A skill detail can show:
 
 - trigger or applicable customer question;
 - response steps, required business information, and handoff boundaries;

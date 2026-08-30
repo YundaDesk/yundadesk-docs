@@ -1,14 +1,14 @@
 ---
-title: 查看 AI Agents 概览和就绪状态
+title: 查看智能体概览和就绪状态
 description: 理解 Agent、渠道覆盖、就绪状态和当前接待状态。
 category: AI 客服
 order: 3
-updated_at: 2026-08-28
+updated_at: 2026-08-30
 ---
 
-# 查看 AI Agents 概览和就绪状态
+# 查看智能体概览和就绪状态
 
-从主导航打开 **AI Agents**。页面直接进入 Agent 控制面，不再经过 AI 二级菜单。
+从主导航点击 **智能体**。一级入口直接进入 Agent 控制面，同时展开知识库、技能和改进建议；二级菜单不重复“全部智能体”。
 
 ## 阅读概览
 

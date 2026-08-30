@@ -1,15 +1,16 @@
 ---
 title: Yuna
-description: 用 Yuna 查询、执行、教学、处理任务和管理长期记忆。
+description: 用 Yuna 查询、执行、教学、管理自动化、处理任务和管理长期记忆。
 category: Yuna
 order: 0
-updated_at: 2026-08-01
+updated_at: 2026-08-30
 ---
 
 # Yuna
 
 - [认识 Yuna](./overview.md)
 - [用 Yuna 提问、执行和教学](./ask-act-learn.md)
+- [创建和管理 Yuna 自动化](./automations.md)
 - [管理 Yuna 任务和长期记忆](./tasks-and-memory.md)
 - [把 Yuna 连接到手机渠道](./mobile-connection.md)
 - [回答 Yuna 的确认问题](./confirm-actions.md)

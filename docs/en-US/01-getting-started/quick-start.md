@@ -3,7 +3,7 @@ title: 15-minute quick start
 description: Connect a channel, add knowledge, and complete an AI answer test.
 category: Getting started
 order: 3
-updated_at: 2026-08-28
+updated_at: 2026-08-30
 ---
 
 # 15-minute quick start
@@ -20,7 +20,7 @@ The website widget is usually the fastest starting point. Open Channels, select 
 
 ## 3. Add AI knowledge
 
-Open **Workspace**, select **Knowledges**, and choose one of the available methods:
+Open **AI Agents → Knowledges** and choose one of the available methods:
 
 - upload product guides or policies;
 - add a website URL and wait for crawling and compilation;

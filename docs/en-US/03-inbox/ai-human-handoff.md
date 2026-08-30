@@ -3,7 +3,7 @@ title: Switch between AI and human service
 description: Understand the difference between global AI reception and taking over one conversation.
 category: Inbox
 order: 2
-updated_at: 2026-08-28
+updated_at: 2026-08-30
 ---
 
 # Switch between AI and human service
@@ -23,7 +23,11 @@ Open the conversation and select **Take over** or the equivalent action. After t
 - the assigned agent can reply directly;
 - the service state and assignee are updated.
 
-When the issue is resolved, you can return the conversation to AI where supported, or close it. Before returning it, confirm that the AI has the knowledge and context needed to continue safely.
+While AI is handling the conversation, the current Agent name is shown. Select the name to open that Agent's settings. If another Agent is available, a member with channel management permission can select **Switch Agent** and choose the new reception Agent.
+
+When the issue is resolved, you can return the conversation to AI where supported, or close it. If only one Agent is available and the channel already has a valid binding, the handoff can use it directly. If multiple Agents are available or the channel has no valid binding, choose an Agent in the picker first. Confirming both assigns the current conversation and makes that Agent the channel's reception Agent for future conversations; it does not create a conversation-only override.
+
+Before returning the conversation, confirm that the AI has the knowledge and context needed to continue safely.
 
 ## Automatic handoff
 
