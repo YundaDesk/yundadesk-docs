@@ -42,8 +42,8 @@ A new Automation is saved as a draft. Open its details to check the task type, e
 
 - Search by name, Agent, or instruction, and filter by Draft, Active, or Paused.
 - Open the details to edit an Automation. Saving an edit creates a new version, and later runs use that version.
-- **Run now** is available only for an active Automation.
-- Turn off the switch on a card to pause it. Scheduled runs missed while paused are not backfilled.
+- **Run now** is available only in the details. You can run an active or paused Automation once; a draft must be activated first.
+- Turning off the card switch pauses future automatic triggers without disabling a one-time manual run from the details. Scheduled runs missed while paused are not backfilled.
 - Open **Run history** to review the time, version, status, and result summary for each run. You can stop a run that is still queued or running.
 
 ## Approve customer outreach
@@ -61,6 +61,6 @@ The audience and message remain fixed after the preview is prepared; approval ca
 
 - **No Agent is available:** Enable an Agent and confirm that it has a read-only capability shown as available on the page.
 - **Customer outreach is unavailable:** This task type appears only when your access allows it. If the type appears but there is nothing to select, choose the executing Agent and select **Prepare customer outreach with Yuna**. Return to Automations after reviewing and confirming it.
-- **Run now is unavailable:** Activate the Automation first. Saving a draft does not run it.
+- **Run now is unavailable:** Activate a draft first. A paused Automation can still be run once from its details.
 - **A run stays at Waiting for approval:** Open Run history and approve or reject it. Nothing is sent without approval.
 - **A run fails:** Read the result summary, correct the permission, Agent, audience, or channel issue shown by the product, then try again.
