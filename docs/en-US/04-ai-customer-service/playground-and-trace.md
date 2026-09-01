@@ -3,7 +3,7 @@ title: Test answers and review details
 description: Test knowledge, skills, connected business information, and answer sources without contacting real customers.
 category: AI customer service
 order: 2
-updated_at: 2026-08-29
+updated_at: 2026-09-01
 ---
 
 # Test answers and review details
@@ -29,9 +29,12 @@ The details may show:
 - the Agent service style and version applied to this reply;
 - customer memories that were used;
 - information from connected business apps;
+- web search that actually occurred, including completed or failed status;
 - safety decisions, fallback, or handoff reasons.
 
 The details explain why the answer was produced without requiring knowledge of the product's internal implementation.
+
+For questions that need current public information, only a **Web search** step confirms that this reply actually initiated a search. A link in the answer alone is not proof that web search ran.
 
 ## Build a useful test set
 
