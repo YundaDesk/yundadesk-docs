@@ -3,7 +3,7 @@ title: Meet Yuna
 description: Understand how Yuna differs from AI customer service and what it can do for your team.
 category: Yuna
 order: 1
-updated_at: 2026-09-01
+updated_at: 2026-09-02
 ---
 
 # Meet Yuna
@@ -34,6 +34,8 @@ Yuna availability and allowance depend on the current subscription and workspace
 ## Entry
 
 Open Yuna from the AI area. The full page and floating window share the same conversation state and should continue the same in-progress operation across page changes.
+
+When you open an empty conversation, Yuna may show one workspace-grounded next action instead of generic example questions. It can offer setup or execution when an exact action is available. If no matching action tool exists but a customer needs attention, it can first help analyze, organize, or draft. Nothing is shown when there is no suitable action. Selecting a suggestion sends that request to Yuna; permissions and confirmation rules still apply before execution.
 
 For work that needs to repeat, expand **Yuna** in the main navigation and select **Automations**. You can [create a workspace-task Automation with Yuna](./automations.md) or manually set up work that runs on demand, every day, on weekdays, or every week. If the manual form offers Customer outreach, every send still requires a person to review and approve the audience and message.
 
