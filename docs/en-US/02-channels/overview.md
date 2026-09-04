@@ -3,7 +3,7 @@ title: Channel overview
 description: Connect, enable, and maintain customer messaging channels.
 category: Channels
 order: 1
-updated_at: 2026-08-31
+updated_at: 2026-09-04
 ---
 
 # Channel overview
@@ -21,6 +21,17 @@ Channel cards show connection state and required actions. A channel must be full
 Keep the original Channels page open when connecting or reconnecting Messenger, Instagram DM, or YouTube. The authorization button opens the provider sign-in and consent flow in a new tab. After you finish or cancel, that tab closes automatically and the original page shows the account or channel confirmation result without a manual refresh.
 
 If no new tab appears, allow pop-ups for the current site and select the authorization button again. When reconnecting, choose the Facebook Page, Instagram professional account, or YouTube channel already attached to that channel. Choosing a different asset fails and leaves the existing channel unchanged.
+
+## When YouTube reports mismatched authorization permissions
+
+If you see “YouTube authorization permissions do not match,” this YouTube authorization was not saved and the current channel configuration is unchanged. Do not keep submitting the same authorization. Recover in this order:
+
+1. Make sure Gmail and any other connected Google channels can be reauthorized, and have the required accounts ready.
+2. Open your Google Account's third-party connections, find YundaDesk, and remove its previous access.
+3. Return to Channels in YundaDesk, reconnect YouTube, and review the permissions shown on the consent page.
+4. Check Gmail and your other Google channels. If authorization is no longer valid, reconnect each one with its original account and repeat the send-and-receive test.
+
+Removing YundaDesk's Google access may require existing Google channels to be reauthorized as well. Contact your workspace administrator before proceeding if you are unsure about the impact.
 
 ## Choose a provider when connecting email
 
