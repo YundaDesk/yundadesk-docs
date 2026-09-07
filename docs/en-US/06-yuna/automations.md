@@ -72,6 +72,6 @@ The audience and message remain fixed after the preview is prepared; approval ca
 
 ## Workspace outreach rules
 
-In **Yuna → Automations**, select **Outreach rules** to open a dialog and manage quiet hours, cooldown, and the seven-day customer touch limit. These rules are shared across the workspace and do not affect internal reports sent to you. Viewing and editing require permission to manage outreach.
+In **Yuna → Automations**, select **Customer contact limits** to open a dialog and manage quiet hours, cooldown, and the seven-day customer touch limit. These rules are shared across the workspace and do not affect internal reports sent to you. Viewing and editing require permission to manage outreach.
 
-A limit of zero means no count limit; other outreach restrictions still apply. Save proactive suggestion handling with the single mode selector. Each Automation retains its own activation and approval rules. Select **Save**, then close and reopen the dialog to verify your changes. Closing the dialog discards unsaved edits.
+A limit of zero means no count limit; other outreach restrictions still apply. Outreach tasks share the interval and count limits for each customer. Each Automation retains its own activation and approval rules. Select **Save**, then close and reopen the dialog to verify your changes. Closing the dialog discards unsaved edits.
