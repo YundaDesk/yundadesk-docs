@@ -12,7 +12,7 @@ Clear reproduction steps are more useful than saying a feature is broken. First 
 
 ## Include
 
-In the workspace, **Help & Support** opens a dedicated page where you can ask Yuna, open the existing dedicated support conversation, or view the Changelog. The solutions knowledge base below groups product guides by topic. The help dialog on the login page is unchanged.
+In the workspace, **Help & Support** opens a dedicated page. **Ask AI** opens the floating Yuna window, **Dedicated support** opens the existing support conversation, and **Changelog** opens in a new tab. The solutions knowledge base below groups product guides by topic. The help dialog on the login page is unchanged.
 
 - Workspace and feature page;
 - Time and time zone;
