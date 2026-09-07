@@ -68,3 +68,10 @@ The audience and message remain fixed after the preview is prepared; approval ca
 - **Run now is unavailable:** Check your current permissions and the task details. Draft and paused internal read-only Automations support a one-time run.
 - **A run stays at Waiting for approval:** Open Run history and approve or reject it. Nothing is sent without approval.
 - **A run fails:** Read the result summary, correct the permission, Agent, audience, or channel issue shown by the product, then try again.
+
+
+## Workspace outreach rules
+
+In **Yuna → Automations**, select **Outreach rules** to manage quiet hours, cooldown, and the seven-day customer touch limit. These rules are shared across the workspace and do not affect internal reports sent to you. Viewing and editing require permission to manage outreach.
+
+A limit of zero means no count limit; other outreach restrictions still apply. Save proactive suggestion handling with the single mode selector. Each Automation retains its own activation and approval rules. Select **Save**, then reopen the page to verify your changes.
