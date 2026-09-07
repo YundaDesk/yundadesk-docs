@@ -3,25 +3,25 @@ title: Create and manage Yuna Automations
 description: Run workspace tasks on demand or on a schedule, and execute customer outreach safely.
 category: Yuna
 order: 8
-updated_at: 2026-08-30
+updated_at: 2026-09-07
 ---
 
 # Create and manage Yuna Automations
 
-Yuna Automations are for work that needs to run on demand or repeat on a schedule. Delegate a workspace task to one explicit Agent. When **Customer outreach** is available on the page, you can also repeat prepared outreach with human approval before every send.
+Yuna Automations are for work that needs to run on demand or repeat on a schedule. Yuna can run an internal report directly, or you can delegate a workspace task to one explicit Agent. When **Customer outreach** is available on the page, you can also repeat prepared outreach with human approval before every send.
 
 ## Before you begin
 
-- You need permission to use Yuna and manage Agents. If **Automations** is missing, ask a workspace administrator to check your access.
-- A workspace task needs at least one enabled Agent with an available read-only capability.
+- You need permission to use Yuna and read the data required by the task. If **Automations** is missing, ask a workspace administrator to check your access.
+- If you select an Agent, it must be enabled with the required read-only capabilities. Internal reports run directly by Yuna do not require a separate Agent.
 - Customer outreach appears only when your access and the current workspace make that task type available. If nothing is ready to select, you can prepare it with Yuna directly from the Automation setup.
 
 ## Create with Yuna
 
 1. Expand **Yuna** in the main navigation and select **Automations**.
 2. Select **Create**. This opens Yuna by default. You can also open the adjacent menu and explicitly select **Create with Yuna**.
-3. Yuna first gives a short explanation of how Automations run and which safety boundaries still apply, then asks one necessary question at a time. Describe the workspace task; you do not need to provide every field at once.
-4. Follow Yuna's questions to select an explicit Agent and schedule. Yuna does not create the task until the required information is complete.
+3. Describe the task, time, and recipient, for example “Send me visitor conversation statistics every day at noon.” Yuna uses available workspace information and asks only for missing required details.
+4. Review the schedule and time zone. Yuna can run an internal report directly; select an Agent when the task needs one.
 5. After the required information is complete, Yuna creates the draft and shows the result. Return to the Automations list to review it.
 
 **Create with Yuna** creates a workspace-task draft. It does not prepare or send customer outreach.
@@ -42,9 +42,13 @@ A new Automation is saved as a draft. Open its details to check the task type, e
 
 - Search by name, Agent, or instruction, and filter by Draft, Active, or Paused.
 - Open the details to edit an Automation. Saving an edit creates a new version, and later runs use that version.
-- **Run now** is available only in the details. You can run an active or paused Automation once; a draft must be activated first.
+- **Run now** is available only in the details. You can run a draft, active, or paused internal read-only Automation once without enabling future scheduled runs.
 - Turning off the card switch pauses future automatic triggers without disabling a one-time manual run from the details. Scheduled runs missed while paused are not backfilled.
 - Open **Run history** to review the time, version, status, and result summary for each run. You can stop a run that is still queued or running.
+
+## When confirmation is needed
+
+Saving or editing a draft, pausing a task, and running an internal read-only report once need no extra approval. Activating a schedule for the first time requires confirmation. Changing an active task's content or time requires one confirmation; it stays active when its execution scope is unchanged. An internal task with unchanged authorization can resume directly. Customer sends and expanded execution scope still require the review shown by the product.
 
 ## Approve customer outreach
 
@@ -61,6 +65,6 @@ The audience and message remain fixed after the preview is prepared; approval ca
 
 - **No Agent is available:** Enable an Agent and confirm that it has a read-only capability shown as available on the page.
 - **Customer outreach is unavailable:** This task type appears only when your access allows it. If the type appears but there is nothing to select, choose the executing Agent and select **Prepare customer outreach with Yuna**. Return to Automations after reviewing and confirming it.
-- **Run now is unavailable:** Activate a draft first. A paused Automation can still be run once from its details.
+- **Run now is unavailable:** Check your current permissions and the task details. Draft and paused internal read-only Automations support a one-time run.
 - **A run stays at Waiting for approval:** Open Run history and approve or reject it. Nothing is sent without approval.
 - **A run fails:** Read the result summary, correct the permission, Agent, audience, or channel issue shown by the product, then try again.
