@@ -3,7 +3,7 @@ title: Connect WeChat Customer Service
 description: Authorize an enterprise, assign customer service accounts, and bring customer messages into the YundaDesk Inbox.
 category: Channels
 order: 4
-updated_at: 2026-08-18
+updated_at: 2026-08-26
 ---
 
 # Connect WeChat Customer Service
@@ -12,20 +12,21 @@ After the connection is enabled, messages sent to an official enterprise WeChat 
 
 WeChat Customer Service is not a regular WeCom employee account. Private chats between employees and external contacts, customer group messages, and internal chats are not included in this channel.
 
-## One enterprise can connect to only one workspace
+## How enterprises relate to workspaces
 
-For the same YundaDesk third-party application, an enterprise can be connected to only one YundaDesk workspace at a time. This is an enterprise-level connection, not a connection for one customer service account.
+A YundaDesk workspace can connect multiple enterprises. For the same YundaDesk third-party application, an enterprise can be connected to only one YundaDesk workspace at a time. This is an enterprise-level connection, not a connection for one customer service account.
 
+- After connecting enterprise A, the current workspace can also authorize enterprise B. Their accounts, channels, and connection states are managed independently.
 - The same workspace can reauthorize the same enterprise.
+- If **Authorize new enterprise** selects an enterprise that is already connected to the current workspace, YundaDesk updates the existing connection instead of creating a duplicate.
 - If another workspace scans the authorization code for that enterprise, it sees only **This enterprise is already connected to another workspace**. The connection is not transferred, and the original workspace is not disclosed.
 - An administrator of the original workspace must complete the enterprise disconnect and data cleanup before another workspace can connect the enterprise.
-- If the current workspace is connected to enterprise A, disconnect enterprise A before connecting enterprise B.
 
 ## Before you begin
 
 You need:
 
-- YundaDesk workspace administrator access;
+- YundaDesk channel-management permission; disconnecting an entire enterprise also requires workspace administrator access;
 - a WeCom administrator who can install third-party applications and manage customer service accounts;
 - at least one WeChat Customer Service account created in the WeCom admin console;
 - a personal WeChat account for real delivery testing; and
@@ -36,7 +37,7 @@ You need:
 | Stage | Where to perform it | Completion signal |
 |---|---|---|
 | Create accounts | WeCom admin console | At least one WeChat Customer Service account exists |
-| Install the app | YundaDesk → Channels → WeChat Customer Service | Enterprise authorization shows **Connected** |
+| Install the app | YundaDesk → Channels → WeChat Customer Service | Expand **WeChat Customer Service** to see the enterprise with a **Connected** state |
 | Grant management | WeCom → WeChat Customer Service → Manage conversation messages through the API | The account shows **Manageable** in YundaDesk |
 | Enable accounts | YundaDesk → WeChat Customer Service | Each selected account becomes an independent channel showing **Enabled / AI replies off** |
 | Verify messaging | YundaDesk Inbox + personal WeChat | Customer messages and agent replies are delivered both ways |
@@ -58,12 +59,19 @@ WeCom manages its native bot, native human receptionists, welcome message, and a
 ## 2. Authorize the enterprise in YundaDesk
 
 1. Open **Channels** in YundaDesk.
-2. Select **WeChat Customer Service**, then select **Authorize in WeCom**. YundaDesk opens authorization in a new tab while the original workspace stays open.
-3. Complete the installation as a WeCom administrator and approve the enterprise, member, and WeChat Customer Service permissions shown on the page. The authorization tab returns to YundaDesk when finished, and the original workspace refreshes account status automatically.
+2. To connect a new enterprise, select **WeChat Customer Service** in the channel marketplace. This entry always starts a new enterprise authorization instead of opening or reauthorizing an existing connection.
+3. Select **Authorize in WeCom**. YundaDesk opens authorization in a new tab while the original workspace stays open.
+4. Complete the installation as a WeCom administrator and approve the enterprise, member, and WeChat Customer Service permissions shown on the page. The authorization tab returns to YundaDesk when finished, and the original workspace refreshes enterprise connection status automatically.
 
 ![Third-party application installation authorization in WeCom](/help/assets/docs/wecom-kf/shared/01-install-authorization.png)
 
 **Dedicated support for you** is an optional WeCom service-provider contact setting. It does not determine whether customer service messages can enter YundaDesk. After approval, return to YundaDesk and wait until the enterprise authorization shows **Connected**.
+
+### Manage multiple enterprise connections
+
+Expand **WeChat Customer Service** in the Channels navigation to see every enterprise connected to the current workspace. The number beside WeChat Customer Service is the total number of imported account channels; the number beside an enterprise is that enterprise's imported account-channel count. Selecting an enterprise expands its imported accounts and opens the enterprise details. **Sync accounts**, **Reauthorize**, account enablement, and **Disconnect enterprise** apply only to that enterprise. Select an account to open its channel details.
+
+To connect another enterprise, return to the channel marketplace, select **WeChat Customer Service**, and complete a new WeCom authorization. If the administrator selects the same enterprise that is already connected to this workspace, YundaDesk updates the original connection and shows **Existing enterprise authorization updated** instead of adding a duplicate. If the enterprise belongs to another workspace, an administrator of that workspace must still complete its enterprise disconnect and data cleanup first.
 
 ## 3. Grant account management permission in WeCom
 
@@ -85,7 +93,7 @@ WeCom menu labels can change. Confirm that you are assigning **WeChat Customer S
 
 ## 4. Synchronize, select, and enable accounts
 
-Return to WeChat Customer Service in YundaDesk and select **Sync accounts**. Immediately after enterprise authorization—but before API management permission is assigned—an account appears as **No management permission**.
+Return to YundaDesk, expand **WeChat Customer Service** in the channel navigation, select the enterprise you just authorized, and then select **Sync accounts**. Immediately after enterprise authorization—but before API management permission is assigned—an account appears as **No management permission**.
 
 ![YundaDesk discovers accounts that do not yet have management permission](/help/assets/docs/wecom-kf/shared/05-discover-service-accounts.png)
 
@@ -100,6 +108,21 @@ Enabling selected accounts:
 
 AI replies are off by default, so the page shows both **Enabled** and **AI replies off**. To use automatic AI reception, select the channel in the AI customer service reception settings. Channel enablement and AI replies are independent states.
 
+### Check account synchronization status
+
+After enabling an account, open its WeChat Customer Service channel details to see separate synchronization information:
+
+| Field | Meaning |
+|---|---|
+| Last account list sync | The latest successful refresh of WeChat Customer Service accounts and management permission |
+| Last message sync | The latest successful message synchronization for this customer service account |
+| Sync backlog | Message synchronization items that are still waiting or recovering automatically |
+| Latest actionable error code | Shown only when synchronization cannot recover automatically or an administrator must resolve authorization, permission, or another issue |
+
+**Last account list sync** and **Last message sync** measure different activities, so different times are normal. A brief network interruption does not immediately appear as an actionable connection problem. While message synchronization is recovering, the account health state shows **Synchronizing**.
+
+If the page shows **Degraded** together with **Latest actionable error code**, first select **Sync accounts**. If synchronization succeeds immediately and the problem disappears, reauthorization is unnecessary. If the problem remains, check enterprise authorization and account management permission, then follow the page instructions to reauthorize or contact YundaDesk Support.
+
 ## 5. Verify a real message round trip
 
 1. In the WeCom admin console, get the entry link or QR code for customer service account A.
@@ -111,6 +134,8 @@ AI replies are off by default, so the page shows both **Enabled** and **AI repli
 
 A **Sent** state in the admin UI is not proof of final delivery. Verify the message in the customer's WeChat client and watch for a later asynchronous failure state.
 
+If the workspace connects multiple enterprises, complete a real message round trip with accounts from two enterprises and confirm that conversation sources, reauthorization, and connection states do not cross enterprise boundaries.
+
 ## Connection boundaries and reply limits
 
 | Item | Behavior after connection |
@@ -118,6 +143,7 @@ A **Sent** state in the admin UI is not proof of final delivery. Verify the mess
 | Message entry | Only messages sent to imported WeChat Customer Service accounts are included |
 | Customer-facing identity | Replies always use the selected customer service account identity, not an individual YundaDesk agent |
 | Multiple accounts | Each customer service account becomes an independent channel and conversation source |
+| Multiple enterprises | Each enterprise manages its accounts, channels, and connection state independently; an action on one enterprise does not change another |
 | Regular WeCom private chats | Not available to YundaDesk |
 | WeCom native human reception | Messages can remain visible, but YundaDesk becomes read-only after a native agent takes over |
 
@@ -146,12 +172,12 @@ When the official profile provides a usable WeChat nickname, the Inbox shows it 
 
 ## Synchronize, reauthorize, or disconnect
 
-First decide whether you need to act on one customer service account or on the enterprise connection:
+First decide whether you need to act on one customer service account or on which enterprise connection:
 
 | Action | Scope | Releases the enterprise from the workspace |
 |---|---|---|
-| Sync accounts | Refreshes accounts and management permission without changing channel or AI-reply state | No |
-| Reauthorize | Restores an enterprise authorization that cannot be verified in the current workspace | No |
+| Sync accounts | Refreshes accounts and management permission for the selected enterprise without changing channel or AI-reply state | No |
+| Reauthorize | Restores an authorization that cannot be verified for the selected enterprise | No |
 | Unlink one account | Stops that account in YundaDesk while keeping the account in WeCom | No |
 | Delete the official account | Deletes that account and its entry points without affecting other accounts in the enterprise | No |
 | Disconnect the enterprise | Disables every WeChat Customer Service channel for the enterprise and cleans up connection data | Yes, after cleanup finishes |
@@ -162,12 +188,14 @@ First decide whether you need to act on one customer service account or on the e
 
 Only a workspace administrator who also has channel-management permission can perform this action.
 
-1. Open **Channels → WeChat Customer Service** and select **Disconnect enterprise**.
+1. Open **Channels**, expand **WeChat Customer Service**, select the enterprise to disconnect, and then select **Disconnect enterprise**.
 2. Enter the enterprise name as prompted and confirm. YundaDesk immediately disables every WeChat Customer Service channel for the enterprise. Messaging, account synchronization, and new account enablement stop.
 3. Ask an enterprise administrator to open **Application Management → Third-party apps → YundaDesk** in the WeCom admin console and select **Delete app**.
 4. Return to YundaDesk, select **I deleted it — check status**, and confirm again that the app was deleted.
 5. If WeCom still reports the app as authorized, the page continues waiting and cleanup does not begin. After removal is confirmed, YundaDesk shows **Disconnecting and cleaning up data**.
-6. Wait until the page shows **Enterprise connection removed**. Only then can this enterprise connect to the current workspace or another workspace.
+6. Wait until the enterprise disappears from the connection list. Only then can this enterprise connect to the current workspace or another workspace.
+
+The disconnect affects only the selected enterprise. Other enterprise connections and their enabled channels in the workspace continue to run.
 
 Before the app is deleted in WeCom, you can select **Cancel disconnect**. YundaDesk verifies the authorization and restores only channels that were enabled when the disconnect started. Channels that were already disabled stay disabled. A disconnect cannot be cancelled after the WeCom authorization is no longer valid.
 
@@ -175,30 +203,33 @@ Before the app is deleted in WeCom, you can select **Cancel disconnect**. YundaD
 
 If an enterprise administrator deletes the YundaDesk app directly in WeCom, YundaDesk disables every WeChat Customer Service channel as soon as it receives the revocation notice and begins cleanup. Until cleanup finishes, the enterprise remains assigned to the current workspace and cannot connect to another workspace.
 
-### What each connection state means
+### What each enterprise connection state means
 
 | Page state | Meaning and next step |
 |---|---|
-| Not connected | This workspace has no enterprise connection and can start authorization |
 | Connected | Authorization is valid; you can sync or enable accounts, reauthorize, or start an enterprise disconnect |
 | Delete the app in the WeCom admin console | The disconnect has started and all channels are disabled; delete the app as instructed, then check its status |
 | Reauthorization required | Authorization cannot be verified and all channels are disabled, but the enterprise remains assigned to this workspace; reauthorize with the same enterprise or start a disconnect |
 | Disconnecting and cleaning up data | Revocation is confirmed and cleanup is running; authorization and account enablement are unavailable |
-| Enterprise connection removed | Cleanup is complete and the enterprise assignment has been released; authorization can start again |
+| Connection disappears from the list | Cleanup is complete and the enterprise assignment has been released; this enterprise can be authorized again |
 
-If cleanup temporarily fails, the page continues to show that cleanup is incomplete and YundaDesk retries safely. It does not report a completed disconnect or release the enterprise to another workspace before cleanup succeeds.
+If cleanup temporarily fails, that enterprise remains in an incomplete cleanup state and YundaDesk retries safely. It does not disappear from the list or move to another workspace before cleanup succeeds. Other enterprise connections are unaffected.
 
 ### What happens to data after cleanup
 
 An enterprise disconnect removes or anonymizes identifiable data created through that WeChat Customer Service connection, including customer service account details, WeChat customer identities, channel message content, and WeChat Customer Service attachments. Conversation and aggregate reporting structure may remain without identities or message content so reports stay consistent; message positions show a standard cleaned-data notice.
 
-If the same customer also contacted you through the website, email, or another channel, those other identities and histories are not removed by the WeChat Customer Service enterprise disconnect. **Enterprise connection removed** means both cleanup and release of the enterprise assignment have completed.
+If the same customer also contacted you through the website, email, another WeChat Customer Service enterprise, or another channel, those identities and histories are not removed by this enterprise disconnect. When the enterprise disappears from the connection list, cleanup and release of this enterprise assignment have both completed.
 
 ## Troubleshooting
 
 ### “This enterprise is already connected to another workspace”
 
 Scanning the authorization code again does not transfer the enterprise. Ask an administrator of the original workspace to complete the enterprise disconnect, then wait for cleanup to finish before trying again. For privacy, the message does not identify the original workspace.
+
+### Reauthorization did not add another enterprise
+
+If the administrator selected an enterprise that was already connected to this workspace, YundaDesk safely updates and opens the original connection instead of creating a duplicate. To add a different enterprise, select **Authorize new enterprise** again and have an administrator of that other enterprise complete authorization.
 
 ### The enterprise disconnect keeps waiting for app deletion
 
@@ -210,7 +241,7 @@ If cleanup fails, YundaDesk keeps every channel disabled and retries without rel
 
 ### No accounts appear after authorization
 
-Confirm that at least one WeChat Customer Service account exists in WeCom, then select **Sync accounts** in YundaDesk. If the list remains empty, check that the enterprise authorization is still valid.
+Confirm that at least one WeChat Customer Service account exists in WeCom. In YundaDesk, expand **WeChat Customer Service** in the channel navigation, select the target enterprise, then select **Sync accounts**. If the list remains empty, check that this enterprise authorization is still valid.
 
 ### An account has no management permission
 
