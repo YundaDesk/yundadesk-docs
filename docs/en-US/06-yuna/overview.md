@@ -3,7 +3,7 @@ title: Meet Yuna
 description: Understand how Yuna differs from AI customer service and what it can do for your team.
 category: Yuna
 order: 1
-updated_at: 2026-09-03
+updated_at: 2026-09-08
 ---
 
 # Meet Yuna
@@ -52,3 +52,9 @@ Within the current browser session, unsent text, images, page context, and short
 Selected context can narrow Yuna's answer to the current customer, conversation, knowledge document, channel, setting, or report range. Yuna uses only information you are allowed to access. Unsupported pages do not show the chip, and Yuna may ignore it when your request is unrelated.
 
 If one response has several visible steps, **Activity in this response** groups them and can be collapsed after completion. Reading position is remembered for each conversation. Connection notices appear when the browser is offline or unstable, and drafts are cleared after a message is sent successfully.
+
+## Voice input
+
+In browsers that support speech recognition, the Yuna composer shows a microphone button. Click it and allow microphone access to see your speech appear in the draft. Stop recording, review or edit the text, then send it. The Chinese interface uses Mandarin recognition; the English interface uses English recognition.
+
+Switching conversations or leaving the composer ends the recording. If no microphone button appears, continue typing or use your device keyboard’s dictation feature. If recognition fails, check microphone permissions and your connection. Recognition is provided by your browser and may require internet access; results vary by browser and dialect.
