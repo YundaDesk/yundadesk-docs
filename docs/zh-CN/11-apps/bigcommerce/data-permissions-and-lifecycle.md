@@ -3,7 +3,7 @@ title: BigCommerce 数据权限与应用生命周期
 description: 了解 YundaDesk 读取的数据、多人访问规则、重新授权、卸载和常见故障。
 category: 应用与集成
 order: 3
-updated_at: 2026-08-06
+updated_at: 2026-09-08
 ---
 
 # BigCommerce 数据权限与应用生命周期
@@ -75,6 +75,8 @@ BigCommerce 店铺可以让多个已获授权用户打开 YundaDesk，但 BigCom
 
 ## 卸载应用
 
+也可以从 YundaDesk **应用 → BigCommerce → 查看店铺状态**，在目标店铺卡片中选择**前往 BigCommerce 卸载**。入口会打开该店铺的应用列表；请在 BigCommerce 确认当前店铺后操作。返回 YundaDesk 后刷新查看结果，其他已连接店铺不会因此断开。
+
 只有确定不再需要整个店铺连接时才卸载：
 
 1. 在 BigCommerce 控制面板打开 **Apps → My Apps**。
@@ -89,7 +91,7 @@ BigCommerce 店铺可以让多个已获授权用户打开 YundaDesk，但 BigCom
 
 ### Widget 没有显示
 
-- 确认目标店面状态为 **Active**，而不是只完成了应用安装。
+- 确认目标店面状态为 **Enabled**，再点击 **Open storefront and check** 检测聊天是否已加载，而不是只完成了应用安装。
 - 等待一分钟，再强制刷新公开店面。
 - 确认正在测试应用中显示的准确 HTTPS 店面地址。
 - 检查 Cookie consent 设置是否允许 functional Script。
@@ -108,3 +110,5 @@ YundaDesk 不会在状态检查时自动重建。确认 Script 的确由管理�
 确认测试店确实包含当前可见的合成客户、订单和商品，然后分别为相应资源选择 **Sync now**。购物车和弃购只处理安装后的新事件，不能通过手动同步补回历史记录。
 
 如果问题持续，请按[准备有效的支持请求](../../10-troubleshooting/contact-support.md)整理店铺公开地址、问题发生的大致时间、页面显示的非敏感状态和复现步骤。不要发送密码、API 密钥、客户地址、电话号码或完整订单记录。
+
+普通重新授权会保留仍正常的已启用店面；已停用店面保持停用。若先卸载再重装，则需要重新绑定工作区并逐个启用聊天。详见[店面聊天与验证步骤](./use-yundadesk-with-bigcommerce.md)。

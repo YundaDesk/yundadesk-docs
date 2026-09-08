@@ -3,7 +3,7 @@ title: 安装并授权 YundaDesk BigCommerce 应用
 description: 从 BigCommerce 安装 YundaDesk，核对权限，并把店铺安全绑定到一个 YundaDesk 工作区。
 category: 应用与集成
 order: 1
-updated_at: 2026-08-06
+updated_at: 2026-09-08
 ---
 
 # 安装并授权 YundaDesk BigCommerce 应用
@@ -61,7 +61,8 @@ YundaDesk 只读取客服上下文所需的店铺、客户、订单、商品、�
 3. 核对由 BigCommerce 验证的店铺名称和店铺地址。这两项只读，不能在绑定页修改。
 4. 选择应该管理该店铺的 YundaDesk 工作区。
 5. 明确确认绑定。
-6. 返回 BigCommerce 控制面板，选择 **I completed account linking**；如果页面已经关闭，也可以从 **Apps → My Apps → YundaDesk** 重新打开。
+6. 确认后返回 YundaDesk **应用**，接入状态会定位到刚连接的店铺。尚未开启聊天时显示**待启用**，这不表示连接失败。
+7. 选择**设置店铺前台聊天**，在新标签页打开该店铺的 BigCommerce YundaDesk 应用。若原应用页仍打开，也可以返回并选择 **I completed account linking**。
 
 账号连接页在新标签页打开，不会嵌入第三方 iframe。BigCommerce 登录身份本身不会自动获得 YundaDesk 工作区权限。
 
@@ -94,3 +95,7 @@ YundaDesk 只读取客服上下文所需的店铺、客户、订单、商品、�
 ### 页面要求重新授权
 
 店铺所有者需要从 BigCommerce 重新安装或重新授权 YundaDesk。重新授权前，数据同步和店面状态检查会暂停。
+
+## 连接其他店铺
+
+在 YundaDesk 打开**应用 → BigCommerce → 查看店铺状态**，选择列表底部的**连接新店铺**。在 BigCommerce 登录并选择目标店铺，然后继续本文的授权和工作区绑定步骤。请核对实际授权的店铺名称；添加另一家店铺不会替换已有连接。

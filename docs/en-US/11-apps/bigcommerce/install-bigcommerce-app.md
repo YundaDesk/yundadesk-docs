@@ -3,7 +3,7 @@ title: Install and authorize the YundaDesk BigCommerce app
 description: Install YundaDesk from BigCommerce, review its permissions, and securely connect the store to one YundaDesk workspace.
 category: Apps and integrations
 order: 1
-updated_at: 2026-08-06
+updated_at: 2026-09-08
 ---
 
 # Install and authorize the YundaDesk BigCommerce app
@@ -61,7 +61,8 @@ After authorization, BigCommerce opens the YundaDesk app in the control panel.
 3. Review the BigCommerce-verified store name and store URL. These values are read-only on the connection page.
 4. Choose the YundaDesk workspace that should manage this store.
 5. Explicitly confirm the connection.
-6. Return to the BigCommerce control panel and select **I completed account linking**. If the page was closed, reopen **Apps → My Apps → YundaDesk** instead.
+6. After confirmation, YundaDesk returns to **Apps** and focuses the store you just connected. **Not enabled yet** means storefront chat still needs to be enabled; the account connection succeeded.
+7. Select **Set up storefront chat** to open this store’s YundaDesk app in BigCommerce in a new tab. You can also return to the original app tab and select **I completed account linking**.
 
 The account connection opens in a new tab and cannot run inside a third-party iframe. A BigCommerce login never grants YundaDesk workspace access by itself.
 
@@ -94,3 +95,7 @@ A BigCommerce store can be connected to only one YundaDesk workspace at a time. 
 ### The app asks for reauthorization
 
 The store owner must reinstall or reauthorize YundaDesk from BigCommerce. Data synchronization and storefront status checks pause until reauthorization is complete.
+
+## Connect another store
+
+In YundaDesk, open **Apps → BigCommerce → View store status** and select **Connect another store** below the list. Sign in to BigCommerce, choose the target store, and follow the authorization and workspace-linking steps in this article. Check the actual store name before confirming. Adding another store does not replace an existing connection.
