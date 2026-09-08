@@ -3,7 +3,7 @@ title: Connect a personal-account cloud device
 description: Connect your own social account in preview and understand login, status, and risk.
 category: Channels
 order: 5
-updated_at: 2026-08-18
+updated_at: 2026-09-09
 ---
 
 # Connect a personal-account cloud device
@@ -32,10 +32,12 @@ Personal account hosting does not support broadcasts, segment sends, or automate
 1. Open **Channels** and find **Personal account hosting (Engineering Preview)**. If the section is absent, the preview is not available to this workspace.
 2. Select an account type currently shown on the page.
 3. Read the risk notice and confirm that you are using your own account.
-4. Select an available network egress option. For a custom static proxy, enter the requested values only in the form.
+4. Select an available network egress option. For a custom static proxy, enter its protocol, host, port, and username and password if required. You do not need to enter an expected IP region or provide residential-type evidence. You are responsible for choosing the proxy source and region and assessing account-use risks.
 5. Decide whether to sync message history. History is optional; use the support and limits shown on the page.
 6. Create the device and complete the displayed QR, pairing, verification-code, PIN, two-step verification, or confirmation challenge.
 7. Wait for the status to become **Online**, then use another account to complete one real inbound message and one human reply.
+
+After creation, wait while the device prepares its connection. If multiple login methods are offered, choose a QR code or phone number. Enter the full phone number with its country code, followed by the verification code and two-step verification password if requested. Enter a LINE PIN on your phone, not back into the web page. If a QR code expires, restart login and use the new code.
 
 After you submit a verification code, PIN, password, or proxy password, the page does not reveal it again. If submission fails, obtain or enter a new value instead of trying to recover it from browser history or screenshots.
 
@@ -65,7 +67,7 @@ Open the device details, select **Delete cloud device**, and confirm. Do not con
 ## Troubleshooting
 
 - Expired QR or verification code: select **Start / restart login** and complete the new challenge.
-- Stuck in Connecting: verify that the network egress and region requested by the page are still available, then reconnect.
+- Stuck in Connecting: check that the proxy host, port and authentication details are correct and the proxy is reachable, then reconnect.
 - Expired status: sign in again and do not repeatedly submit an old code.
 - Unknown send result: check the actual social app before sending again to avoid a duplicate message.
 - No managed egress or account type on the page: that option is currently unavailable. Use another option shown on the page or contact YundaDesk Support.
