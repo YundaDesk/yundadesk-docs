@@ -3,7 +3,7 @@ title: 启用 WooCommerce 只读增强
 description: 以只读方式授权 WooCommerce，并检查店铺数据、购物车上下文和事件状态。
 category: 应用与集成
 order: 3
-updated_at: 2026-08-05
+updated_at: 2026-09-07
 ---
 
 # 启用 WooCommerce 只读增强
@@ -26,20 +26,35 @@ WooCommerce 是同一个 YundaDesk 插件中的可选模式。WordPress Widget �
 
 ![WooCommerce 只申请 Read 权限](/help/assets/docs/wordpress/zh/woocommerce-read-authorization.jpg "批准 WooCommerce 只读访问")
 
-YundaDesk 不申请 **Write** 或 **Read/Write** 权限。你不需要把 Consumer Key 或 Consumer Secret 粘贴到 YundaDesk 表单中，WooCommerce 凭据也不会保存在 WordPress options 中。
+YundaDesk 不申请 **Write** 或 **Read/Write** 权限。你不需要创建或粘贴 Consumer Key、Consumer Secret；请通过上述授权页完成连接。
 
 ## 等待首次同步
 
-首次同步按以下顺序读取店铺：
+授权完成后，**设置 → YundaDesk** 会确认 WooCommerce 只读访问已经连接。回到 YundaDesk，打开**应用 → WordPress → 管理站点**，核对对应地址的 **WooCommerce 只读数据**状态。也可以从 WooCommerce 应用卡的**查看店铺状态**进入同一管理界面。若仍显示同步中，请稍后刷新。
 
-1. 店铺信息；
-2. 客户；
-3. 商品与变体；
-4. 订单。
+**站点聊天**和店铺数据授权相互独立。需要只读授权时，点击**打开 WordPress 设置**，在该站点单独批准授权；不要因为另一个站点已连接就认为当前店铺也已授权。
 
-授权完成后，**设置 → YundaDesk** 会确认 WooCommerce 只读访问已经连接。回到 YundaDesk，打开**应用 → WordPress**，选择对应站点，并确认 WooCommerce 增强状态为**已连接**。后续同步只读取变化，不会每次重建整个店铺。事件通知只包含最小资源引用，YundaDesk 会再从 WooCommerce 读取当前数据。
+WordPress 设置页确认的是授权状态，不代表所有店铺数据已经可见。请在 YundaDesk 中核对对应店铺的商品和订单，再验证实际查单结果。
 
-WordPress 设置页只确认授权状态，不会逐资源显示同步进度。请使用合成测试数据验证每类受支持资源都能进入 YundaDesk，不要把授权成功本身当作所有资源已同步的证明。
+## 重新授权已有店铺
+
+站点断开后重新连接、恢复历史连接或更换网站地址后，WooCommerce 可能需要重新授权。WordPress 显示**已连接**不代表店铺读取权限也已恢复。
+
+1. 核对当前 WordPress 网站地址和 YundaDesk 中所选站点。
+2. 在**设置 → YundaDesk**重新选择 WooCommerce 只读连接。
+3. 在当前店铺的授权页批准 **Read**，然后返回设置页。
+4. 回到 YundaDesk，刷新对应站点的状态并验证一笔该店铺的订单。
+
+请分别处理每个站点，不要使用另一家店铺的授权代替当前店铺连接。
+
+## 验证订单查询
+
+1. 选择一笔用于验收的 WooCommerce 订单，核对订单号、下单邮箱、金额和当前状态。
+2. 在 YundaDesk 中打开该客户的会话，确认客户邮箱与订单下单邮箱一致。
+3. 在工作台右栏的店铺订单中核对所属店铺及订单信息。
+4. 另外使用一个没有订单的测试邮箱，确认没有显示其他客户的订单。
+
+如果仍然无法读取订单，请先核对店铺和邮箱，再检查是否提示重新授权。历史订单曾经显示过，不能代替本次连接的读取验证；不要将暂时无法读取理解为客户一定没有订单。
 
 ## 验证店铺上下文
 

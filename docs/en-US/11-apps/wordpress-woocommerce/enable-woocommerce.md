@@ -3,7 +3,7 @@ title: Enable the read-only WooCommerce enhancement
 description: Authorize WooCommerce in read-only mode and confirm store data, cart context, and event status.
 category: Apps and integrations
 order: 3
-updated_at: 2026-08-05
+updated_at: 2026-09-07
 ---
 
 # Enable the read-only WooCommerce enhancement
@@ -26,20 +26,35 @@ WooCommerce is an optional mode inside the same YundaDesk plugin. The WordPress 
 
 ![WooCommerce asks for Read access only](/help/assets/docs/wordpress/en/woocommerce-read-authorization.jpg "Approve read-only WooCommerce access")
 
-YundaDesk does not ask for **Write** or **Read/Write** access. You never need to paste a Consumer Key or Consumer Secret into a YundaDesk form, and WooCommerce credentials are not saved in WordPress options.
+YundaDesk does not ask for **Write** or **Read/Write** access. You do not need to create or paste a Consumer Key or Consumer Secret; complete the connection through the authorization page above.
 
 ## Wait for the initial sync
 
-The first sync reads the store in this order:
+After authorization, **Settings → YundaDesk** confirms that read-only WooCommerce access is connected. In YundaDesk, open **Apps → WordPress → Manage sites** and check **WooCommerce read-only data** for the correct address. **View store status** on the WooCommerce app card opens the same management view. If synchronization is still in progress, refresh the page later.
 
-1. store information;
-2. customers;
-3. products and variations;
-4. orders.
+**Site chat** and store data authorization are independent. If read-only authorization is required, select **Open WordPress settings** and approve access for that site. Another site's connected status does not grant access to this store.
 
-After authorization, **Settings → YundaDesk** confirms that read-only WooCommerce access is connected. In YundaDesk, open **Apps → WordPress**, choose the site, and confirm that its WooCommerce enhancement is **Connected**. Later syncs read changes instead of rebuilding the entire store. Event notifications contain a minimal resource reference; YundaDesk then reads the current resource from WooCommerce.
+The WordPress settings page confirms authorization, not that all store data is already available. Check the correct store's products and orders in YundaDesk, then verify an actual order lookup.
 
-The WordPress settings page confirms the authorization state; it does not display per-resource sync progress. Use synthetic test data to verify that each supported resource reaches YundaDesk, and do not treat authorization alone as proof that every resource has synchronized.
+## Reauthorize an existing store
+
+WooCommerce may require authorization again after reconnecting a disconnected site, restoring a previous connection, or changing the website address. A **Connected** WordPress status does not mean store access has also been restored.
+
+1. Check the current WordPress address and the site selected in YundaDesk.
+2. Under **Settings → YundaDesk**, select the read-only WooCommerce connection again.
+3. Approve **Read** on the current store's authorization page, then return to settings.
+4. Return to YundaDesk, refresh that site's status, and verify an order from that store.
+
+Handle each site separately. Do not use another store's authorization in place of the current store's connection.
+
+## Verify order lookup
+
+1. Choose a WooCommerce test order and note its order number, billing email, amount, and current status.
+2. Open that customer's conversation in YundaDesk and confirm that the customer email matches the order's billing email.
+3. In the Inbox's store-orders sidebar, verify the store and order details.
+4. Also test an email with no orders and confirm that another customer's orders are not displayed.
+
+If orders remain unavailable, check the store and email first, then look for a reauthorization prompt. Previously displayed orders do not verify the current connection. A temporary inability to read orders does not mean the customer has no orders.
 
 ## Verify store context
 
