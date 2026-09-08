@@ -4,7 +4,7 @@ description: Claim, reply to, transfer, and close customer conversations.
 search_terms: automatically translate incoming messages, incoming customer message translation, agent translation
 category: Inbox
 order: 1
-updated_at: 2026-09-07
+updated_at: 2026-09-08
 ---
 
 # Manage conversations in the Inbox
@@ -50,6 +50,6 @@ Closing a conversation does not remove its history. When the customer contacts y
 
 ## Customer avatars
 
-The conversation list and chat header show the customer avatar supplied by the channel. Telegram, Messenger, Instagram, LINE, YouTube, and Zalo can provide avatars when channel permissions and customer profiles allow it. Availability in WeChat Customer Service depends on the connection method and platform permissions. Website and custom channels can display avatars supplied by your integration.
+The conversation list, chat header, and customer message bubbles show the same customer avatar supplied by the channel. Telegram, Messenger, Instagram, LINE, YouTube, and Zalo can provide avatars when channel permissions and customer profiles allow it. Availability in WeChat Customer Service depends on the connection method and platform permissions. Website and custom channels can display avatars supplied by your integration.
 
 If no avatar is available or an image cannot load, the customer's initial is shown. The avatar may update after the customer sends another message; their identity and conversation history stay the same.

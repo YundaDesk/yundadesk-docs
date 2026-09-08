@@ -4,7 +4,7 @@ description: 认领、回复、转接和结束客户会话。
 search_terms: 收到英文消息自动翻译, 客户消息自动翻译, incoming message translation
 category: 工作台
 order: 1
-updated_at: 2026-09-07
+updated_at: 2026-09-08
 ---
 
 # 在工作台管理会话
@@ -50,6 +50,6 @@ updated_at: 2026-09-07
 
 ## 客户头像
 
-会话列表和聊天顶部会显示渠道提供的客户头像。Telegram、Messenger、Instagram、LINE、YouTube 和 Zalo 在渠道授权与客户资料允许时可显示头像；微信客服是否返回头像取决于接入方式及平台权限。网站和自定义渠道可显示接入时提供的头像。
+会话列表、聊天顶部和客户消息旁会显示同一张渠道客户头像。Telegram、Messenger、Instagram、LINE、YouTube 和 Zalo 在渠道授权与客户资料允许时可显示头像；微信客服是否返回头像取决于接入方式及平台权限。网站和自定义渠道可显示接入时提供的头像。
 
 没有头像、平台未提供权限或图片暂时无法加载时，页面会显示名字首字。客户继续发来消息后，头像可能随渠道资料更新；这不会改变客户身份或会话记录。
