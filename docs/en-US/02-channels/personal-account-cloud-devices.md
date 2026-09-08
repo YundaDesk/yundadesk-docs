@@ -60,6 +60,14 @@ Imported history does not create new-message notifications or trigger AI replies
 
 AI auto reception is controlled separately for each device. For the first validation, leave it off, complete stable human round trips and a reconnect test, and then decide whether to enable it for your use case.
 
+## Change a proxy or retry a connection
+
+In device details, open **Change device proxy**, enter the full new protocol, host, port and
+required credentials, then select **Update proxy and reconnect**. The device disconnects and
+reconnects; its previous password is never shown. A submitted change does not mean the device
+has connected or signed in successfully. Check its status. If the result is uncertain, refresh
+the status first; re-enter the complete configuration only if another attempt is needed.
+
 ## Delete a device
 
 Open the device details, select **Delete cloud device**, and confirm. Do not continue sending after submission. The occupied slot is released when deletion finishes; do not create another device for the same account to bypass the pending state.
