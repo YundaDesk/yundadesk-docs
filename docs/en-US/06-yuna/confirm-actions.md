@@ -4,7 +4,7 @@ description: Use a choice card to provide missing scope and choose preview, conf
 search_terms: confirmation before changing settings, why Yuna asks for confirmation, action confirmation reason
 category: Yuna
 order: 5
-updated_at: 2026-08-01
+updated_at: 2026-09-09
 ---
 
 # Answer Yuna confirmation questions
@@ -25,3 +25,7 @@ Typical choices include draft only, preview before confirmation, complete an all
 ## If nothing follows
 
 If nothing follows, do not click repeatedly. Check whether processing continues, a capability is missing, or the task remains after refresh. When Yuna promises a confirmation artifact, that draft or card must actually appear.
+
+## Confirmation after an execution failure
+
+A failed operation does not mean the setting changed. Yuna can investigate available information in the same conversation. A different target or corrected configuration requires a new draft and your fresh confirmation; the previous approval does not authorize another target. If you have sent a new request, recovery of the old operation should yield to it.
