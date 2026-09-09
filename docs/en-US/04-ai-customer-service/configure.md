@@ -4,7 +4,7 @@ description: Select one Role, then configure the Agent's knowledge scope, tools 
 search_terms: default AI customer service, configure reception behavior, AI reception settings
 category: AI customer service
 order: 1
-updated_at: 2026-08-29
+updated_at: 2026-09-09
 ---
 
 # Create and configure an Agent
@@ -47,6 +47,8 @@ Tools and actions from connected apps or plugins appear alongside built-in tools
 Run history helps the team review answers, identify knowledge gaps, and decide on the next follow-up or learning suggestion. Reviewing a run never sends customer messages or updates knowledge or skills by itself.
 
 ## Enable and verify
+
+Draft and disabled Agents can save reception channels before activation. Assigning a channel does not enable the Agent; after saving, use **Enable Agent** in the page notice to start reception.
 
 1. On the **AI Agents** page, select **Test conversation** in the top-right corner, then choose the Agent to test.
 2. Confirm that replies use the intended knowledge and tools.
