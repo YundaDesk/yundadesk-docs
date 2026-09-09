@@ -74,6 +74,9 @@ Open the device details, select **Delete cloud device**, and confirm. Do not con
 
 ## Troubleshooting
 
+- After confirming a LINE PIN on your phone, wait for the web page to show a successful login and Online status. Phone confirmation alone does not mean the connection is ready. If the page reports a failed login, review the latest error and use a new QR code when restarting login.
+- If the page explicitly says login requests are being limited, wait before retrying and avoid repeated clicks. Other connection or login failures do not necessarily mean throttling. Refresh the status, check the proxy configuration, and contact support if the problem persists.
+
 - The page cannot submit the request: refresh, re-enter the proxy password, and try again. If the device already appears in the list, check its status instead of creating another one.
 
 - Expired QR or verification code: select **Start / restart login** and complete the new challenge.
