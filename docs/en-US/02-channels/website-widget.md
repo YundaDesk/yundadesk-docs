@@ -3,7 +3,7 @@ title: Install the website widget
 description: Add customer chat to your website and verify both messages and AI replies.
 category: Channels
 order: 2
-updated_at: 2026-08-16
+updated_at: 2026-09-09
 ---
 
 # Install the website widget
@@ -35,9 +35,17 @@ Each Website channel has its own installation identifier, visitor identity, and 
 
 Complete AI and agent replies support Markdown formatting, including headings, lists, quotes, code, links, and tables. Wide tables and code blocks scroll inside the message bubble instead of expanding the chat window. For safety, raw HTML and remote Markdown images in replies are not loaded.
 
-The Widget follows the visitor's ordered browser language preferences. It currently supports English, Simplified Chinese, Traditional Chinese, Japanese, Korean, Spanish, Brazilian Portuguese, French, German, Indonesian, Thai, and Vietnamese. It falls back to English when none match, and a browser-language change takes effect after the page is refreshed. In channel settings, the same 12-language switch appears beside **Live preview** so you can inspect the Widget UI, welcome message, Home title and description, and language-specific suggested questions. The preview initially follows the tenant console language and updates when that interface language changes. Manually switching the preview language does not edit or save your source copy.
+## Set the Widget interface language
 
-When you create a Website channel, YundaDesk automatically generates its welcome message from the visitor's browser language and the workspace brand name, not the channel name. Under Display settings, edit one source set for the Home title, Home description, and new-conversation welcome message. YundaDesk translates that copy for the visitor's browser language, so you do not maintain separate language versions. The live Widget can preview unsaved edits in the source language; when you switch to another language, it loads that translation instead of continuing to show the source copy. Knowledge suggestions also load for the preview language. If translation is temporarily unavailable, source-language merchant copy is not exposed to a visitor using another language. If the suggestion preview cannot load, it shows an explicit error and retry action instead of reporting that the knowledge base has no questions.
+Open **Channels**, select the Website Widget, and find **Widget interface language** in its configuration. Choose **English** for a fixed English interface, then save and refresh the published website. Reopen the channel configuration to verify the saved selection. This setting is also available on Free and applies only to the selected channel.
+
+Choose **Automatic** to follow the language declared by the website, then the visitor's browser preferences if that language is missing or unsupported. Available fixed languages are English, Simplified Chinese, Traditional Chinese, Japanese, Korean, Spanish, Brazilian Portuguese, French, German, Indonesian, Thai, and Vietnamese. Automatic falls back to English when none match.
+
+The live preview reflects your language selection before saving. With Automatic selected, the language switch beside **Live preview** lets you simulate a visitor language without changing the saved setting. With a fixed language selected, the preview uses that language. Switching languages does not edit your source copy.
+
+You can also ask Yuna to set a named Website Widget's interface to English or Automatic. Check the selected channel and proposed language before confirming the change. This is separate from AI reply language and the visitor default language under staff chat tools, which controls message translation rather than Widget buttons or interface text.
+
+When you create a Website channel, YundaDesk automatically generates its welcome message from the visitor's Widget language and the workspace brand name, not the channel name. Under Display settings, edit one source set for the Home title, Home description, and new-conversation welcome message. YundaDesk translates that copy for the visitor's Widget language, so you do not maintain separate language versions. The live Widget can preview unsaved edits in the source language; when you switch to another language, it loads that translation instead of continuing to show the source copy. Knowledge suggestions also load for the preview language. If translation is temporarily unavailable, source-language merchant copy is not exposed to a visitor using another language. If the suggestion preview cannot load, it shows an explicit error and retry action instead of reporting that the knowledge base has no questions.
 
 Manage contact methods in the separate **Contact us** setting for each Website Widget, rather than inside Display settings, with a maximum of eight items. Select **Manage** to:
 
