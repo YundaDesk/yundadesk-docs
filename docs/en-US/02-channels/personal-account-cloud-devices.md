@@ -74,6 +74,8 @@ Open the device details, select **Delete cloud device**, and confirm. Do not con
 
 ## Troubleshooting
 
+- The page cannot submit the request: refresh, re-enter the proxy password, and try again. If the device already appears in the list, check its status instead of creating another one.
+
 - Expired QR or verification code: select **Start / restart login** and complete the new challenge.
 - Stuck in Connecting: check that the proxy host, port and authentication details are correct and the proxy is reachable, then reconnect.
 - Expired status: sign in again and do not repeatedly submit an old code.
