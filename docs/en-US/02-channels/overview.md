@@ -3,7 +3,7 @@ title: Channel overview
 description: Connect, enable, and maintain customer messaging channels.
 category: Channels
 order: 1
-updated_at: 2026-08-31
+updated_at: 2026-09-10
 ---
 
 # Channel overview
@@ -31,6 +31,22 @@ For an “Other mailbox” account protected by two-step verification, use the p
 1. **Inbound:** Send a message from the customer side and confirm that it appears in the Inbox.
 2. **Human reply:** Reply from the Inbox and confirm that the customer actually receives it.
 3. **AI reception:** Open the channel's **Reception settings**, choose the **Reception Agent**, and then start a new customer-side test. Select **Human reception** when the channel should not be bound to an Agent.
+
+## Configure reception
+
+Expand **Reception settings** in the channel configuration and choose the **Reception Agent**. A disabled Agent can remain bound, but only receives new conversations after it is enabled.
+
+Under **Human assignment**, use **Auto-assign conversations** to control automatic assignment and **Receiving members** to choose workspace agents or selected members. When auto-assignment is off, human conversations queue for an agent to pick up.
+
+Changes save automatically; you can also click **Save**. Wait for the saved status before leaving. If saving fails, keep your selection and click **Save** to retry. Collapsed sections retain a summary of their current settings.
+
+## Set the Widget appearance
+
+Open **Widget appearance** on a website channel. The current workspace brand name appears here; select **Change workspace brand name** to open Branding settings.
+
+On Free, launcher icon choices and the **Hide Powered by YundaDesk** switch remain visible but disabled, with an **Unlock with Starter** hint. Starter and higher plans can select an icon and turn on the switch to hide attribution on both the Widget home and conversation screens. Turn it off to restore attribution.
+
+Changes save automatically. Refresh after saving to confirm the setting, and check the preview. Existing channels keep attribution by default; downgrading to Free restores it.
 
 ## Channels and apps are different
 
