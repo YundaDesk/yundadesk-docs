@@ -3,7 +3,7 @@ title: Troubleshoot Telegram
 description: Diagnose missing Telegram inbound messages and undelivered replies.
 category: Channels
 order: 9
-updated_at: 2026-09-10
+updated_at: 2026-09-11
 ---
 
 # Troubleshoot Telegram
@@ -16,7 +16,7 @@ Check that the Telegram channel is enabled, the bot credential remains valid, an
 
 Do not connect the same bot to multiple support channels or other services that receive its messages. If the bot is already connected elsewhere, decide which connection to keep before disabling the unused one. Do not delete conversation history or regenerate the bot secret as a first step. Contact support if you are unsure.
 
-If the bot is already connected, use the existing connection. Disabling it keeps the connection reserved; it does not let you connect the same bot to another channel or Yuna.
+If the bot is already connected, use the existing support channel. Disabling it keeps the connection reserved; it does not let you connect the same bot to another support channel.
 
 After changing the Bot Token, click **Save** to apply it. If credential validation fails, the previous credential stays unchanged. If the save result is unclear, refresh the page to check it. Save a replacement credential for the same bot in its existing channel; create a new channel for a different bot.
 
