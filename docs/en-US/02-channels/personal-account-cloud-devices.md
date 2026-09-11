@@ -3,7 +3,7 @@ title: Connect a personal-account cloud device
 description: Connect your own social account in preview and understand login, status, and risk.
 category: Channels
 order: 5
-updated_at: 2026-09-09
+updated_at: 2026-09-11
 ---
 
 # Connect a personal-account cloud device
@@ -43,14 +43,31 @@ After you submit a verification code, PIN, password, or proxy password, the page
 
 ## Understand device status
 
+“Waiting for runtime resources” means no running instance is available yet; it does not mean your proxy password or account is wrong. After selecting login, “Login request received” or “Login request pending” means you can wait without clicking again. Login starts automatically when ready. While the device proxy connection is being prepared, wait for the result and follow any proxy error shown.
+
+If the login request could not be completed, check device status and start a new request. Being queued or having a request accepted does not mean you are signed in. Complete the challenge and wait for Online status before testing messages.
+
 | Status | Meaning and action |
 |---|---|
-| Connecting | The device is starting and establishing a connection. Wait for the page to update. |
+| Preparing | The device is getting ready. Follow the next step in the login section. |
+| Awaiting login | Account authentication is incomplete. Follow the current login step. |
 | Online | You can test supported human messaging. |
-| Offline / Reconnecting | The connection is interrupted. Wait for automatic recovery, then use the reconnect action if prompted. |
-| Expired | The login is no longer valid and must be completed again. |
+| Connection issue | A signed-in account has lost its channel connection. Wait for recovery, then follow the instructions. |
+| Status unconfirmed | Device status cannot currently be confirmed. Refresh to check; this does not mean the account signed out. |
 | Faulted | Review the safe error shown on the page. Contact YundaDesk Support if recovery fails. |
-| Deleting | New outbound messages have stopped. The occupied slot is released after deletion completes. |
+| Stopped | The device is no longer running. If deletion is pending, follow its separate progress notice. |
+
+A running device is not necessarily signed in. QR codes, phone PINs, verification codes and two-step passwords appear in the login section. Complete the current step and wait for the next instruction or confirmed login. Refreshing restores the current valid step without extending its expiry. Telegram may require its two-step password on the web page after scanning; you do not need to disable two-step verification.
+
+After LINE confirms on your phone, wait for the channel page to confirm sign-in. If it reports a rejected login context, sign in again. If it fails again, open **Error details** and share the error code and time with support, never the QR code, PIN or password. If an updated login client is required, contact support instead of repeatedly scanning.
+
+## Check the device's measured exit
+
+A failed exit check does not mean the account signed out. Open the latest check details to see the failed stage. A **Last successful measurement** is a historical result with its original time, not a successful result for the current check. Checks continue, and a new successful measurement updates the current result.
+
+Open the device in **Channels** and check **Recently measured exit** for its exit IP, country/region and measurement time. Wait for the first check after creation and a fresh result after changing the proxy. The previous IP is not presented as the current exit after a proxy change. **Check again** does not sign out or restart the device; avoid repeated clicks.
+
+**Region unknown** means the IP's country/region could not be determined. **Check failed** or **Result expired** means no sufficiently fresh measurement is available, not that account login failed. Country/region is an IP-based estimate, not a physical-location guarantee. Rotating proxies can use different IPs for different connections; read the result together with its measurement time.
 
 Account suspension, throttling, or protocol changes by the third-party platform are not counted as normal YundaDesk availability, but the page should expose a device status or safe error that you can act on.
 
@@ -61,6 +78,12 @@ Imported history does not create new-message notifications or trigger AI replies
 AI auto reception is controlled separately for each device. For the first validation, leave it off, complete stable human round trips and a reconnect test, and then decide whether to enable it for your use case.
 
 ## Change a proxy or retry a connection
+
+If a signed-in Telegram account temporarily disconnects, wait for recovery rather than deleting the device or repeatedly scanning. When **Device recovery in progress** appears, follow its stage and next-attempt time; recovery attempts to reuse an existing valid session. Sign in again only when account authorization is explicitly reported as expired. If network safety protection has paused the device, follow the error details and contact support; a successful exit check alone does not mean that protection has been lifted.
+
+If a previous login failed and the device needs connection recovery, choose **Restore device and sign in** in Account login. This restores the existing device connection before continuing login; you do not need to delete or recreate the device. Do not click repeatedly while recovery is in progress. If the request cannot complete, check the proxy and try again.
+
+**Network safety protection has paused the device** means protection has paused the connection, not that a new proxy check has just failed. Follow the page guidance and contact support before checking the new exit result. **Check again** only refreshes the measurement; it does not lift safety protection.
 
 In device details, open **Change device proxy**, enter the full new protocol, host, port and
 required credentials, then select **Update proxy and reconnect**. The device disconnects and
