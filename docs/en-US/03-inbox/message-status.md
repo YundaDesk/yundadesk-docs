@@ -4,7 +4,7 @@ description: Distinguish between saved, accepted, delivered, and failed messages
 search_terms: sending sent failed status, message status meaning, delivery state
 category: Inbox
 order: 5
-updated_at: 2026-08-28
+updated_at: 2026-09-13
 ---
 
 # Understand message status
@@ -21,6 +21,12 @@ An Inbox message may be saved before it is delivered asynchronously through a ch
 ## After refresh
 
 A message must still appear after refresh to count as saved. Its order should remain stable when the reply finishes loading.
+
+## Has the customer read your reply?
+
+In Website Widget conversations, “Read” appears where “Sent” was shown after the customer views your reply in the open chat window. Visiting the website, staying on the Widget home screen, or leaving chat in a background tab does not count as reading it.
+
+If the customer skips messages in the middle, later replies keep their previous status until the customer has viewed the messages up to that point. Confirmed read states remain after you refresh the Inbox. “Read” does not mean the customer has replied or the conversation is resolved. Read status on other channels depends on channel support.
 
 ## Who has read a customer message
 

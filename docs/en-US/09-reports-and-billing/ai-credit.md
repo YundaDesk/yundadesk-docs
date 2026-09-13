@@ -3,7 +3,7 @@ title: Review AI Credit usage
 description: Review monthly AI usage, category details, and remaining credit.
 category: Reports and billing
 order: 3
-updated_at: 2026-08-25
+updated_at: 2026-09-13
 ---
 
 # Review AI Credit usage
@@ -26,3 +26,7 @@ A single user request may use several AI capabilities and produce more than one 
 ## When credit is unavailable
 
 When credit is unavailable, new AI answers or actions may stop. Open **Settings → Subscription** to change the plan or purchase credit instead of treating the issue as a knowledge or channel failure.
+
+## Usage with your own AI
+
+Pro and Enterprise support your own AI within an Agent. External reception has no additional charge and uses no AI Credits; you pay your third-party provider directly. Managed AI in the same workspace continues to use AI Credits. An empty Credit balance should not block external reception while your plan includes it. If external replies stop, check your plan entitlement and endpoint configuration.
