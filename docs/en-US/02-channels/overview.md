@@ -3,7 +3,7 @@ title: Channel overview
 description: Connect, enable, and maintain customer messaging channels.
 category: Channels
 order: 1
-updated_at: 2026-09-10
+updated_at: 2026-09-13
 ---
 
 # Channel overview
@@ -37,6 +37,8 @@ For an “Other mailbox” account protected by two-step verification, use the p
 Expand **Reception settings** in the channel configuration and choose the **Reception Agent**. A disabled Agent can remain bound, but only receives new conversations after it is enabled.
 
 Under **Human assignment**, use **Auto-assign conversations** to control automatic assignment and **Receiving members** to choose workspace agents or selected members. When auto-assignment is off, human conversations queue for an agent to pick up.
+
+Leaving **Receiving members** empty or clearing all selections uses agents across the entire workspace. Selecting specific members limits the receiving pool to those members. Automatic assignment still requires agents to be online, accepting conversations, and below their capacity limit. The same receiving pool applies when AI hands a conversation over to a human.
 
 Changes save automatically; you can also click **Save**. Wait for the saved status before leaving. If saving fails, keep your selection and click **Save** to retry. Collapsed sections retain a summary of their current settings.
 
