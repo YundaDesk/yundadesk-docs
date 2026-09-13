@@ -19,7 +19,7 @@ YundaDesk managed AI uses the knowledge base, learning review, AI skills, custom
 
 Pro and Enterprise support connecting your own AI within an Agent. External reception has no additional charge and does not consume YundaDesk AI Credits. You pay your third-party AI provider directly. Seats and channels keep their existing free policy; managed AI continues to use AI Credits.
 
-External AI generates replies through your third-party endpoint. It does not participate in managed YundaDesk learning or automatically use managed skills. Maintain its persona and knowledge in the third-party service.
+External AI generates replies through your third-party endpoint. It does not participate in managed YundaDesk learning or automatically use managed skills. Maintain its persona, knowledge, and reply language in the third-party service. YundaDesk passes customer messages and conversation history without adding platform instructions or reply rules.
 
 ## Create an external Agent
 
