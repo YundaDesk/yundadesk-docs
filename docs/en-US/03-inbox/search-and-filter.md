@@ -3,7 +3,7 @@ title: Search and filter conversations
 description: Find conversations by customer, channel, status, or assignee.
 category: Inbox
 order: 4
-updated_at: 2026-07-17
+updated_at: 2026-09-15
 ---
 
 # Search and filter conversations
@@ -17,6 +17,8 @@ Enter a customer name or another customer field supported by the page. Results o
 ## Filter
 
 Use the available channel, reception state, assignee, unread, or other status filters. Clear filters to restore the complete list.
+
+Conversations have no priority by default. In the first Inbox column, use **Urgent / High / Medium / Low** in the **Priority** section to filter the current inbox. These entries appear above the channel filters; select the active level again to restore all conversations. After opening a conversation, use the **Set priority / Priority: current level** button in the upper-right actions to set or clear it. Priority is used only for labeling and filtering; it does not change the existing order of conversations or messages.
 
 ## If a conversation is missing
 
