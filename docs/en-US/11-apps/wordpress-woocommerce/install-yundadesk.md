@@ -3,7 +3,7 @@ title: Install the YundaDesk plugin on WordPress
 description: Install one YundaDesk plugin for WordPress live chat and the optional WooCommerce enhancement.
 category: Apps and integrations
 order: 1
-updated_at: 2026-08-05
+updated_at: 2026-09-07
 ---
 
 # Install the YundaDesk plugin on WordPress
@@ -24,6 +24,10 @@ The WordPress base connection continues to work when WooCommerce is absent or in
 ## Install from WordPress.org after directory publication
 
 This option becomes available after WordPress.org publishes the plugin. During a private review or controlled test, use the ZIP supplied by YundaDesk instead.
+
+On YundaDesk's **Apps** page, **Install on WordPress** opens the official plugin directory directly in a new tab. Follow the directory's installation instructions. The WooCommerce card uses the same plugin. After all sites are disconnected, the cards use this same entry without an extra instructions dialog for previous connections. The card shows whether the entry is currently available.
+
+You can also install directly from WordPress Admin:
 
 1. In WordPress Admin, open **Plugins → Add New Plugin**.
 2. Search for **YundaDesk**.

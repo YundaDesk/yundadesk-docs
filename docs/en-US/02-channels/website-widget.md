@@ -3,7 +3,7 @@ title: Install the website widget
 description: Add customer chat to your website and verify both messages and AI replies.
 category: Channels
 order: 2
-updated_at: 2026-09-11
+updated_at: 2026-09-15
 ---
 
 # Install the website widget

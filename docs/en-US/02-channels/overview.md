@@ -3,7 +3,7 @@ title: Channel overview
 description: Connect, enable, and maintain customer messaging channels.
 category: Channels
 order: 1
-updated_at: 2026-09-13
+updated_at: 2026-09-15
 ---
 
 # Channel overview
@@ -16,15 +16,34 @@ Open Channels to see what your workspace can connect. Availability may differ by
 
 Channel cards show connection state and required actions. A channel must be fully configured and healthy before it can reliably send and receive messages.
 
+## Complete third-party authorization in a new tab
+
+Keep the original Channels page open when connecting or reconnecting Messenger, Instagram DM, or YouTube. The authorization button opens the provider sign-in and consent flow in a new tab. After you finish or cancel, that tab closes automatically and the original page shows the account or channel confirmation result without a manual refresh.
+
+If no new tab appears, allow pop-ups for the current site and select the authorization button again. When reconnecting, choose the Facebook Page, Instagram professional account, or YouTube channel already attached to that channel. Choosing a different asset fails and leaves the existing channel unchanged.
+
+## When YouTube reports mismatched authorization permissions
+
+If you see “YouTube authorization permissions do not match,” this YouTube authorization was not saved and the current channel configuration is unchanged. Do not keep submitting the same authorization. Recover in this order:
+
+1. Make sure Gmail and any other connected Google channels can be reauthorized, and have the required accounts ready.
+2. Open your Google Account's third-party connections, find YundaDesk, and remove its previous access.
+3. Return to Channels in YundaDesk, reconnect YouTube, and review the permissions shown on the consent page.
+4. Check Gmail and your other Google channels. If authorization is no longer valid, reconnect each one with its original account and repeat the send-and-receive test.
+
+Removing YundaDesk's Google access may require existing Google channels to be reauthorized as well. Contact your workspace administrator before proceeding if you are unsure about the impact.
+
 ## Connect an email channel
 
 Choose one of three entry points when adding an email channel:
 
 - **Gmail:** Connect a Gmail or Google Workspace mailbox with official Google authorization.
 - **Microsoft Outlook:** Connect an Outlook or Microsoft 365 mailbox with official Microsoft authorization.
-- **Other mailbox:** Enter the mailbox address first. YundaDesk uses the address suffix to prefill settings for known providers. If no provider is recognized, enter the incoming and outgoing server settings supplied by your mailbox provider in the next step.
+- **Other mailbox:** Enter the mailbox address first, then use the suggested provider or enter the incoming and outgoing server settings supplied by your mailbox provider.
 
-For an “Other mailbox” account protected by two-step verification, use the provider-generated app password or authorization code instead of the normal sign-in password. After connecting, verify both inbound and outbound mail.
+After you enter the full email address, the page may suggest a provider from the address domain and its public mail settings. A suggestion is never submitted automatically; confirm the provider before continuing.
+
+If no provider is detected, or the suggestion does not match the service you use, choose one manually. For an **Other mailbox** account protected by two-step verification, use the provider-generated app password or authorization code instead of the normal sign-in password. Always run the connection test and verify both inbound and outbound mail after setup.
 
 ## Three checks after connecting
 

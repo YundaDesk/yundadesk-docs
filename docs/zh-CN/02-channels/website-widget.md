@@ -3,7 +3,7 @@ title: 安装网站聊天组件
 description: 在网站中加入聊天入口并验证消息和 AI 回复。
 category: 渠道
 order: 2
-updated_at: 2026-09-11
+updated_at: 2026-09-15
 ---
 
 # 安装网站聊天组件

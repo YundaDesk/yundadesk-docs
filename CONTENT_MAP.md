@@ -57,6 +57,7 @@ The Chinese and English trees are identical. Paths below are relative to each lo
 | Customers and team | Members, roles, and shared resources | `08-customers-and-team/team-settings.md` |
 | Customers and team | Apps and workspace capabilities | `08-customers-and-team/apps-and-capabilities.md` |
 | Customers and team | Brand and notifications | `08-customers-and-team/brand-and-notifications.md` |
+| Customers and team | Language and timezone | `08-customers-and-team/language-and-timezone.md` |
 | Reports and billing | Reports, subscription, and AI usage | `09-reports-and-billing/reports-and-ai-usage.md` |
 | Reports and billing | AI reception report | `09-reports-and-billing/reception-report.md` |
 | Reports and billing | AI Credit usage | `09-reports-and-billing/ai-credit.md` |
