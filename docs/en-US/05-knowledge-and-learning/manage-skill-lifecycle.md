@@ -3,12 +3,18 @@ title: Test, copy, pause, roll back, and delete a skill
 description: Manage an adopted skill from testing through activation, copy, pause, rollback, and deletion.
 category: Knowledge and learning
 order: 11
-updated_at: 2026-08-28
+updated_at: 2026-09-15
 ---
 
 # Test, copy, pause, roll back, and delete a skill
 
 A skill is a manageable answer or action. Verify when it applies, what it does, and its boundaries before enabling it.
+
+## Review the flow
+
+Opening a skill detail shows its flow on a dotted canvas on the left. Use the zoom and fit-view controls to inspect steps and branches. Open **Definition** on the right to review the learned content, when the skill applies, safety boundaries, and version information. The flow stays visible when you switch between Definition, Scenarios, and the other tabs.
+
+Branch labels show which path a condition follows. Dots appear only where a step has a connection; the entry has no incoming dot, and an end step has no outgoing dot.
 
 ## Test before activation
 
