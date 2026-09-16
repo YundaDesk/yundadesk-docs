@@ -2,7 +2,7 @@
 title: 配置 Custom API 与事件推送
 description: 配置 Custom API 的 Callback 或本地 Pull，以及签名和事件推送。
 category: 渠道
-order: 6
+order: 7
 updated_at: 2026-08-29
 ---
 

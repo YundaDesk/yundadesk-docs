@@ -2,7 +2,7 @@
 title: 连接个人账号云设备
 description: 在工程预览中连接自有社交账号，并了解登录、状态和风险。
 category: 渠道
-order: 5
+order: 6
 updated_at: 2026-08-18
 ---
 
