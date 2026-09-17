@@ -3,7 +3,7 @@ title: Channel overview
 description: Connect, enable, and maintain customer messaging channels.
 category: Channels
 order: 1
-updated_at: 2026-09-04
+updated_at: 2026-09-15
 ---
 
 # Channel overview
@@ -33,17 +33,41 @@ If you see “YouTube authorization permissions do not match,” this YouTube au
 
 Removing YundaDesk's Google access may require existing Google channels to be reauthorized as well. Contact your workspace administrator before proceeding if you are unsure about the impact.
 
-## Choose a provider when connecting email
+## Connect an email channel
+
+Choose one of three entry points when adding an email channel:
+
+- **Gmail:** Connect a Gmail or Google Workspace mailbox with official Google authorization.
+- **Microsoft Outlook:** Connect an Outlook or Microsoft 365 mailbox with official Microsoft authorization.
+- **Other mailbox:** Enter the mailbox address first, then use the suggested provider or enter the incoming and outgoing server settings supplied by your mailbox provider.
 
 After you enter the full email address, the page may suggest a provider from the address domain and its public mail settings. A suggestion is never submitted automatically; confirm the provider before continuing.
 
-If no provider is detected, or the suggestion does not match the service you use, choose one manually. Select **Other mailbox** when unsure, then enter the incoming and outgoing server settings supplied by your provider. Always run the connection test after setup. A successful test is what confirms that the account, authorization method, and server settings work.
+If no provider is detected, or the suggestion does not match the service you use, choose one manually. For an **Other mailbox** account protected by two-step verification, use the provider-generated app password or authorization code instead of the normal sign-in password. Always run the connection test and verify both inbound and outbound mail after setup.
 
 ## Three checks after connecting
 
 1. **Inbound:** Send a message from the customer side and confirm that it appears in the Inbox.
 2. **Human reply:** Reply from the Inbox and confirm that the customer actually receives it.
 3. **AI reception:** Open the channel's **Reception settings**, choose the **Reception Agent**, and then start a new customer-side test. Select **Human reception** when the channel should not be bound to an Agent.
+
+## Configure reception
+
+Expand **Reception settings** in the channel configuration and choose the **Reception Agent**. A disabled Agent can remain bound, but only receives new conversations after it is enabled.
+
+Under **Human assignment**, use **Auto-assign conversations** to control automatic assignment and **Receiving members** to choose workspace agents or selected members. When auto-assignment is off, human conversations queue for an agent to pick up.
+
+Leaving **Receiving members** empty or clearing all selections uses agents across the entire workspace. Selecting specific members limits the receiving pool to those members. Automatic assignment still requires agents to be online, accepting conversations, and below their capacity limit. The same receiving pool applies when AI hands a conversation over to a human.
+
+Changes save automatically; you can also click **Save**. Wait for the saved status before leaving. If saving fails, keep your selection and click **Save** to retry. Collapsed sections retain a summary of their current settings.
+
+## Set the Widget appearance
+
+Open **Widget appearance** on a website channel. The current workspace brand name appears here; select **Change workspace brand name** to open Branding settings.
+
+On Free, launcher icon choices and the **Hide Powered by YundaDesk** switch remain visible but disabled, with an **Unlock with Starter** hint. Starter and higher plans can select an icon and turn on the switch to hide attribution on both the Widget home and conversation screens. Turn it off to restore attribution.
+
+Changes save automatically. Refresh after saving to confirm the setting, and check the preview. Existing channels keep attribution by default; downgrading to Free restores it.
 
 ## Channels and apps are different
 

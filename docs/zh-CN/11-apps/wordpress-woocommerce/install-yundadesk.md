@@ -3,7 +3,7 @@ title: 在 WordPress 安装 YundaDesk 插件
 description: 安装一个 YundaDesk 插件，启用 WordPress 在线客服和可选的 WooCommerce 增强。
 category: 应用与集成
 order: 1
-updated_at: 2026-08-05
+updated_at: 2026-09-07
 ---
 
 # 在 WordPress 安装 YundaDesk 插件
@@ -24,6 +24,10 @@ YundaDesk 只使用一个 WordPress 插件。它可以为普通 WordPress 站点
 ## 目录正式发布后从 WordPress.org 安装
 
 WordPress.org 正式发布插件后才能使用这个方式。在私有审核或受控测试阶段，请改用 YundaDesk 提供的 ZIP。
+
+在 YundaDesk 的**应用**页面，WordPress 卡上的**前往 WordPress 安装**会直接在新标签页打开官方插件目录，再按目录指引安装。WooCommerce 卡也使用同一个插件。全部站点断开后仍使用这个入口，不会因为有历史连接而先打开说明弹窗；入口是否可用以当前卡片显示为准。
+
+也可以直接从 WordPress 后台安装：
 
 1. 在 WordPress 后台打开**插件 → 安装插件**。
 2. 搜索 **YundaDesk**。

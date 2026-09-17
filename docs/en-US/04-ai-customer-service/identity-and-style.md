@@ -3,7 +3,7 @@ title: Set an Agent name and response style
 description: Configure the customer-visible name, tone, and emoji preference for one Agent.
 category: AI customer service
 order: 4
-updated_at: 2026-08-28
+updated_at: 2026-09-10
 ---
 
 # Set an Agent name and response style
@@ -17,8 +17,8 @@ Each Agent has its own customer-visible name and response preferences. Editing o
 3. Add workspace-wide brand preferences under **Your instructions**.
 4. Select a tone and turn emoji use on or off.
 5. Turn on **Deep reasoning** if the AI should analyze more thoroughly before replying. Customers never see the reasoning process, and replies may take longer.
-6. Turn on **Progressive replies** if the AI should send a confirmed stage result before continuing with another required stage of the same request.
-7. To edit the online-queue and no-agents-online messages, switch to **Handoff**, then save.
+6. Turn on **Progressive replies**, marked **Beta**, if the AI should send a confirmed stage result before continuing with another required stage of the same request.
+7. To edit the online-queue and no-agents-online messages, switch to **Handoff**. Changes save automatically; wait for **Saved** before refreshing or leaving. If saving fails, your changes stay in the form and you can click **Save** to retry.
 
 You can also tell Yuna which setting to change for a named Agent. Yuna confirms the target and prepares a delta draft first. The change is applied only after confirmation, and settings you did not mention remain unchanged.
 

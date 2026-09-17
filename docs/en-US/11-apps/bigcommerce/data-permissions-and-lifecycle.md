@@ -3,7 +3,7 @@ title: BigCommerce data permissions and app lifecycle
 description: Understand what YundaDesk reads, multi-user access, reauthorization, uninstall, and common troubleshooting.
 category: Apps and integrations
 order: 3
-updated_at: 2026-08-06
+updated_at: 2026-09-08
 ---
 
 # BigCommerce data permissions and app lifecycle
@@ -62,6 +62,8 @@ If the store token becomes invalid, authorization is revoked, or required permis
 
 Do not reuse an old account-connection link or forward one to another user.
 
+Ordinary reauthorization preserves healthy, enabled storefronts and leaves disabled storefronts disabled. Uninstalling and reinstalling requires workspace confirmation and individual chat activation again. See [storefront chat and verification](./use-yundadesk-with-bigcommerce.md).
+
 ## Disable chat on one storefront
 
 To stop the Widget on only one storefront:
@@ -74,6 +76,8 @@ To stop the Widget on only one storefront:
 Other enabled storefronts and read-only store synchronization continue.
 
 ## Uninstall the app
+
+You can also open **Apps → BigCommerce → View store status** in YundaDesk and select **Uninstall in BigCommerce** on the target store. The link opens its app list. Confirm the current store in BigCommerce before proceeding, then return to YundaDesk and refresh the result. Other connected stores remain connected.
 
 Uninstall only when you no longer need the entire store connection:
 
@@ -89,7 +93,7 @@ A later reinstall creates a new authorization and requires an explicit YundaDesk
 
 ### The Widget does not appear
 
-- Confirm that the target storefront is **Active**, not merely that the app is installed.
+- Confirm that the target storefront is **Enabled**, then select **Open storefront and check** to verify that chat loads, not merely that the app is installed.
 - Wait one minute, then hard-refresh the public storefront.
 - Test the exact HTTPS storefront URL shown in the app.
 - Check that the cookie-consent configuration permits functional Scripts.

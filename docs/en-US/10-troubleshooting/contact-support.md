@@ -3,7 +3,7 @@ title: Prepare an effective support request
 description: Provide useful evidence without exposing credentials or customer data.
 category: Troubleshooting
 order: 6
-updated_at: 2026-08-01
+updated_at: 2026-09-07
 ---
 
 # Prepare an effective support request
@@ -11,6 +11,8 @@ updated_at: 2026-08-01
 Clear reproduction steps are more useful than saying a feature is broken. First identify whether the issue is in the page, AI answer, connected app, or channel delivery.
 
 ## Include
+
+In the workspace, **Help & Support** opens a dedicated page. **Ask AI** opens the floating Yuna window, **Dedicated support** opens the existing support conversation, and **Changelog** opens in a new tab. The solutions knowledge base below groups product guides by topic. The help dialog on the login page is unchanged.
 
 - Workspace and feature page;
 - Time and time zone;

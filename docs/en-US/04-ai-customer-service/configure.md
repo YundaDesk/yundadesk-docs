@@ -4,7 +4,7 @@ description: Select one Role, then configure the Agent's knowledge scope, tools 
 search_terms: default AI customer service, configure reception behavior, AI reception settings
 category: AI customer service
 order: 1
-updated_at: 2026-08-29
+updated_at: 2026-09-09
 ---
 
 # Create and configure an Agent
@@ -48,13 +48,15 @@ Run history helps the team review answers, identify knowledge gaps, and decide o
 
 ## Enable and verify
 
+After creating an Agent, select **Enable Agent** from the page notice or **More Agent actions**, even with no assigned channels. Activation, deactivation, and channel configuration are independent. Assigning a channel does not enable the Agent.
+
 1. On the **AI Agents** page, select **Test conversation** in the top-right corner, then choose the Agent to test.
 2. Confirm that replies use the intended knowledge and tools.
 3. Test unknown, sensitive, and handoff cases.
-4. Bind at least one connected channel under **Reception channels**, then select **Enable Agent** from the disabled notice or **More Agent actions**.
+4. Select **Enable Agent** from the page notice or **More Agent actions**. For automatic customer reception, also assign a connected channel under **Reception channels**. You can enable the Agent and assign channels in either order.
 5. Prefer the Web Widget for one real inbound and reply check.
 
-An enabled Agent with no bound channel still does not serve customers and appears as a draft in the list. A saved configuration is not proof that the customer received a reply; verify the customer-visible message.
+An enabled Agent with no bound channel still does not serve customers and appears as **Enabled · No channels** in the list. A saved configuration is not proof that the customer received a reply; verify the customer-visible message.
 
 ## Disable, archive, or delete
 

@@ -2,7 +2,7 @@
 title: Connect a personal-account cloud device
 description: Connect your own social account in preview and understand login, status, and risk.
 category: Channels
-order: 5
+order: 6
 updated_at: 2026-09-18
 ---
 

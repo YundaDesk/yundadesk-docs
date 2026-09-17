@@ -3,7 +3,7 @@ title: Meet Yuna
 description: Understand how Yuna differs from AI customer service and what it can do for your team.
 category: Yuna
 order: 1
-updated_at: 2026-08-29
+updated_at: 2026-09-15
 ---
 
 # Meet Yuna
@@ -35,9 +35,11 @@ Yuna availability and allowance depend on the current subscription and workspace
 
 Open Yuna from the AI area. The full page and floating window share the same conversation state and should continue the same in-progress operation across page changes.
 
+When you start a new conversation on the full Yuna page or in the floating window, you can choose from three next-step suggestions below the input box. Each appears on its own line with a return-left arrow icon; suggestions hide when you type or begin a conversation. These may come from work information you can access, or offer help preparing a business brief, reply drafts, or support knowledge. Preparation suggestions do not mean something is wrong with your workspace. Selecting one starts a Yuna conversation; it does not directly send customer messages or change settings. For source-backed suggestions, expand **Reference context** in the message to inspect the supporting material. Select **New chat** to see the suggestions again.
+
 For work that needs to repeat, expand **Yuna** in the main navigation and select **Automations**. You can [create a workspace-task Automation with Yuna](./automations.md) or manually set up work that runs on demand, every day, on weekdays, or every week. If the manual form offers Customer outreach, every send still requires a person to review and approve the audience and message.
 
-Use the mode picker at the bottom of the composer to switch between **Base** and **Thinking**. After you select **Thinking**, it stays active after sending, changing pages, or refreshing until you switch back to **Base**. Yuna shows a temporary, collapsible reasoning section while generating and keeps the final answer separate. The reasoning process is not saved as a visible Yuna conversation message.
+Use the mode picker at the bottom of the composer to switch between **Base** and **Thinking**. After you select **Thinking**, it stays active after sending, changing pages, or refreshing until you switch back to **Base**. Thinking lets Yuna analyze more thoroughly internally, but raw reasoning is never shown. While generating, Yuna shows elapsed work time and real tool activity only; after completion, it collapses to “Worked for x s,” and the final answer remains separate.
 
 When you open Yuna again, the browser resumes only a locally remembered conversation that was active recently. If no conversation is remembered, or it has been inactive for a while, Yuna opens a new conversation page.
 
@@ -52,3 +54,9 @@ Within the current browser session, unsent text, images, page context, and short
 Selected context can narrow Yuna's answer to the current customer, conversation, knowledge document, channel, setting, or report range. Yuna uses only information you are allowed to access. Unsupported pages do not show the chip, and Yuna may ignore it when your request is unrelated.
 
 If one response has several visible steps, **Activity in this response** groups them and can be collapsed after completion. Reading position is remembered for each conversation. Connection notices appear when the browser is offline or unstable, and drafts are cleared after a message is sent successfully.
+
+## Voice input
+
+In browsers that support speech recognition, the Yuna composer shows a microphone button. Click it and allow microphone access to see your speech appear in the draft. Stop recording, review or edit the text, then send it. The Chinese interface uses Mandarin recognition; the English interface uses English recognition.
+
+Switching conversations or leaving the composer ends the recording. If no microphone button appears, continue typing or use your device keyboard’s dictation feature. If recognition fails, check microphone permissions and your connection. Recognition is provided by your browser and may require internet access; results vary by browser and dialect.

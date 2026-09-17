@@ -3,7 +3,7 @@ title: Fix missing Inbox notifications
 description: Troubleshoot browser notifications, sounds, and unread reminders.
 category: Troubleshooting
 order: 5
-updated_at: 2026-08-29
+updated_at: 2026-09-07
 ---
 
 # Fix missing Inbox notifications
@@ -30,6 +30,8 @@ If notifications work only while the page is open, also check:
 For a real test, close the YundaDesk tab and have another member or visitor trigger a new event that matches your notification preferences. Refreshing an old notification does not send it again.
 
 ## Incorrect unread count
+
+When the current Yuna conversation is open in the full page, floating window, or docked window, its new replies are marked read without a duplicate in-app Yuna reply notification. New replies in other conversations still trigger a reminder.
 
 If the unread count is wrong, refresh and verify whether conversations are actually read. Preserve the steps and time if the count and list remain inconsistent; do not repeatedly click items just to hide the mismatch.
 

@@ -3,7 +3,7 @@ title: Connect Yuna to a phone channel
 description: Continue using the same Yuna through a supported messaging app.
 category: Yuna
 order: 4
-updated_at: 2026-07-17
+updated_at: 2026-09-07
 ---
 
 # Connect Yuna to a phone channel
@@ -22,6 +22,14 @@ Available providers are shown on the current page. Submit credentials only throu
 ## Sessions and reminders
 
 Web and phone access use the same workspace context. Workspace memory and personal preferences help Yuna stay consistent, while the content mirrored to a phone provider may be limited by policy and permission.
+
+## Approve an action from your phone
+
+Review the action in the pending approval message. If this conversation has one pending approval, reply `/approve` to approve it or `/deny` to reject it. When several approvals are pending, use `/approve ID` or `/deny ID` from the message to select one.
+
+Commands apply only to valid approvals already shown in the current phone conversation. Expired, resolved, or other-conversation approvals cannot be executed this way. Repeating a command does not repeat the action. Check the execution result afterward: approval alone does not mean the action or delivery has completed.
+
+Phone actions use the connection owner's current workspace permissions. Revoked permissions cannot be reused through an older connection.
 
 ## Revoke or transfer
 
