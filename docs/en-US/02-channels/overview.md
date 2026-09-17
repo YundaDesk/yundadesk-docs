@@ -3,7 +3,7 @@ title: Channel overview
 description: Connect, enable, and maintain customer messaging channels.
 category: Channels
 order: 1
-updated_at: 2026-09-15
+updated_at: 2026-09-17
 ---
 
 # Channel overview
@@ -57,9 +57,13 @@ Expand **Reception settings** in the channel configuration and choose the **Rece
 
 Under **Human assignment**, use **Auto-assign conversations** to control automatic assignment and **Receiving members** to choose workspace agents or selected members. When auto-assignment is off, human conversations queue for an agent to pick up.
 
-Leaving **Receiving members** empty or clearing all selections uses agents across the entire workspace. Selecting specific members limits the receiving pool to those members. Automatic assignment still requires agents to be online, accepting conversations, and below their capacity limit. The same receiving pool applies when AI hands a conversation over to a human.
+**Receiving members** must contain at least one active member; you cannot deselect the last member. Explicitly selected admins can receive conversations in that channel. **Entire workspace** requires at least one active agent and does not automatically include admins. If no receiving members are available, select members before saving reception settings or enabling the channel.
+
+Automatic assignment still requires members to be online, accepting conversations, and below capacity. The same pool applies to AI handoff; conversations remain queued while no member is available.
 
 Changes save automatically; you can also click **Save**. Wait for the saved status before leaving. If saving fails, keep your selection and click **Save** to retry. Collapsed sections retain a summary of their current settings.
+
+If the workspace has no active agents, a newly created channel stays disabled. Open **Reception settings**, select at least one receiving member (an admin is allowed), save, and then enable the channel.
 
 ## Set the Widget appearance
 
