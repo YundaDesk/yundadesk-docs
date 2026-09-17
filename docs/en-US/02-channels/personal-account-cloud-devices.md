@@ -3,7 +3,7 @@ title: Connect a personal-account cloud device
 description: Connect your own social account in preview and understand login, status, and risk.
 category: Channels
 order: 5
-updated_at: 2026-09-11
+updated_at: 2026-09-18
 ---
 
 # Connect a personal-account cloud device
@@ -37,11 +37,21 @@ Personal account hosting does not support broadcasts, segment sends, or automate
 6. Create the device and complete the displayed QR, pairing, verification-code, PIN, two-step verification, or confirmation challenge.
 7. Wait for the status to become **Online**, then use another account to complete one real inbound message and one human reply.
 
-After creation, wait while the device prepares its connection. If multiple login methods are offered, choose a QR code or phone number. Enter the full phone number with its country code, followed by the verification code and two-step verification password if requested. Enter a LINE PIN on your phone, not back into the web page. If a QR code expires, restart login and use the new code.
+After creation, wait while the device prepares its connection. If multiple login methods are offered, choose a QR code or phone number. Enter the full phone number with its country code, followed by the verification code and two-step verification password if requested. Enter a LINE PIN on your phone, not back into the web page. Use only the currently valid QR code on the page, not a previously saved code.
 
 After you submit a verification code, PIN, password, or proxy password, the page does not reveal it again. If submission fails, obtain or enter a new value instead of trying to recover it from browser history or screenshots.
 
 ## Understand device status
+
+### Login time limit, cancellation, and retry
+
+The Account login section shows the time remaining for the current attempt. Refreshing, switching tabs, reopening the page, or receiving a replacement QR code does not restart the countdown. Verification codes and two-step verification must also be completed within this attempt. Briefly closing the page does not immediately cancel login.
+
+To stop, select **Cancel this login**. After cancellation or expiry, the page hides login codes and shows that the connection is ending. Wait until cleanup finishes and the page allows another login, then select **Start / restart login**. A new attempt does not start automatically.
+
+Ending an incomplete login does not delete the cloud device or proxy configuration, and saved sessions are retained. Once login is confirmed successful, the original login countdown will not stop the signed-in device. If status cannot be confirmed, wait for the page to recover rather than repeatedly submitting or creating duplicate devices.
+
+### Connection and runtime status
 
 “Waiting for runtime resources” means no running instance is available yet; it does not mean your proxy password or account is wrong. After selecting login, “Login request received” or “Login request pending” means you can wait without clicking again. Login starts automatically when ready. While the device proxy connection is being prepared, wait for the result and follow any proxy error shown.
 
@@ -102,7 +112,7 @@ Open the device details, select **Delete cloud device**, and confirm. Do not con
 
 - The page cannot submit the request: refresh, re-enter the proxy password, and try again. If the device already appears in the list, check its status instead of creating another one.
 
-- Expired QR or verification code: select **Start / restart login** and complete the new challenge.
+- Expired QR or verification code: use only the new challenge shown on the page. If the attempt has ended, wait for cleanup before selecting **Start / restart login**.
 - Stuck in Connecting: check that the proxy host, port and authentication details are correct and the proxy is reachable, then reconnect.
 - Expired status: sign in again and do not repeatedly submit an old code.
 - Unknown send result: check the actual social app before sending again to avoid a duplicate message.
