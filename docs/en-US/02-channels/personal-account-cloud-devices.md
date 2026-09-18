@@ -71,11 +71,11 @@ A running device is not necessarily signed in. QR codes, phone PINs, verificatio
 
 After LINE confirms on your phone, wait for the channel page to confirm sign-in. If it reports a rejected login context, sign in again. If it fails again, open **Error details** and share the error code and time with support, never the QR code, PIN or password. If an updated login client is required, contact support instead of repeatedly scanning.
 
-## Check the device's measured exit
+## Check the device network exit
 
-A failed exit check does not mean the account signed out. Open the latest check details to see the failed stage. A **Last successful measurement** is a historical result with its original time, not a successful result for the current check. Checks continue, and a new successful measurement updates the current result.
+A failed exit check does not mean the account signed out. Follow the reason shown on the page. A **Last successful measurement** is a historical result with its original time, not a successful result for the current check. Checks continue, and a new successful measurement updates the current result.
 
-Open the device in **Channels** and check **Recently measured exit** for its exit IP, country/region and measurement time. Wait for the first check after creation and a fresh result after changing the proxy. The previous IP is not presented as the current exit after a proxy change. **Check again** does not sign out or restart the device; avoid repeated clicks.
+Open the device in **Channels** and check **Device network exit** for its check status, exit IP, country/region and measurement time. **Check successful** means a valid exit result was obtained, not that the account is signed in. Wait for the first check after creation and a fresh result after changing the proxy. The previous IP is not presented as the current exit after a proxy change. **Check again** does not sign out or restart the device; avoid repeated clicks.
 
 **Region unknown** means the IP's country/region could not be determined. **Check failed** or **Result expired** means no sufficiently fresh measurement is available, not that account login failed. Country/region is an IP-based estimate, not a physical-location guarantee. Rotating proxies can use different IPs for different connections; read the result together with its measurement time.
 
