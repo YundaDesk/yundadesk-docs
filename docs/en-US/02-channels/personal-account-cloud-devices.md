@@ -3,7 +3,7 @@ title: Connect a personal-account cloud device
 description: Connect your own social account and understand login, status, and risk.
 category: Channels
 order: 6
-updated_at: 2026-09-19
+updated_at: 2026-09-20
 ---
 
 # Connect a personal-account cloud device
@@ -36,6 +36,8 @@ Personal account hosting does not support broadcasts, segment sends, or automate
 5. Decide whether to sync message history. History is optional; use the support and limits shown on the page.
 6. Read and accept the agreement and risk notice, confirm that you are using your own account, then create the device. Complete the displayed QR, pairing, verification-code, PIN, two-step verification, or confirmation step.
 7. Wait for the status to become **Online**, then use another account to complete one real inbound message and one human reply.
+
+After submitting, wait for the creation result. **Confirming resources and the creation result** does not mean a device has been successfully created. Do not submit again; refreshing the same browser tab resumes the original request. If the page explicitly reports insufficient resources or that creation has ended, this request does not leave a new usable device; follow the instructions and try again later. Distinguish creation failure from a proxy or account sign-in failure after creation. Handle the latter in the existing device details instead of creating another device.
 
 After creation, wait while the device prepares its connection. If multiple login methods are offered, choose a QR code or phone number. Enter the full phone number with its country code, followed by the verification code and two-step verification password if requested. Enter a LINE PIN on your phone, not back into the web page. Use only the currently valid QR code on the page, not a previously saved code.
 
