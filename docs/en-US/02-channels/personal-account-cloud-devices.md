@@ -30,7 +30,7 @@ Personal account hosting does not support broadcasts, segment sends, or automate
 ## Connect the account
 
 1. Open **Channels** and find **Personal account hosting** at the bottom of the marketplace, below **Social & Messaging**. If the section is absent, it is not available to this workspace.
-2. Select the button at the bottom left of the appropriate card, such as **Host WhatsApp personal account**. Telegram App and Zalo App identify personal-account hosting, not official business channels. These type labels do not rename existing devices.
+2. Select the button at the bottom left of the appropriate card, such as **Host WhatsApp account**. The number beside the category heading counts the available account types; the bottom-right badge on each card counts devices already created for that type. Telegram App and Zalo App identify personal-account hosting, not official business channels. These type labels do not rename existing devices.
 3. Enter a device name that helps you identify the account.
 4. Select an available network egress option. For a custom static proxy, enter its protocol, host, port, and username and password if required. You do not need to enter an expected IP region or provide residential-type evidence. You are responsible for choosing the proxy source and region and assessing account-use risks.
 5. Decide whether to sync message history. History is optional; use the support and limits shown on the page.
