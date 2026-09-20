@@ -1,15 +1,26 @@
 ---
 title: Create and configure an Agent
 description: Select one Role, then configure the Agent's knowledge scope, tools and actions, skills, reception settings, and channels.
-search_terms: default AI customer service, configure reception behavior, AI reception settings
+search_terms: default AI customer service, configure reception behavior, AI reception settings, order lookup, order query skill, tools and actions
 category: AI customer service
 order: 1
-updated_at: 2026-09-09
+updated_at: 2026-09-20
 ---
 
 # Create and configure an Agent
 
 Open **AI Agents** from the main navigation to manage customer-facing Agents by business responsibility. An Agent has one Role and can handle multiple channels. A channel can be bound to only one Agent at a time.
+
+## Where do I configure order lookup?
+
+Order lookup requires a connected store and permission for the target Agent to use its query tool:
+
+1. Open **Apps**, connect your store app, and complete its authorization steps. Confirm that the app is connected.
+2. Open **AI Agents**, select the Agent, then go to **Tools & actions**. Enable the store's order lookup tool and save. Tools from a store that is not connected will not appear in the list.
+3. To define handling steps, such as asking for an order number and checking customer details, expand **AI Agents → Skills** to manage skills. Enable an existing relevant skill in the target Agent's **Skills** section. A skill defines the procedure; it does not replace the store connection or permission to use the query tool.
+4. Use **Test conversation** to ask about an order you can verify. Inspect answer details for an actual order lookup tool call and compare its result with the store. An enabled switch or a natural-language reply alone does not prove that a real order was retrieved.
+
+For basic order lookup, connect the app and enable the tool first. You do not need to create a separate skill just to enable querying. See [Apps and capabilities](../08-customers-and-team/apps-and-capabilities.md) for connection guidance.
 
 ## Create an Agent
 

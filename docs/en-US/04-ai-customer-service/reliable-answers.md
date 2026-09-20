@@ -1,14 +1,23 @@
 ---
 title: Understand how AI answers reliably
 description: Learn how knowledge, skills, customer context, and live capabilities support trustworthy answers.
+search_terms: AI image recognition, understand customer images, reply to a photo, image-only message
 category: AI customer service
 order: 7
-updated_at: 2026-08-28
+updated_at: 2026-09-17
 ---
 
 # Understand how AI answers reliably
 
 A reliable answer is more than fluent text. YundaDesk selects information that fits the question. When evidence is missing or risk is high, the AI should clarify, state a limitation, or hand off instead of guessing.
+
+## Can AI customer service recognize customer images?
+
+Yes. YundaDesk AI customer service can recognize images sent by customers and reply using the image, the customer's question, and the conversation. Customers can send an image alone or add a text description. If an image arrives without a clear request, the AI can ask what the customer wants to know.
+
+For example, a customer can send a product photo or a screenshot and ask “What is this?” or “What does this message mean?”. Image recognition helps the AI understand the question. Refunds, stock availability, and order status still require the relevant knowledge or live information.
+
+To verify this, send a clear image through a website chat already handled by AI and check whether the reply matches the image. Upload the image again if the upload failed or the image is unclear. Contact YundaDesk support if recognition keeps failing. Image recognition for external AI depends on the connected service.
 
 ## Four sources for an answer
 

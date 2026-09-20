@@ -3,7 +3,7 @@ title: Troubleshoot Telegram
 description: Diagnose missing Telegram inbound messages and undelivered replies.
 category: Channels
 order: 10
-updated_at: 2026-09-11
+updated_at: 2026-09-17
 ---
 
 # Troubleshoot Telegram
@@ -21,6 +21,14 @@ If the bot is already connected, use the existing support channel. Disabling it 
 After changing the Bot Token, click **Save** to apply it. If credential validation fails, the previous credential stays unchanged. If the save result is unclear, refresh the page to check it. Save a replacement credential for the same bot in its existing channel; create a new channel for a different bot.
 
 A successful **Test connection** only confirms that the credential is valid. Check that a customer message reaches the Inbox and a reply appears in Telegram to confirm that receiving and replying both work.
+
+## Health shows a bot receiving conflict
+
+“Bot receiving conflict” means another service is receiving messages for the same bot, so this channel may miss messages. “Bot webhook is active” means the bot uses another receiving method and this channel cannot currently receive messages.
+
+The system slows down retries and updates the status automatically when receiving resumes. Other channels are unaffected by this conflict. Check channel health: valid credentials alone do not confirm message reception. Check the delivery result of replies already in the Inbox separately.
+
+You do not need to repeatedly save credentials or run connection tests to understand the impact. Those actions do not prove that the receiving conflict has ended.
 
 ## The Inbox has the message but AI does not reply
 

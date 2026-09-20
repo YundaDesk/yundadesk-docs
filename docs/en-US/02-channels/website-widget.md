@@ -3,7 +3,7 @@ title: Install the website widget
 description: Add customer chat to your website and verify both messages and AI replies.
 category: Channels
 order: 2
-updated_at: 2026-09-15
+updated_at: 2026-09-17
 ---
 
 # Install the website widget
@@ -67,6 +67,8 @@ Visitors first see the public name you configure under **Manage contact methods*
 **Show suggestions on Home** and **Show suggestions in empty chats** are enabled independently by default under Display settings. When safe knowledge candidates are available, Widget Home shows 1–3 questions in one list card between **Chat with support** and **Contact us**, separated by dividers. Selecting one immediately enters chat and sends it through the normal AI answer flow. When the empty-chat switch is enabled, suggestions appear below and align with the welcome message, or at the top when the welcome message is unavailable. They disappear after the first visitor message.
 
 Brief connection interruptions do not add a persistent error banner to the home screen. If “Restoring connection” appears above the message input, select it to retry; the hint disappears when the connection recovers. A sent message confirms that message was sent successfully. If replies do not arrive, check your network or contact the website’s support team.
+
+If the visitor session is unavailable, select the notice to retry. Displayed messages and unsent text remain in place, and you can continue chatting after recovery. If the same notice keeps returning, copy any unsent text before refreshing the website page.
 
 ## Troubleshooting
 
