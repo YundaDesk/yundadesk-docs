@@ -3,7 +3,7 @@ title: Manage apps and workspace capabilities
 description: Understand how apps, plugins, channels, and platform features determine what a workspace can do.
 category: Customers and team
 order: 3
-updated_at: 2026-08-15
+updated_at: 2026-09-21
 ---
 
 # Manage apps and workspace capabilities
@@ -32,7 +32,7 @@ If the workspace already uses an enabled DeepL route, YundaDesk keeps that selec
 
 Turning off Translate visitor messages also turns off real-time translation. Viewing apps requires the View apps permission. Installing, configuring, enabling, disabling, or uninstalling apps requires Manage apps. Changing workspace chat translation requires Manage chat tools. Each agent can set Continuous translation for themselves under Chat tools.
 
-Agent reading translation also applies to completed AI customer service replies. When a reply language differs from the agent's configured work language, the workspace offers a Translate action. AI replies are never translated automatically; an agent must request the translation. Agents can switch back to the original text that the customer actually received. This translation is for agents only and is never sent to the customer again. If translation fails for either a visitor message or an AI reply, agents can retry below the message.
+Agent reading translation also applies to completed AI customer service replies. When a reply language differs from the agent's configured work language, the workspace offers a Translate action. AI replies are never translated automatically; an agent must request the translation. After translation, the same bubble shows the original text above the translation, separated by a line. Select Hide translation to collapse it and Show translation to restore it; the original always stays visible. Existing translations are shown again after refreshing the page. This translation is for agents only and is never sent to the customer again. If translation fails for either a visitor message or an AI reply, the original stays visible and agents can retry below the message.
 
 ## Use live business information
 
