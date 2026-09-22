@@ -53,20 +53,30 @@ When a visitor asks about an order in website chat and the AI agent finds it, a 
 
 1. Choose a WooCommerce test order and note its order number, billing email, amount, and current status.
 2. Open that customer's conversation in YundaDesk and confirm that the customer email matches the order's billing email.
-3. In the Inbox's store-orders sidebar, verify the store and order details.
+3. In the Inbox's **Store orders** sidebar, verify the store and order details. For an order with multiple products, select **View all N items** to expand every product name, quantity, and available SKU in place. Select **Collapse items** to return to the summary.
 4. Also test an email with no orders and confirm that another customer's orders are not displayed.
 
 If orders remain unavailable, check the store and email first, then look for a reauthorization prompt. Previously displayed orders do not verify the current connection. A temporary inability to read orders does not mean the customer has no orders.
 
-## Verify store context
+## View the current cart
 
-1. Create or update a test product, customer, and order.
-2. Confirm that the changed resources appear in YundaDesk after synchronization.
-3. Open the storefront as a visitor with an active YundaDesk conversation.
-4. Add, change, and remove a product in both the classic cart and Cart block when your site uses them.
-5. Confirm that the current cart context updates without sending an address, email address, or phone number.
+1. Have the visitor start an active YundaDesk conversation on the connected storefront.
+2. Add products, change quantities, or remove products in the store.
+3. Open that visitor's conversation in YundaDesk and find **Current cart** below **Store orders** in the sidebar. An email address is not required, and the cart can appear without the orders section. Your staff account needs permission to view the conversation and app data.
+4. Check product names, quantities, available SKUs, the item count, **Subtotal**, and currency. The subtotal is not the final amount including shipping and tax.
+5. Keep the sidebar open to receive updates, or select **Refresh cart**. Use **Data updated** to check how recent the information is.
 
-Cart context is short-lived and belongs to the current visitor conversation. YundaDesk does not label a cart as an abandoned checkout.
+| Displayed state | What to check |
+|---|---|
+| The cart is empty | An empty cart was received. Add a product in the store and check again. |
+| No cart data is currently available | There is no available information to display; the store cart is not necessarily empty. Confirm that the conversation is active, then change the cart in the store. |
+| The cart data has expired | The previous information is no longer available for display. Have the visitor return to the store and change the cart, then check again. |
+| The conversation or store connection is unavailable | Check whether the conversation has ended or the correct site needs reconnection or reauthorization. |
+| The cart could not refresh | Try again later. If previous information remains visible, check its update time. |
+
+The sidebar shows the latest cart information received from the store. **Refresh cart** rereads that information; it does not change or reload the visitor's store cart. If rapid changes leave the display behind, wait before changing the cart again or reloading the storefront, then check the update time. Repeatedly refreshing the staff page cannot guarantee recovery of changes that have not been received.
+
+Cart information belongs to the current active visitor conversation. YundaDesk does not label the visitor as an abandoned checkout based on it. Cart availability may differ for other ecommerce platforms.
 
 ## If WooCommerce is deactivated
 

@@ -29,6 +29,12 @@ Email conversations remain in the same Inbox list. When you open one, the middle
 
 When an agent is serving the conversation, each email card provides **Reply** and **Forward** actions. Reply fills the selected email's reply address and subject. Forward clears the recipient so you can choose a new one and prepares a `Fwd:` subject. Expand Cc or Bcc when needed. Replies stay in the existing email thread after they are sent. Correct the body, recipients, or subject before sending if anything is wrong. While AI is serving the conversation, these customer-reply fields and card actions are hidden; you can still add an internal note or take over before replying to the customer.
 
+## View store orders and the current cart
+
+Open **Store orders** in the customer profile area on the right of a conversation. For an order with multiple items, select **View all N items** to see each item's name, quantity, and available SKU in the sidebar. Select the collapse action to close the list. On a narrow screen, open the customer profile panel first.
+
+Website conversations connected to WooCommerce also show **Current cart**, including for visitors without an email address. It shows the most recently received items, quantities, subtotal, currency, and data update time. The subtotal is not the final amount including shipping and taxes. The panel updates automatically while open, and **Refresh cart** reads the latest available data. Refreshing does not change the original update time or recover store changes that were never received. Empty carts, missing data, expired data, and unavailable connections have distinct messages.
+
 ## Reply faster
 
 - Insert shared quick replies for common questions.
