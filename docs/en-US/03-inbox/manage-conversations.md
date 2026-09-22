@@ -4,7 +4,7 @@ description: Claim, reply to, transfer, and close customer conversations.
 search_terms: automatically translate incoming messages, incoming customer message translation, agent translation
 category: Inbox
 order: 1
-updated_at: 2026-09-08
+updated_at: 2026-09-22
 ---
 
 # Manage conversations in the Inbox
@@ -20,6 +20,8 @@ The Inbox brings customer conversations from connected channels into one workspa
 5. Transfer the conversation when another teammate is needed, and close it when the issue is resolved.
 
 Message status distinguishes sending, sent, delivered, and failed states. Follow the retry or delivery-detail action when a message fails.
+
+After you send a reply or internal note, the composer stays expanded. The sent text clears so you can continue typing the next message.
 
 ### Read and reply to email conversations
 
