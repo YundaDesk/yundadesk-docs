@@ -3,7 +3,7 @@ title: Customize the website widget
 description: Adjust customer-visible branding and content in the website chat widget.
 category: Channels
 order: 9
-updated_at: 2026-09-11
+updated_at: 2026-09-22
 ---
 
 # Customize the website widget
@@ -17,6 +17,10 @@ The widget should match your brand while remaining easy to find and read.
 3. Set the customer-visible name, brand image, and available colors. **Collect visitor email** sits above **Hide Powered by YundaDesk** and is on by default.
 4. A new website channel gets a welcome message automatically. YundaDesk generates it from the visitor's Widget language and the workspace brand name, not the channel name. Under Display settings, edit one source set for the Home title, Home description, and welcome message; YundaDesk translates it for the visitor. Blank fields use the localized system default. The welcome message becomes the first support message in a new conversation.
 5. Preview the result on desktop and mobile.
+
+For visitors without a current conversation, the welcome message also appears above the closed chat button. Visitors can select the card to start chatting or dismiss it; after dismissal or opening chat, it will not appear again during that visit. On desktop, the expand button provides more reading space. On mobile, chat opens full screen.
+
+When chat is closed, new replies from support or AI appear in a message preview above the chat button. The card updates to the latest reply; images, files, voice messages, and videos show a type label. Select the card to open the conversation. Dismissing it keeps the unread indicator, and the next new reply can show another preview.
 
 ## Recommended practices
 
