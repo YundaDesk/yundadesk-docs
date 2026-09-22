@@ -4,7 +4,7 @@ description: Invite teammates, assign access, and maintain shared labels and qui
 search_terms: use saved team quick replies, insert quick reply in agent composer, shared quick reply location
 category: Customers and team
 order: 2
-updated_at: 2026-08-28
+updated_at: 2026-09-22
 ---
 
 # Manage members, permissions, and shared resources
@@ -13,7 +13,7 @@ Team settings determine who can view customers, handle conversations, change AI 
 
 ## Invite a member
 
-Open **Settings > Team members**, enter the member's email address, and select Administrator or Agent. The invited member follows the page instructions to join before accessing the workspace.
+Open **Contacts > Team members**, enter the member's email address, and select Administrator or Agent. The invited member follows the page instructions to join before accessing the workspace.
 
 Administrators can invite either administrators or agents. **Invite agents** is a separate sensitive permission: a regular agent who receives it can see the invitation action and invite regular agents, but cannot create an administrator.
 
@@ -38,5 +38,11 @@ Open **Permission management** to view permissions as rows and members as column
 - **Notifications:** Personal reminder preferences based on each member's responsibilities.
 
 ## Security recommendations
+
+In **Contacts > Team members**, use another member's row menu to delete their membership and check the target in the confirmation dialog. You cannot delete yourself; your own menu does not show **Delete member**.
+
+Before deleting, disabling, or changing the role of the last administrator, assign another active administrator. If you are the only member and want to close the entire workspace, use workspace cancellation in **Settings > General** instead of deleting your membership.
+
+When all active memberships have been removed or disabled, the workspace is automatically suspended. Suspension does not cancel the workspace or delete its historical data.
 
 Review permissions when responsibilities change. Disable or remove access promptly when a member leaves, inspect login records, and never share one account between multiple people.
