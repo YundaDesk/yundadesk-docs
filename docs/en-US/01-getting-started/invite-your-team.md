@@ -3,7 +3,7 @@ title: Invite team members
 description: Invite agents or administrators and assign an appropriate role.
 category: Getting started
 order: 5
-updated_at: 2026-08-01
+updated_at: 2026-09-22
 ---
 
 # Invite team members
@@ -17,6 +17,8 @@ Administrators can invite other people to handle conversations, maintain knowled
 3. Enter the member's email and display name.
 4. Select Administrator or Agent.
 5. Send the invitation.
+
+If the email already has a membership, find the existing member in member settings to change their role. Enable a disabled member instead of inviting them again. Sending another invitation or accepting an old one cannot change an existing member's role or restore a deleted member.
 
 ## Choose a role
 
