@@ -58,6 +58,8 @@ If no avatar is available or an image cannot load, the customer's initial is sho
 
 ## View orders and the current cart
 
+On wide screens, drag the left edge of the customer sidebar to adjust its width. The same browser remembers each member’s choice separately for each workspace and restores it when reopened. On narrow screens, the sidebar opens as a drawer; click outside it or press Esc to close it.
+
 Open **Store orders** on the right of a conversation to review order numbers, amounts, and payment and fulfillment statuses. Status badges use both text and color; read the label for the exact status. The three newest fetched orders are shown first; expand the remaining fetched orders or collapse them again. Select **Expand N items** to see an order’s products, quantities, and SKUs in place, then collapse the list when finished.
 
 Supported WooCommerce website conversations show **Current cart** above orders. Carts with more than two product lines can be expanded and collapsed; the count and subtotal always include all products. The cart has an item count beside the heading and a subtotal below the products. Use the refresh icon beside the heading to read the data again. **Updated** refers to when the store data was updated; hover over it for the full timestamp. A refresh error, expired data, or unavailable data does not mean the cart is empty.
