@@ -4,7 +4,7 @@ description: Claim, reply to, transfer, and close customer conversations.
 search_terms: automatically translate incoming messages, incoming customer message translation, agent translation
 category: Inbox
 order: 1
-updated_at: 2026-09-22
+updated_at: 2026-09-23
 ---
 
 # Manage conversations in the Inbox
@@ -55,3 +55,13 @@ Closing a conversation does not remove its history. When the customer contacts y
 The conversation list, chat header, and customer message bubbles show the same customer avatar supplied by the channel. Telegram, Messenger, Instagram, LINE, YouTube, and Zalo can provide avatars when channel permissions and customer profiles allow it. Availability in WeChat Customer Service depends on the connection method and platform permissions. Website and custom channels can display avatars supplied by your integration.
 
 If no avatar is available or an image cannot load, the customer's initial is shown. The avatar may update after the customer sends another message; their identity and conversation history stay the same.
+
+## View orders and the current cart
+
+Open **Store orders** on the right of a conversation to review order numbers, amounts, and payment and fulfillment statuses. Status badges use both text and color; read the label for the exact status. The three newest fetched orders are shown first; expand the remaining fetched orders or collapse them again. Select **Expand N items** to see an order’s products, quantities, and SKUs in place, then collapse the list when finished.
+
+Supported WooCommerce website conversations show **Current cart** above orders. Carts with more than two product lines can be expanded and collapsed; the count and subtotal always include all products. The cart has an item count beside the heading and a subtotal below the products. Use the refresh icon beside the heading to read the data again. **Updated** refers to when the store data was updated; hover over it for the full timestamp. A refresh error, expired data, or unavailable data does not mean the cart is empty.
+
+Select **Customer timeline** on the right to view customer activity under the matching heading. An empty state appears when no activity is available.
+
+Use the copy icon beside an order number or SKU to copy that value. A confirmation appears after a successful copy; if copying fails, select the text and copy it manually.
