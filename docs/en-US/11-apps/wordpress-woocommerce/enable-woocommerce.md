@@ -3,7 +3,7 @@ title: Enable the read-only WooCommerce enhancement
 description: Authorize WooCommerce in read-only mode and confirm store data, cart context, and event status.
 category: Apps and integrations
 order: 3
-updated_at: 2026-09-07
+updated_at: 2026-09-24
 ---
 
 # Enable the read-only WooCommerce enhancement
@@ -48,6 +48,8 @@ WooCommerce may require authorization again after reconnecting a disconnected si
 Handle each site separately. Do not use another store's authorization in place of the current store's connection.
 
 ## Verify order lookup
+
+When a visitor asks about an order in website chat and the AI agent finds it, a compact order card appears separately below the text bubble, with the order number, items and quantities, amount, and statuses supplied by the store. The card remains visible after refreshing or reopening the same conversation. It shows information from that lookup; ask again for the latest progress. Missing payment or shipping statuses are not inferred, and a custom order status does not establish that an order has been paid or shipped.
 
 1. Choose a WooCommerce test order and note its order number, billing email, amount, and current status.
 2. Open that customer's conversation in YundaDesk and confirm that the customer email matches the order's billing email.
