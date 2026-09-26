@@ -3,7 +3,7 @@ title: Manage customer profiles
 description: Review customer identity, channels, labels, history, and AI memory in one profile.
 category: Customers and team
 order: 1
-updated_at: 2026-08-23
+updated_at: 2026-09-26
 ---
 
 # Manage customer profiles
@@ -29,6 +29,8 @@ After the first business message on the website, Telegram, or another messaging 
 - team labels and notes;
 - AI memory and follow-up items that apply only to this customer;
 - order or behavior summaries from connected systems.
+
+Profile information in both the chat sidebar and customer details shows the original name, username, user ID, email, and phone supplied by each linked channel. Only available values are shown, with their channel identified. Renaming a customer changes the main heading while keeping the original channel name visible when it differs from the heading. Contact details already shown in the main profile are not repeated; identical usernames and user IDs appear once. In the chat sidebar, device type and screen size share one row. The source row shows the channel icon and name; you do not need to open Linked identities to read these details.
 
 Website page-view activity shows the page the customer visited. To protect privacy, parameters in the page address are not displayed.
 
