@@ -4,7 +4,7 @@ description: Claim, reply to, transfer, and close customer conversations.
 search_terms: automatically translate incoming messages, incoming customer message translation, agent translation
 category: Inbox
 order: 1
-updated_at: 2026-09-23
+updated_at: 2026-09-26
 ---
 
 # Manage conversations in the Inbox
@@ -57,6 +57,8 @@ The conversation list, chat header, and customer message bubbles show the same c
 If no avatar is available or an image cannot load, the customer's initial is shown. The avatar may update after the customer sends another message; their identity and conversation history stay the same.
 
 ## View orders and the current cart
+
+When an AI order reply includes an order card, the conversation displays its order number, products, quantities, amount, and store-reported statuses below the reply. Cards remain available after refreshing the page. Card-only replies do not repeat fallback text.
 
 On wide screens, drag the left edge of the customer sidebar to adjust its width. The same browser remembers each member’s choice separately for each workspace and restores it when reopened. On narrow screens, the sidebar opens as a drawer; click outside it or press Esc to close it.
 
