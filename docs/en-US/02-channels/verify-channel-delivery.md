@@ -3,7 +3,7 @@ title: Verify real channel delivery
 description: Test inbound messages, replies, and delivery from a real customer client.
 category: Channels
 order: 8
-updated_at: 2026-08-01
+updated_at: 2026-09-26
 ---
 
 # Verify real channel delivery
@@ -25,3 +25,5 @@ A reply visible in the Inbox is not proof of delivery. The customer client must 
 ## If the test fails
 
 If the test fails, record the channel, customer, time, and delivery state. Check credentials and channel state before reviewing answer details or the displayed failure reason.
+
+If a LINE reply says delivery cannot be confirmed, check with the customer before sending it again. If they confirm it did not arrive, send a new message. During testing, also send two different replies in succession and verify that the customer receives each exactly once.
