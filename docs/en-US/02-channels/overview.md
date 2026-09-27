@@ -3,7 +3,7 @@ title: Channel overview
 description: Connect, enable, and maintain customer messaging channels.
 category: Channels
 order: 1
-updated_at: 2026-09-17
+updated_at: 2026-09-26
 ---
 
 # Channel overview
@@ -61,7 +61,7 @@ Under **Human assignment**, use **Auto-assign conversations** to control automat
 
 Automatic assignment still requires members to be online, accepting conversations, and below capacity. The same pool applies to AI handoff; conversations remain queued while no member is available.
 
-Changes save automatically; you can also click **Save**. Wait for the saved status before leaving. If saving fails, keep your selection and click **Save** to retry. Collapsed sections retain a summary of their current settings.
+Changes save automatically; you can also click **Save**. Telegram and LINE channels save only when you click **Save**. Wait for the saved status before leaving. If saving fails, keep your selection and click **Save** to retry. Collapsed sections retain a summary of their current settings.
 
 If the workspace has no active agents, a newly created channel stays disabled. Open **Reception settings**, select at least one receiving member (an admin is allowed), save, and then enable the channel.
 

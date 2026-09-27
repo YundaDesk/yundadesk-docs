@@ -3,7 +3,7 @@ title: Channels
 description: Connect customer messages to YundaDesk and verify real delivery.
 category: Channels
 order: 0
-updated_at: 2026-08-18
+updated_at: 2026-09-26
 ---
 
 # Channels
@@ -11,6 +11,7 @@ updated_at: 2026-08-18
 - [Channel overview](./overview.md)
 - [Install the website widget](./website-widget.md)
 - [Connect Telegram](./telegram.md)
+- [Connect LINE](./line.md)
 - [Connect WeChat Customer Service](./wecom-kf.md)
 - [Connect a personal-account cloud device](./personal-account-cloud-devices.md)
 - [Configure Custom API and event webhooks](./developer-integrations.md)
