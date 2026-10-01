@@ -44,6 +44,6 @@ If a refresh fails, the page may say it is showing the last successfully receive
 2. Review the allowed discount types, amount or percentage limits, currency, expiry, and use limit. Enter a code and the requested values.
 3. Select **Preview in store and request approval** and check the store's target, discount details, and risk notice. If the cart or conditions change, prepare and preview again.
 4. A person with approval permission reviews the pending action independently and approves or rejects it.
-5. After approval, keep checking the action status. Treat the discount as created only when the store readback confirms success. If the result is still being checked, wait instead of submitting it again.
+5. After approval, keep checking the action status. Treat the discount as created only when the store readback confirms success. If you close the detail, reopening the same cart in that tab shows the current action status. If the result is still being checked, wait instead of submitting it again.
 
 Creating a discount does not send a message to the visitor or mean that checkout is complete. Completed or cleared carts show that a recovery discount cannot be created; the action is also unavailable without creation permission. Follow the page guidance if the cart is missing, authorization has expired, or the store is temporarily unavailable. A temporary read failure does not prove that the cart was deleted.
