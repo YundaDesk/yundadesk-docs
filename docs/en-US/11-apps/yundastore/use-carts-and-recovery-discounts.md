@@ -3,7 +3,7 @@ title: View Yundastore carts and create a recovery discount
 description: Check store and conversation carts, understand their status, and create a recovery discount through preview and approval.
 category: Apps and integrations
 order: 1
-updated_at: 2026-09-30
+updated_at: 2026-10-01
 ---
 
 # View Yundastore carts and create a recovery discount
@@ -46,4 +46,4 @@ If a refresh fails, the page may say it is showing the last successfully receive
 4. A person with approval permission reviews the pending action independently and approves or rejects it.
 5. After approval, keep checking the action status. Treat the discount as created only when the store readback confirms success. If the result is still being checked, wait instead of submitting it again.
 
-Creating a discount does not send a message to the visitor or mean that checkout is complete. Follow the page guidance if the cart is missing, completed, cleared, unauthorized, or temporarily unavailable. A temporary read failure does not prove that the cart was deleted.
+Creating a discount does not send a message to the visitor or mean that checkout is complete. Completed or cleared carts show that a recovery discount cannot be created; the action is also unavailable without creation permission. Follow the page guidance if the cart is missing, authorization has expired, or the store is temporarily unavailable. A temporary read failure does not prove that the cart was deleted.
