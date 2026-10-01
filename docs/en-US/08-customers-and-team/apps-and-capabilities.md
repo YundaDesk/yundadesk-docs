@@ -36,7 +36,7 @@ Agent reading translation also applies to completed AI customer service replies.
 
 ## Let an Agent use connectors
 
-Pro and Enterprise workspaces can open **Connectors** from the sidebar or **Apps → Self-service → Connectors**. Viewing requires View apps; configuration and testing require Manage apps. Workspaces without access see an upgrade prompt.
+Pro and Enterprise workspaces can open **AI Agents → Connectors** from the sidebar or **Apps → Self-service → Connectors**. Viewing requires View apps; configuration and testing require Manage apps. Workspaces without access see an upgrade prompt.
 
 1. Select **Add**, choose API or MCP, and save the connection name, address, and authentication details. Enter credentials only in connection settings.
 2. For an API connection, add a function and configure its request, inputs, and outputs. Inputs can come from the conversation, a fixed value, or the current customer's attributes. Enable customer identity requirements when your use case involves customer-specific data.
