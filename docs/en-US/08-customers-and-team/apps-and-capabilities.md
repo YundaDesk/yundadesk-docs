@@ -3,7 +3,7 @@ title: Manage apps and workspace capabilities
 description: Understand how apps, plugins, channels, and platform features determine what a workspace can do.
 category: Customers and team
 order: 3
-updated_at: 2026-10-01
+updated_at: 2026-10-02
 ---
 
 # Manage apps and workspace capabilities
@@ -37,6 +37,8 @@ Agent reading translation also applies to completed AI customer service replies.
 ## Let an Agent use connectors
 
 Pro and Enterprise workspaces can open **AI Agents → Connectors** from the sidebar or **Apps → Self-service → Connectors**. Viewing requires View apps; configuration and testing require Manage apps. Workspaces without access see an upgrade prompt.
+
+Use the Google Public DNS and Microsoft Learn example connections in the list to try the test workflow without entering credentials. Select the DNS lookup and enter `example.com`, or select the MCP documentation search and enter a question about a Microsoft product, then inspect the real response. You can edit, disable, or delete these examples; deleted examples are not automatically restored. To let an Agent use one, select its function in that Agent’s connector settings.
 
 1. Select **Add**, choose API or MCP, and save the connection name, address, and authentication details. Enter credentials only in connection settings.
 2. For an API connection, add a function and configure its request, inputs, and outputs. Inputs can come from the conversation, a fixed value, or the current customer's attributes. Enable customer identity requirements when your use case involves customer-specific data.
