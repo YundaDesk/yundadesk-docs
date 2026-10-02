@@ -43,22 +43,28 @@ Use the Google Public DNS and Microsoft Learn example connections in the list to
 1. Select **Add**, choose API or MCP, and save the connection name, address, and authentication details. Enter credentials only in connection settings.
 2. For an API connection, add a function and configure its request, inputs, and outputs. Inputs can come from the conversation, a fixed value, or the current customer's attributes. Enable customer identity requirements when your use case involves customer-specific data.
 3. For MCP, select **Discover MCP tools** in connection settings, choose the tools you need, and save. Select a tool to inspect its details, configure usage rules, and test it.
-4. Save your configuration, enter inputs in the test panel, and review the result. On narrow screens, use **Test function** to open the panel. Query tools send a real request; tests for write operations only validate configuration, and actual execution requires confirmation.
+4. Save your configuration, enter inputs in the test panel, and review the result. On narrow screens, use **Test function** to open the panel. Both queries and write operations send real requests. Write tests change external data, so use test data. If the result is uncertain, check the external system before testing again.
 5. Open the target Agent's **Connectors** tab, enable connectors, and select the functions it may use. Select an entire connection or expand it to choose individual functions.
 6. Ask a related question in the Agent's debug preview, then check **Call history** in Connectors to confirm the call succeeded.
 
-Enabling the switch does not grant access to every tool. If a configuration change invalidates a selection, select the function again. A successful test does not grant Agent access. Actions that modify external data still require confirmation by an authorized member.
+Enabling the switch does not grant access to every tool. If a configuration change invalidates a selection, select the function again. A successful test does not grant Agent access. After a write function is selected, the Agent follows its usage instructions and the business steps in its skills without a separate staff approval setup. Describe the required information and execution conditions for actions that change data.
 
 ### Configure requests and parameters
 
-- **POST queries:** Some read APIs require POST. After choosing POST, enable **Read-only** only when the endpoint does not change data. Save it to run a real test and authorize it for your agent. Do not use this switch to bypass confirmation for write operations.
+- **POST queries:** Some read APIs require POST. After choosing POST, enable **Read-only** only when the endpoint does not change data. Save it to run a real test and authorize it for your agent. Leave Read-only off for endpoints that change data.
 - **Objects and arrays:** Choose the request body as the parameter location and an object or array JSON type to send nested structures. Enter valid JSON for fixed and test values, such as `{"status":["paid"]}`. Describe the expected fields, values, and structure so the agent can collect suitable input.
 - **Request headers:** Configure ordinary application headers as input parameters, for example an API version, language, or business scope. Enter API keys and tokens in the connection authentication section. For a custom authentication header, use the name required by the service. Do not put credentials in parameter descriptions or fixed values.
-- **Response fields:** API functions need selected response fields that the agent may read. After a successful test, check those values before authorizing the function for an agent.
+- **Response fields:** Query functions need selected response fields that the agent may read. Choose fields for writes as needed; leave them empty if the endpoint returns no content. Check the returned values before authorizing the function for an agent.
+
+### Verify write results (optional)
+
+You can normally use the business status in the response to understand the result without adding a separate query. If you need an additional check, expand **Result verification (optional)**, select a read-only function in the same connection, and configure its inputs and expected result.
+
+A successful request does not necessarily mean an order has been fulfilled or a refund has arrived. Use the business status returned by the external system. If the result is uncertain, check that system before deciding what to do next.
 
 ### When a function cannot be selected
 
-Expand a connection in the agent's **Connectors** tab to see each function's status. Disabled connections, missing credentials, or missing response fields show an explanation and cannot be selected. Complete the configuration in Connectors first. If a previously authorized function changes, select it again when prompted, then verify it in the agent preview.
+Expand a connection in the agent's **Connectors** tab to see each function's status. Disabled connections, functions with missing credentials, and query functions with no selected response fields show an explanation and cannot be selected. Complete the configuration in Connectors first. If a previously authorized function changes, select it again when prompted, then verify it in the agent preview.
 
 ## Use live business information
 
