@@ -49,6 +49,17 @@ Use the Google Public DNS and Microsoft Learn example connections in the list to
 
 Enabling the switch does not grant access to every tool. If a configuration change invalidates a selection, select the function again. A successful test does not grant Agent access. Actions that modify external data still require confirmation by an authorized member.
 
+### Configure requests and parameters
+
+- **POST queries:** Some read APIs require POST. After choosing POST, enable **Read-only** only when the endpoint does not change data. Save it to run a real test and authorize it for your agent. Do not use this switch to bypass confirmation for write operations.
+- **Objects and arrays:** Choose the request body as the parameter location and an object or array JSON type to send nested structures. Enter valid JSON for fixed and test values, such as `{"status":["paid"]}`. Describe the expected fields, values, and structure so the agent can collect suitable input.
+- **Request headers:** Configure ordinary application headers as input parameters, for example an API version, language, or business scope. Enter API keys and tokens in the connection authentication section. For a custom authentication header, use the name required by the service. Do not put credentials in parameter descriptions or fixed values.
+- **Response fields:** API functions need selected response fields that the agent may read. After a successful test, check those values before authorizing the function for an agent.
+
+### When a function cannot be selected
+
+Expand a connection in the agent's **Connectors** tab to see each function's status. Disabled connections, missing credentials, or missing response fields show an explanation and cannot be selected. Complete the configuration in Connectors first. If a previously authorized function changes, select it again when prompted, then verify it in the agent preview.
+
 ## Use live business information
 
 When Yuna or AI customer service needs an order, tracking, or customer lookup, it uses business information from apps that are connected to the current workspace and available to the current member. After store customers sync, Yuna can query their store, platform order count, and total spend. Selecting a customer before asking Yuna narrows the question to that customer. A customer without a linked messaging channel is query-only and cannot receive a private message.
