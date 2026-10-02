@@ -60,7 +60,11 @@ Enabling the switch does not grant access to every tool. If a configuration chan
 
 You can normally use the business status in the response to understand the result without adding a separate query. If you need an additional check, expand **Result verification (optional)**, select a read-only function in the same connection, and configure its inputs and expected result.
 
-A successful request does not necessarily mean an order has been fulfilled or a refund has arrived. Use the business status returned by the external system. If the result is uncertain, check that system before deciding what to do next.
+A successful request does not necessarily mean an order has been fulfilled or a refund has arrived. Use the business status returned by the external system. With verification configured, the agent can check the original operation when its result is uncertain; it confirms success only when the query matches the expected result. Without verification, or when the query remains inconclusive, check the external system. “Not yet confirmed” does not mean “not executed.”
+
+If the external service supports `Idempotency-Key` or `X-Idempotency-Key`, select its **Idempotency header** to prevent the same operation from taking effect twice. The system generates an operation key by default. To identify the same business operation across conversations, set **Business identifier input (optional)** to a required text parameter, such as a refund reference. The same identifier must always represent the same operation: an order number may be unsuitable when an order can have multiple refunds. Check the external service’s idempotency rules and retention period first.
+
+If the query accepts the operation key, choose **Operation idempotency key** as the verification parameter’s source. You can also use an original request parameter or a returned field. If the query requires an identifier available only in the response, verification may be impossible when that response is lost.
 
 ### When a function cannot be selected
 
