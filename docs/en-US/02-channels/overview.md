@@ -3,7 +3,7 @@ title: Channel overview
 description: Connect, enable, and maintain customer messaging channels.
 category: Channels
 order: 1
-updated_at: 2026-09-26
+updated_at: 2026-10-02
 ---
 
 # Channel overview
@@ -41,7 +41,11 @@ Choose one of three entry points when adding an email channel:
 - **Microsoft Outlook:** Connect an Outlook or Microsoft 365 mailbox with official Microsoft authorization.
 - **Other mailbox:** Enter the mailbox address first, then use the suggested provider or enter the incoming and outgoing server settings supplied by your mailbox provider.
 
-After you enter the full email address, the page may suggest a provider from the address domain and its public mail settings. A suggestion is never submitted automatically; confirm the provider before continuing.
+To connect Gmail, select **Gmail → Sign in with Google**, then review the account and requested mail permissions on Google's page before granting access. Back in YundaDesk, confirm the authorized mailbox, sender name, and email sync range, then select **Connect & enable**. The channel is enabled only after the connection test succeeds. Follow the checks below to verify incoming mail and replies.
+
+If Google mailbox authorization is unavailable or has not been configured, contact your workspace administrator instead of repeatedly authorizing. A provider marked **Channel maintenance** cannot be selected temporarily; other available mailbox options are unaffected.
+
+For **Other mailbox**, after you enter the full email address, the page may suggest a provider from the address domain and its public mail settings. A suggestion is never submitted automatically; confirm the provider before continuing.
 
 If no provider is detected, or the suggestion does not match the service you use, choose one manually. For an **Other mailbox** account protected by two-step verification, use the provider-generated app password or authorization code instead of the normal sign-in password. Always run the connection test and verify both inbound and outbound mail after setup.
 

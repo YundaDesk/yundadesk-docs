@@ -70,6 +70,11 @@ The Chinese and English trees are identical. Paths below are relative to each lo
 | Apps and integrations | Install and authorize the YundaDesk BigCommerce app | `11-apps/bigcommerce/install-bigcommerce-app.md` |
 | Apps and integrations | Use YundaDesk with BigCommerce | `11-apps/bigcommerce/use-yundadesk-with-bigcommerce.md` |
 | Apps and integrations | BigCommerce data permissions and app lifecycle | `11-apps/bigcommerce/data-permissions-and-lifecycle.md` |
+| Apps and integrations | SHOPLINE guide | `11-apps/shopline/index.md` |
+| Apps and integrations | Install and connect a SHOPLINE store | `11-apps/shopline/install-and-connect.md` |
+| Apps and integrations | Enable and verify SHOPLINE storefront chat | `11-apps/shopline/enable-storefront-chat.md` |
+| Apps and integrations | SHOPLINE store data, permissions, and connection status | `11-apps/shopline/data-and-status.md` |
+| Apps and integrations | SHOPLINE troubleshooting and connection management | `11-apps/shopline/troubleshooting-and-lifecycle.md` |
 | Troubleshooting | AI does not answer correctly | `10-troubleshooting/ai-answering.md` |
 | Troubleshooting | Messages are not delivered | `10-troubleshooting/message-delivery.md` |
 | Troubleshooting | Security and data boundaries | `10-troubleshooting/security-and-data.md` |

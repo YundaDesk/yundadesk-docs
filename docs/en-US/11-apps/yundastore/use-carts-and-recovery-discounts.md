@@ -3,7 +3,7 @@ title: View Yundastore carts and create a recovery discount
 description: Check store and conversation carts, understand their status, and create a recovery discount through preview and approval.
 category: Apps and integrations
 order: 1
-updated_at: 2026-10-01
+updated_at: 2026-10-02
 ---
 
 # View Yundastore carts and create a recovery discount
@@ -13,10 +13,14 @@ Before you begin, make sure the Yundastore app is installed, store data access i
 ## View store carts
 
 1. In YundaDesk, open **Store data → Carts** and select the store you want to check.
-2. Add a product on the storefront. The open cart list updates automatically; you can also select **Refresh** and check when the page was last checked.
+2. Add a product on the storefront. The list updates automatically while visible. Select **Refresh** to check both the list and store status. Automatic checks do not keep the refresh button spinning or start a full store synchronization.
 3. Open the matching cart and check the product names, quantities, SKUs (when available), subtotal, and currency. Shipping and taxes may be added later at checkout.
 
 You can add to the cart before starting a Widget conversation, or start the conversation first and add to the cart afterward. Normal use does not require opening the storefront cart page or refreshing the storefront. The conversation sidebar shows a current cart only after a conversation with that same visitor has been established. The store-wide list can show a cart before the visitor starts chatting.
+
+**List last checked** records the latest successful list read; it does not guarantee that all store data is current. **Cart data last synced** and **Store last reconciled** show the respective completion times when available. Returning to a page that was in the background checks it again.
+
+If a synchronization notice appears, check its stage and last progress. The system may be reading store data or checking carts and abandoned checkouts. The notice clears automatically when reconciliation finishes. If synchronization is blocked or has made no recent progress, follow the guidance to check synchronization history, connectivity, and authorization. Previously displayed data is not proof of the current store state. Contact support if the problem persists; repeated refreshes or reauthorization are not required.
 
 ## View the current conversation cart
 

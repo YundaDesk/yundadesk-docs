@@ -1,12 +1,14 @@
 ---
 title: 应用与集成
-description: 将 BigCommerce、WordPress、WooCommerce 和其他业务系统连接到 YundaDesk。
+description: 将 SHOPLINE、BigCommerce、WordPress、WooCommerce 和其他业务系统连接到 YundaDesk。
 category: 应用与集成
 order: 0
-updated_at: 2026-09-30
+updated_at: 2026-10-02
 ---
 
 # 应用与集成
+
+- [SHOPLINE](./shopline/index.md)：安装公开应用并连接店铺，在当前主题中开启 YundaDesk Chat，分别验证数据连接与聊天收发。
 
 - [WordPress/WooCommerce](./wordpress-woocommerce/index.md)：使用同一个 YundaDesk 插件连接 WordPress，并在检测到 WooCommerce 后启用可选的只读店铺能力。
 - [BigCommerce](./bigcommerce/index.md)：通过 BigCommerce 单击安装连接工作区、同步只读店铺上下文，并为兼容店面启用 Widget。
