@@ -4,7 +4,7 @@ description: Select one Role, then configure the Agent's knowledge scope, tools 
 search_terms: default AI customer service, configure reception behavior, AI reception settings, order lookup, order query skill, tools and actions
 category: AI customer service
 order: 1
-updated_at: 2026-09-20
+updated_at: 2026-10-02
 ---
 
 # Create and configure an Agent
@@ -38,6 +38,7 @@ Review each section on the detail page:
 - **Role & behavior:** Confirm the name, Role, service style, additional instructions, tone, and reply behavior. To create or adjust the service style, select **Create/Adjust with Yuna**.
 - **Knowledge scope:** Select the files, folders, Notion content, or websites this Agent may use in answers.
 - **Tools & actions:** Enable only the query or action tools this Agent needs.
+- **Connectors (Pro):** Select the API or MCP functions this Agent may use. Without Pro or Enterprise, selecting this tab opens an upgrade prompt and keeps the current section in place. Only selecting **Upgrade plan** takes you to the plans page.
 - **Skills:** Enable or disable customer-reception skills that belong to this Agent. For repeated outreach, use **Yuna → Automations**.
 - **Reception settings:** Define when an unknown, sensitive, or unsupported request should go to a person.
 - **Reception channels:** Select the channels this Agent should handle.
