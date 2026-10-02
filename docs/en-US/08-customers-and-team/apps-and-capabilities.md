@@ -53,6 +53,8 @@ Enabling the switch does not grant access to every tool. If a configuration chan
 
 After a write function is selected, the Agent follows its usage instructions and the business steps in its skills without a separate staff approval setup. Describe the required information and execution conditions for actions that change data.
 
+Select **View details** below a test reply to see the connector call status and whether its result was used in the final answer. New calls also show the connection and function names, duration, and returned field count. A completed call does not necessarily mean its result was used. If the result is incomplete or unconfirmed, check the connector call history and avoid repeating a write operation. Older records may not have a detailed summary.
+
 ### Configure requests and parameters
 
 - **POST queries:** Some read APIs require POST. After choosing POST, enable **Read-only** only when the endpoint does not change data. Save it to run a real test and authorize it for your agent. Leave Read-only off for endpoints that change data.
