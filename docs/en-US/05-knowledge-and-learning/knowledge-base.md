@@ -3,7 +3,7 @@ title: Build and maintain the knowledge base
 description: Give the AI reliable business knowledge from documents, websites, and FAQs.
 category: Knowledge and learning
 order: 1
-updated_at: 2026-08-30
+updated_at: 2026-10-03
 ---
 
 # Build and maintain the knowledge base
@@ -30,8 +30,8 @@ The knowledge base uses a file-manager layout to organize real sources:
 - **Needs attention** collects documents that failed processing and need review.
 - **Recent** sits above **Trash** at the bottom of the source rail and uses the times you actually opened documents. Each member has their own recent list.
 - Create single-level folders and move standalone uploaded documents into them. Select a folder, then choose **New document → Upload file**. The upload area shows the destination as **data source / folder** before you choose a file, and the new file is saved directly in that folder. Folders cannot be nested.
-- Every folder, including an empty folder, keeps a disclosure arrow. Expand it to view and open documents without leaving the current file-manager view.
-- Each website domain and connected source is its own directory. Open it to browse only that source's documents.
+- Every custom folder, including an empty folder, has a disclosure arrow to the right of its name. Expand it to view and open documents without leaving the current file-manager view.
+- Each website domain and connected source is its own directory. Select it in **All content** to open that source's document list, and select **All content** in the path above the list to return. When **Load more** appears at the bottom, select it to browse more documents in that directory.
 - Website and connected-source directories are managed by their sync source and cannot be renamed or moved into custom folders.
 - **Trash** keeps removed documents so you can restore or permanently delete them.
 - After opening a document, use the clickable **All content** and current source or folder segments in the path above the document list to return.

@@ -47,7 +47,13 @@ Use the Google Public DNS and Microsoft Learn example connections in the list to
 5. Open the target Agent's **Connectors** tab, enable connectors, and select the functions it may use. Select an entire connection or expand it to choose individual functions.
 6. Ask a related question in the Agent's debug preview, then check **Call history** in Connectors to confirm the call succeeded.
 
-Enabling the switch does not grant access to every tool. If a configuration change invalidates a selection, select the function again. A successful test does not grant Agent access. After a write function is selected, the Agent follows its usage instructions and the business steps in its skills without a separate staff approval setup. Describe the required information and execution conditions for actions that change data.
+Enabling the switch does not grant access to every tool. If a configuration change invalidates a selection, select the function again. A successful test does not grant Agent access.
+
+**What the Agent receives** shows the returned content; for APIs, it includes only configured output fields. Test again after changing the configuration. After a successful test, select **Configure Agent**, choose the target Agent, check whether this function is authorized, and open its **Connectors** tab. This shortcut does not grant access automatically. Retry if the access status cannot be loaded. If a test fails, follow the guidance to check connection settings or parameters. For an uncertain write, check the result in the external system first.
+
+After a write function is selected, the Agent follows its usage instructions and the business steps in its skills without a separate staff approval setup. Describe the required information and execution conditions for actions that change data.
+
+Select **View details** below a test reply to see the connector call status and whether its result was used in the final answer. New calls also show the connection and function names, duration, and returned field count. A completed call does not necessarily mean its result was used. If the result is incomplete or unconfirmed, check the connector call history and avoid repeating a write operation. Older records may not have a detailed summary.
 
 ### Configure requests and parameters
 
