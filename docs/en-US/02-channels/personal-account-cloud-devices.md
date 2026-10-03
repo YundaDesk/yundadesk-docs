@@ -3,7 +3,7 @@ title: Connect a personal-account cloud device
 description: Connect your own social account and understand login, status, and risk.
 category: Channels
 order: 6
-updated_at: 2026-09-20
+updated_at: 2026-10-03
 ---
 
 # Connect a personal-account cloud device
@@ -82,6 +82,18 @@ Open the device in **Channels** and check **Device network exit** for its check 
 **Region unknown** means the IP's country/region could not be determined. **Check failed** or **Result expired** means no sufficiently fresh measurement is available, not that account login failed. Country/region is an IP-based estimate, not a physical-location guarantee. Rotating proxies can use different IPs for different connections; read the result together with its measurement time.
 
 Account suspension, throttling, or protocol changes by the third-party platform are not counted as normal YundaDesk availability, but the page should expose a device status or safe error that you can act on.
+
+## Identify who sent a message
+
+Open a personal-account conversation in the Inbox and check the name and source beside each message:
+
+- A human reply sent from the Inbox shows the agent who sent it. An AI reply shows the corresponding AI customer service name and AI label.
+- A message sent from the hosted account in an external client and then synced to the Inbox shows the account nickname and its source, such as **Sent from WhatsApp**. If the nickname cannot be confirmed, only the source is shown. This does not make it a customer message.
+- Messages from the customer still show the customer's name, not your hosted account's nickname.
+
+The source does not distinguish a phone, desktop, or another client, and does not identify which team member operated the account. Do not treat the account nickname as an agent's name. Later nickname changes do not rewrite saved names on older messages. History with no confirmed nickname shows only its source.
+
+When checking messages, confirm that both sides remain in the same customer conversation. An Inbox reply should not appear a second time when it syncs back. If a name or duplicate looks wrong, refresh and check again, then contact support. Do not sign out or scan again just to correct a name.
 
 ## History and AI behavior
 
