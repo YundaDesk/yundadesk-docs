@@ -3,12 +3,22 @@ title: Ask, act, and teach with Yuna
 description: Use natural language to query data, complete actions, and teach AI customer service.
 category: Yuna
 order: 2
-updated_at: 2026-08-30
+updated_at: 2026-10-03
 ---
 
 # Ask, act, and teach with Yuna
 
 You do not need to remember feature locations or customer numbers. Describe the goal, target, and constraints. Yuna will decide the next step from the features available in the current workspace.
+
+## Contact direct support when Yuna cannot resolve an issue
+
+When the available help and knowledge do not resolve your issue, guided troubleshooting cannot continue, or you ask for human help, Yuna can show a **Direct support** card below its answer.
+
+1. Select the **Direct support** card to open the support panel.
+2. Describe the issue, the steps you have already tried, and approximately when it happened, then send your message.
+3. An active support conversation continues in the same panel. After closing it, reopen it from **Support conversation** in the sidebar.
+
+Showing or selecting the card does not send a message or forward your Yuna conversation. Share only information needed to handle the issue; never send passwords, keys, or verification codes. If the panel reports that support is unavailable, follow its guidance. You can also open the same panel from **Help & Support → Direct support**.
 
 ## Use composer shortcuts
 
