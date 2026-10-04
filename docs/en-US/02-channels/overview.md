@@ -3,7 +3,7 @@ title: Channel overview
 description: Connect, enable, and maintain customer messaging channels.
 category: Channels
 order: 1
-updated_at: 2026-10-02
+updated_at: 2026-10-04
 ---
 
 # Channel overview
@@ -59,15 +59,15 @@ If no provider is detected, or the suggestion does not match the service you use
 
 Expand **Reception settings** in the channel configuration and choose the **Reception Agent**. A disabled Agent can remain bound, but only receives new conversations after it is enabled.
 
-Under **Human assignment**, use **Auto-assign conversations** to control automatic assignment and **Receiving members** to choose workspace agents or selected members. When auto-assignment is off, human conversations queue for an agent to pick up.
+Under **Human assignment**, use **Auto-assign conversations** to control automatic assignment and **Receiving members** to choose the entire workspace or specific members. When auto-assignment is off, human conversations queue for a member to pick up.
 
-**Receiving members** must contain at least one active member; you cannot deselect the last member. Explicitly selected admins can receive conversations in that channel. **Entire workspace** requires at least one active agent and does not automatically include admins. If no receiving members are available, select members before saving reception settings or enabling the channel.
+**Receiving members** defaults to **Entire workspace**, which includes active admins and agents. A workspace with only admins can use it too. You can select specific members instead, but must keep at least one selected member. If the workspace has no active members, add or activate a member before saving reception settings or enabling the channel.
 
 Automatic assignment still requires members to be online, accepting conversations, and below capacity. The same pool applies to AI handoff; conversations remain queued while no member is available.
 
 Changes save automatically; you can also click **Save**. Telegram and LINE channels save only when you click **Save**. Wait for the saved status before leaving. If saving fails, keep your selection and click **Save** to retry. Collapsed sections retain a summary of their current settings.
 
-If the workspace has no active agents, a newly created channel stays disabled. Open **Reception settings**, select at least one receiving member (an admin is allowed), save, and then enable the channel.
+If the workspace has no active admins or agents, a newly created channel stays disabled. Add or activate a member, then open **Reception settings**, choose the entire workspace or specific members, save, and enable the channel.
 
 ## Set the Widget appearance
 
