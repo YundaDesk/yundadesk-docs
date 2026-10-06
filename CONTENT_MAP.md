@@ -12,6 +12,7 @@ The Chinese and English trees are identical. Paths below are relative to each lo
 | Channels | Channel overview | `02-channels/overview.md` |
 | Channels | Website widget | `02-channels/website-widget.md` |
 | Channels | Telegram | `02-channels/telegram.md` |
+| Channels | WhatsApp | `02-channels/whatsapp.md` |
 | Channels | LINE | `02-channels/line.md` |
 | Channels | WeChat Customer Service | `02-channels/wecom-kf.md` |
 | Channels | Personal-account cloud devices | `02-channels/personal-account-cloud-devices.md` |
@@ -75,6 +76,7 @@ The Chinese and English trees are identical. Paths below are relative to each lo
 | Apps and integrations | Enable and verify SHOPLINE storefront chat | `11-apps/shopline/enable-storefront-chat.md` |
 | Apps and integrations | SHOPLINE store data, permissions, and connection status | `11-apps/shopline/data-and-status.md` |
 | Apps and integrations | SHOPLINE troubleshooting and connection management | `11-apps/shopline/troubleshooting-and-lifecycle.md` |
+| Apps and integrations | View Yundastore carts and create a recovery discount | `11-apps/yundastore/use-carts-and-recovery-discounts.md` |
 | Troubleshooting | AI does not answer correctly | `10-troubleshooting/ai-answering.md` |
 | Troubleshooting | Messages are not delivered | `10-troubleshooting/message-delivery.md` |
 | Troubleshooting | Security and data boundaries | `10-troubleshooting/security-and-data.md` |

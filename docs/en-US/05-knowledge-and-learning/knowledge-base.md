@@ -3,7 +3,7 @@ title: Build and maintain the knowledge base
 description: Give the AI reliable business knowledge from documents, websites, and FAQs.
 category: Knowledge and learning
 order: 1
-updated_at: 2026-10-03
+updated_at: 2026-10-06
 ---
 
 # Build and maintain the knowledge base
@@ -31,7 +31,7 @@ The knowledge base uses a file-manager layout to organize real sources:
 - **Recent** sits above **Trash** at the bottom of the source rail and uses the times you actually opened documents. Each member has their own recent list.
 - Create single-level folders and move standalone uploaded documents into them. Select a folder, then choose **New document → Upload file**. The upload area shows the destination as **data source / folder** before you choose a file, and the new file is saved directly in that folder. Folders cannot be nested.
 - Every custom folder, including an empty folder, has a disclosure arrow to the right of its name. Expand it to view and open documents without leaving the current file-manager view.
-- Each website domain and connected source is its own directory. Select it in **All content** to open that source's document list, and select **All content** in the path above the list to return. When **Load more** appears at the bottom, select it to browse more documents in that directory.
+- Websites are grouped by domain, and the entry displays the full starting URL of the latest crawl, including its path. Different crawl entries on the same domain are not isolated knowledge sources. Connected sources also have their own directories. Select a directory in **All content** to open its document list, and select **All content** in the path above the list to return. When **Load more** appears at the bottom, select it to browse more documents in that directory.
 - Website and connected-source directories are managed by their sync source and cannot be renamed or moved into custom folders.
 - **Trash** keeps removed documents so you can restore or permanently delete them.
 - After opening a document, use the clickable **All content** and current source or folder segments in the path above the document list to return.
@@ -62,6 +62,8 @@ The reader formats Markdown headings, lists, tables, quotes, and code. Word, PDF
 - Connect the appropriate business app for real-time orders, inventory, and tracking. Static documents cannot stand in for live facts.
 
 ## Update and verify
+
+After processing succeeds, select and save the content in the target Agent's **Knowledge scope**. Confirm that the intended channel is bound to that Agent. A searchable status alone does not prove that website support uses it. See [Sync website content](./sync-website.md) for selecting and replacing website sources.
 
 After a successful website resync or document update, the new compiled result replaces the previous one. If a new compilation fails, the last successful result may remain available. Select **Test knowledge** at the top of the knowledge base; it appears immediately before **New folder**. Test different phrasings and verify that answer details use the latest content.
 
