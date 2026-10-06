@@ -3,7 +3,7 @@ title: Install the website widget
 description: Add customer chat to your website and verify both messages and AI replies.
 category: Channels
 order: 2
-updated_at: 2026-09-17
+updated_at: 2026-10-06
 ---
 
 # Install the website widget
@@ -19,6 +19,12 @@ The website widget lets visitors start a conversation without leaving your site.
 5. Publish the website and refresh the page.
 
 When you install through a supported store app, the widget code may be added automatically. You should still test the real storefront.
+
+## Find the signed-in customer setup guide
+
+If the Website channel configuration shows **Customer identity signing key** and no key exists yet, start with **Generate key** on the right side of the field. For an existing key, select the eye icon on the right to reveal it. The icon then changes to **Copy key**; a successful copy hides the key and restores the eye icon.
+
+Select the question mark beside the label to open **Identify signed-in customers (optional)**, or hover over or focus it with the keyboard to read the brief hint. Continue to use **Install code** at the top of the page to view and copy the installation snippet.
 
 ## Verify the connection
 
