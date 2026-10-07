@@ -4,7 +4,7 @@ description: Select one Role, then configure the Agent's knowledge scope, tools 
 search_terms: default AI customer service, configure reception behavior, AI reception settings, order lookup, order query skill, tools and actions
 category: AI customer service
 order: 1
-updated_at: 2026-10-02
+updated_at: 2026-10-07
 ---
 
 # Create and configure an Agent
@@ -36,7 +36,7 @@ A new Agent does not serve customers or take over existing channels automaticall
 Review each section on the detail page:
 
 - **Role & behavior:** Confirm the name, Role, service style, additional instructions, tone, and reply behavior. To create or adjust the service style, select **Create/Adjust with Yuna**.
-- **Knowledge scope:** Select the files, folders, Notion content, or websites this Agent may use in answers.
+- **Knowledge scope:** Select the files, folders, websites, Notion content, or GitHub content this Agent may use in answers.
 - **Tools & actions:** Enable only the query or action tools this Agent needs.
 - **Connectors (Pro):** Select the API or MCP functions this Agent may use. Without Pro or Enterprise, selecting this tab opens an upgrade prompt and keeps the current section in place. Only selecting **Upgrade plan** takes you to the plans page.
 - **Skills:** Enable or disable customer-reception skills that belong to this Agent. For repeated outreach, use **Yuna → Automations**.
@@ -52,7 +52,7 @@ Service style remains the same when the Role's active skill changes, so customer
 
 You can also open **Channels**, enter a channel's **Reception settings**, and choose its **Reception Agent** directly. Select **Human reception** to remove the Agent binding. This selector and **Reception channels** on the Agent detail page edit the same setting, so a change in either place appears in the other. Selecting a disabled Agent retains the binding, but the Agent must be enabled before it handles new conversations automatically.
 
-The picker separates files and folders, Notion and other connections, and websites. Folder contents keep their hierarchy, so you can select one file or the whole folder. Websites are selected as a whole; individual crawled pages are not selectable. A folder, connection, or website also includes newly synced content within that scope. Choose at least one item before saving; the system never expands the scope automatically.
+The picker has four tabs: **Files**, **Websites**, **Notion**, and **GitHub**. Notion and GitHub show their own imported content separately. Files retain the folder hierarchy, so you can select one file or the whole folder. Websites are selected as a whole; individual crawled pages are not selectable. A folder, website, Notion connection, or GitHub connection also includes newly synced content within that scope. Switching tabs preserves your selections. Select **Done**, then save the knowledge scope. Choose at least one item before saving; the system never expands the scope automatically.
 
 Tools and actions from connected apps or plugins appear alongside built-in tools. An extension that is not connected does not appear in the Agent form; follow the page prompt to install or connect an app when needed. Enabling a tool does not bypass member permissions. Actions such as refunds, order cancellations, or sending messages may still require confirmation from an authorized member because they change money, orders, or customer communications.
 
