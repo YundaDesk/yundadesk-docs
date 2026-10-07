@@ -3,7 +3,7 @@ title: Channel overview
 description: Connect, enable, and maintain customer messaging channels.
 category: Channels
 order: 1
-updated_at: 2026-10-04
+updated_at: 2026-10-07
 ---
 
 # Channel overview
@@ -13,6 +13,8 @@ Channels are the places where customers contact your business. Once connected, m
 ## See available channels
 
 Open Channels to see what your workspace can connect. Availability may differ by deployment, plan, or integration status. The current page is authoritative.
+
+Select **Add** on an available channel card to start setup. A card marked **Channel maintenance** cannot be connected temporarily.
 
 Channel cards show connection state and required actions. A channel must be fully configured and healthy before it can reliably send and receive messages.
 
