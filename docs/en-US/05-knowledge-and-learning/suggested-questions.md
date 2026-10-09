@@ -14,7 +14,7 @@ Suggested questions help visitors start a conversation. A Website Widget can use
 
 Open **Agents**, select the built-in Agent receiving website conversations, then choose **Suggested questions**:
 
-1. Review the automatic list. Fewer questions, or none, may appear when there are not enough suitable suggestions.
+1. Once the first suggestions are ready, the list is kept automatically. You do not need to edit and save it first, and reopening the page shows the same list. Fewer questions, or none, may appear when there are not enough suitable suggestions.
 2. Select a chip under **Knowledge recommendations**, or select **Add question** to write your own.
 3. Use the pencil to edit, the trash icon to remove, and the left handle to reorder. Select **Apply question** after editing a row.
 4. Try the questions in **Debug preview** on the right, then select **Save** at the top. **Discard changes** restores the last saved list.
@@ -36,6 +36,8 @@ Open **Channels**, select the Website Widget, and expand **Display settings**:
 - **Show suggestions on Home:** Shows the list between **Chat with support** and **Contact us**.
 - **Show suggestions in empty chats:** Shows the same questions below the first conversation greeting. They disappear after the visitor sends a message.
 
+From the Agent’s **Suggested questions** section, select **Widget settings** beside the channel name to open that website’s configuration.
+
 The switches are independent. Select **Manage suggested questions** beside **Show suggestions on Home** to open the corresponding Agent.
 
 Visitors see questions only from the enabled built-in Agent bound to the channel. Automatic suggestions also require knowledge retrieval. Questions are hidden during human reception, when no Agent is bound, or when the Agent is unavailable.
@@ -44,9 +46,9 @@ Use the Agent's **Debug preview** to try your edits. Questions under **Knowledge
 
 ## When they update
 
-After updated knowledge finishes processing, reopen or refresh the suggested questions page to see new candidates. Automatic mode follows knowledge updates, though similar content may produce the same questions.
+After updated knowledge finishes processing, reopen or refresh the suggested questions page to see new candidates. New candidates do not automatically replace the questions already displayed.
 
-Knowledge updates do not overwrite your saved custom list. It applies on the next Widget load, while the candidates below continue to follow knowledge changes.
+Knowledge updates do not overwrite your saved display list. It applies on the next Widget load, while the candidates below continue to follow knowledge changes.
 
 ## Regenerate suggested questions
 
@@ -54,7 +56,7 @@ Select **Regenerate suggested questions** beside **Knowledge recommendations** i
 
 While the button shows **Generating…**, refreshing or leaving the page does not interrupt generation. Return to see its status and results. If the material has not changed, previous candidates remain visible during generation and after a failed attempt. You can try again after a failure.
 
-Automatic mode updates the display list. Custom mode updates only the candidates below and keeps your edited questions.
+Regeneration updates only the candidates below and keeps the current display list. Select or edit suitable questions, then select **Save** at the top to apply them.
 
 If your website has changed, sync it in **Knowledges** first. Regeneration uses the currently saved material; it does not fetch webpages again or guarantee different questions each time.
 
