@@ -3,12 +3,12 @@ title: Review AI Credit usage
 description: Review monthly AI usage, category details, and remaining credit.
 category: Reports and billing
 order: 3
-updated_at: 2026-09-13
+updated_at: 2026-10-09
 ---
 
 # Review AI Credit usage
 
-AI Credit records model generation, planning, retries, knowledge retrieval, and other metered capabilities used while AI answers customers. Knowledge import, parsing, indexing, and offline compilation do not consume AI Credit. Yuna usage is also shown separately. The product is the source of truth for current categories and allowances.
+Use the Usage page to review AI Credit consumption, remaining credit, and category details. Refer to the product for current billable items and allowances.
 
 ## Review usage
 
@@ -21,7 +21,7 @@ Other resource and activity counts are available under **Settings → Subscripti
 
 ## Why one action may create multiple records
 
-A single user request may use several AI capabilities and produce more than one usage record. Details must come from recorded usage rather than a temporary estimate by Yuna.
+A single user request may use several AI capabilities and produce more than one usage record. Use the records shown on the page when reviewing usage.
 
 ## When credit is unavailable
 
@@ -29,4 +29,4 @@ When credit is unavailable, new AI answers or actions may stop. Open **Settings 
 
 ## Usage with your own AI
 
-Pro and Enterprise support your own AI within an Agent. External reception has no additional charge and uses no AI Credits; you pay your third-party provider directly. Managed AI in the same workspace continues to use AI Credits. An empty Credit balance should not block external reception while your plan includes it. If external replies stop, check your plan entitlement and endpoint configuration.
+Before connecting your own AI, check the workspace entitlements in **Settings → Subscription** and confirm billing with the third-party service. If external replies stop, check your entitlement, endpoint configuration, and the third-party service status.

@@ -3,7 +3,7 @@ title: Build and maintain the knowledge base
 description: Give the AI reliable business knowledge from documents, websites, and FAQs.
 category: Knowledge and learning
 order: 1
-updated_at: 2026-10-06
+updated_at: 2026-10-09
 ---
 
 # Build and maintain the knowledge base
@@ -65,7 +65,7 @@ The reader formats Markdown headings, lists, tables, quotes, and code. Word, PDF
 
 After processing succeeds, select and save the content in the target Agent's **Knowledge scope**. Confirm that the intended channel is bound to that Agent. A searchable status alone does not prove that website support uses it. See [Sync website content](./sync-website.md) for selecting and replacing website sources.
 
-After a successful website resync or document update, the new compiled result replaces the previous one. If a new compilation fails, the last successful result may remain available. Select **Test knowledge** at the top of the knowledge base; it appears immediately before **New folder**. Test different phrasings and verify that answer details use the latest content.
+After a successful website resync or document update, the new content becomes available for answers. If processing fails, the last successful version may remain available. Select **Test knowledge** at the top of the knowledge base; it appears immediately before **New folder**. Test different phrasings and verify that answer details use the latest content.
 
 ## Delete content
 

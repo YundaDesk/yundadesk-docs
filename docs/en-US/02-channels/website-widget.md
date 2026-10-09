@@ -3,7 +3,7 @@ title: Install the website widget
 description: Add customer chat to your website and verify both messages and AI replies.
 category: Channels
 order: 2
-updated_at: 2026-10-08
+updated_at: 2026-10-09
 ---
 
 # Install the website widget
@@ -70,7 +70,7 @@ Editing requires the **Manage channels** permission. Read-only members can see t
 
 Visitors first see the public name you configure under **Manage contact methods**. A connected channel without a separate public name uses that channel's configured name. Only an empty name falls back to the standard channel type in the visitor's UI language, such as **微信** in Chinese and **WeChat** in English. The home screen shows **Contact us** only when at least one public contact method is enabled. Selecting it shows enabled options such as Email, Telegram, LINE, QR codes, or contact images inside the Widget. When **Collect visitor email** is on, the optional email form for identifying a visitor appears only after **Chat with support** is selected for the first conversation and never appears as a contact method; add a separate Email contact method when you want to publish a support address. The settings-page preview reflects enabled, ordered, and newly added contact methods before save, while sensitive configuration remains hidden from visitors. Telegram usernames appear as `@username` in channel settings; when one cannot be detected automatically, you can enter a valid public username manually.
 
-To show questions to visitors, enable **Show suggestions on Home** or **Show suggestions in empty chats** under **Display settings**, then save. The switches work independently. Turn both off to hide questions while keeping their saved content. Manage content in the built-in reception Agent's **Suggested questions** section: the list starts with automatic knowledge suggestions. Add a knowledge chip or your own question, use the pencil to edit, the trash icon to remove, and the left handle to reorder, then save. **Manage suggested questions** beside **Show suggestions on Home** opens that exact Agent. Websites using the same Agent share its questions while keeping independent display switches. Human reception or an unavailable Agent shows no questions, but switches can still be configured in advance. Widget Home and empty chats show the same ordered list of up to four questions without random selection. Home displays them between **Chat with support** and **Contact us**; empty chats show them below the welcome message until the first visitor message. Clicking uses the normal AI answer flow, not a preset answer.
+Under **Display settings**, enable **Show suggestions on Home** or **Show suggestions in empty chats**, then save. The switches are independent; turning both off hides questions while keeping the saved content. Select **Manage suggested questions** to open the reception Agent, edit the display list, or regenerate candidates. See [Manage suggested questions](../05-knowledge-and-learning/suggested-questions.md).
 
 Brief connection interruptions do not add a persistent error banner to the home screen. If “Restoring connection” appears above the message input, select it to retry; the hint disappears when the connection recovers. A sent message confirms that message was sent successfully. If replies do not arrive, check your network or contact the website’s support team.
 

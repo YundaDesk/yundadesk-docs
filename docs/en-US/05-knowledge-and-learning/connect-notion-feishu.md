@@ -3,7 +3,7 @@ title: Connect Notion knowledge
 description: Authorize a read-only scope and import Notion pages into the knowledge base.
 category: Knowledge and learning
 order: 8
-updated_at: 2026-08-30
+updated_at: 2026-10-09
 ---
 
 # Connect Notion knowledge
@@ -20,7 +20,7 @@ You can connect Notion pages to YundaDesk. The AI can use the content after sync
 6. Confirm and start the first sync.
 7. Wait for the status to become **Healthy**, then select **Test knowledge** and ask important questions.
 
-The Notion card is visible in Apps by default and does not require installation; it only opens the existing knowledge-base entry. **New document** currently provides three entries: **Upload file / Crawl web page / Notion**. If the connect button is disabled, Notion is not available for this workspace yet. Contact YundaDesk support to confirm availability; once it is enabled, you can authorize it without creating another knowledge base. Feishu knowledge connections are not currently available.
+The Notion card is visible in Apps by default and does not require installation; it only opens the existing knowledge-base entry. If the connect button is disabled, Notion is not available for this workspace yet. Contact YundaDesk support to confirm availability; once it is enabled, you can authorize it without creating another knowledge base. Feishu knowledge connections are not currently available.
 
 If the expected scope is missing:
 
@@ -28,7 +28,7 @@ If the expected scope is missing:
 
 ## Read sync status
 
-Under **New document → Notion**, each connection shows its synchronized document count, last successful sync, next scheduled sync, and latest error. The list refreshes automatically while syncing. You can also select **Sync now**. After synchronization starts, the Knowledge list follows its progress and shows documents as they are stored. It refreshes once more as soon as synchronization finishes, so no manual refresh is required.
+Under **New document → Notion**, each connection shows its synchronized document count, last successful sync, next scheduled sync, and latest error. The list refreshes automatically while syncing. You can also select **Sync now**. After synchronization starts, the Knowledge list follows its progress and shows documents as they become available. It refreshes once more as soon as synchronization finishes, so no manual refresh is required.
 
 Synchronized documents appear in the existing Knowledge table as one expandable source folder named after the selected Notion page. Expand it to view and open its documents. Connection, sync, and disconnect controls remain under the Notion entry and do not occupy the main page.
 
@@ -40,7 +40,7 @@ New or changed content must still finish knowledge processing before the AI can 
 
 ## Updates and limits
 
-YundaDesk runs scheduled refreshes and supports manual sync. Unchanged content is not processed again, while title-only changes can be updated without recompiling the body. Each round has document, pagination, and cumulative content-size limits to keep knowledge processing bounded.
+YundaDesk runs scheduled refreshes and supports manual sync. After updating Notion content, review the sync result and test answers. If synchronization cannot finish, follow the error guidance on the page or contact support.
 
 If the provider is rate-limited or temporarily unavailable, documents from the last successful sync remain active. Retry after the provider recovers.
 

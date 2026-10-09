@@ -3,7 +3,7 @@ title: Review reports, subscription, and AI usage
 description: Understand channel, team, AI performance, plan entitlements, and AI consumption.
 category: Reports and billing
 order: 1
-updated_at: 2026-08-25
+updated_at: 2026-10-09
 ---
 
 # Review reports, subscription, and AI usage
@@ -25,7 +25,7 @@ After you select the last 7, 30, or 90 days, or a custom date range, the overvie
 
 ## AI usage
 
-Model generation, planning, retries, knowledge retrieval, and other metered capabilities used while AI answers customers may consume AI Credit. Knowledge import, parsing, indexing, and offline compilation do not consume AI Credit; Yuna usage is also shown separately. Open **Settings → Usage** to review the current cycle, AI Credit progress and reset date, category breakdowns, and records. Other resource counts are available under **Settings → Subscription**. Unlimited items show the current count without treating usage as an allowance limit.
+Open **Settings → Usage** to review the current cycle, AI Credit progress and reset date, category breakdowns, and records. Other resource counts are available under **Settings → Subscription**. Unlimited items show the current count without treating usage as an allowance limit.
 
 ## Plans and purchases
 
