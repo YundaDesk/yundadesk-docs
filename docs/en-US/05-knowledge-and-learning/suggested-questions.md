@@ -36,7 +36,7 @@ Open **Channels**, select the Website Widget, and expand **Display settings**:
 - **Show suggestions on Home:** Shows the list between **Chat with support** and **Contact us**.
 - **Show suggestions in empty chats:** Shows the same questions below the first conversation greeting. They disappear after the visitor sends a message.
 
-From the Agent’s **Suggested questions** section, select **Widget settings** beside the channel name to open that website’s configuration.
+In the Agent’s **Suggested questions** header, select **Configure display** to the left of **Add question**. If one website is bound, its settings open directly. If several websites are bound, choose a channel from the menu first.
 
 The switches are independent. Select **Manage suggested questions** beside **Show suggestions on Home** to open the corresponding Agent.
 
