@@ -3,7 +3,7 @@ title: Customize the website widget
 description: Adjust customer-visible branding and content in the website chat widget.
 category: Channels
 order: 9
-updated_at: 2026-10-07
+updated_at: 2026-10-09
 ---
 
 # Customize the website widget
@@ -29,7 +29,7 @@ When chat is closed, new replies from support or AI appear in a message preview 
 - Keep custom welcome content short. Leave it blank when the brand-aware localized default is sufficient.
 - The Widget UI currently supports English, Simplified Chinese, Traditional Chinese, Japanese, Korean, Spanish, Brazilian Portuguese, French, German, Indonesian, Thai, and Vietnamese. It follows the website language, then browser preferences, and falls back to English when none are supported.
 - Support and AI reply bubbles follow the theme color, with timestamps that remain readable against the background. A thin border keeps white or light bubbles visible. Suggested questions appear in a separate list card so visitors can distinguish replies from shortcuts.
-- Only show suggested questions that have reliable answers in the knowledge base. **Show suggestions on Home** renders 1–3 questions as one divided list card between **Chat with support** and **Contact us**. **Show suggestions in empty chats** independently controls the welcome suggestions below the first conversation greeting.
+- Only show suggested questions that have reliable answers in the knowledge base. **Show suggestions on Home** renders up to four questions as one divided list card between **Chat with support** and **Contact us**. **Show suggestions in empty chats** independently controls the welcome suggestions below the first conversation greeting.
 - Keep **Collect visitor email** on if you want a skippable email prompt before the first chat. Turn it off when you want visitors to start chatting immediately.
 
 ## Troubleshooting
