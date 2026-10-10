@@ -3,7 +3,7 @@ title: Customize the website widget
 description: Adjust customer-visible branding and content in the website chat widget.
 category: Channels
 order: 9
-updated_at: 2026-10-09
+updated_at: 2026-10-10
 ---
 
 # Customize the website widget
@@ -14,9 +14,11 @@ The widget should match your brand while remaining easy to find and read.
 
 1. Open the website channel configuration.
 2. Find the appearance or branding settings.
-3. Set the customer-visible name, brand image, and available colors. **Collect visitor email** sits above **Hide Powered by YundaDesk** and is on by default.
+3. Set the customer-visible name, brand image, and available colors. **Ask for email** sits above **Hide attribution** and is on by default.
 4. A new website channel gets a welcome message automatically. YundaDesk generates it from the visitor's Widget language and the workspace brand name, not the channel name. Under Display settings, edit one source set for the Home title, Home description, and welcome message; YundaDesk translates it for the visitor. Blank fields use the localized system default. The welcome message becomes the first support message in a new conversation.
 5. Preview the result on desktop and mobile.
+
+Select the question mark beside **Allowed domains**, **Interface language**, **Ask for email**, or **Hide attribution** for details. Plan restrictions and input errors remain visible in the form.
 
 For visitors without a current conversation, the welcome message also appears above the closed chat button. Visitors can select the card to start chatting or dismiss it; after dismissal or opening chat, it will not appear again during that visit. On desktop, the expand button provides more reading space. On mobile, chat opens full screen.
 
@@ -29,8 +31,8 @@ When chat is closed, new replies from support or AI appear in a message preview 
 - Keep custom welcome content short. Leave it blank when the brand-aware localized default is sufficient.
 - The Widget UI currently supports English, Simplified Chinese, Traditional Chinese, Japanese, Korean, Spanish, Brazilian Portuguese, French, German, Indonesian, Thai, and Vietnamese. It follows the website language, then browser preferences, and falls back to English when none are supported.
 - Support and AI reply bubbles follow the theme color, with timestamps that remain readable against the background. A thin border keeps white or light bubbles visible. Suggested questions appear in a separate list card so visitors can distinguish replies from shortcuts.
-- Use **Show suggestions on Home** and **Show suggestions in empty chats** to choose where questions appear. The switches are independent. Manage the content on the reception Agent; see [Suggested questions](../05-knowledge-and-learning/suggested-questions.md).
-- Keep **Collect visitor email** on if you want a skippable email prompt before the first chat. Turn it off when you want visitors to start chatting immediately.
+- Under **Suggested questions**, use **Home** and **Empty chats** to choose where questions appear. The switches are independent. Manage the content on the reception Agent; see [Suggested questions](../05-knowledge-and-learning/suggested-questions.md).
+- Keep **Ask for email** on if you want a skippable email prompt before the first chat. Turn it off when you want visitors to start chatting immediately.
 
 ## Troubleshooting
 

@@ -3,7 +3,7 @@ title: Understand suggested questions
 description: Choose the questions visitors see and regenerate suggestions after updating knowledge.
 category: Knowledge and learning
 order: 2
-updated_at: 2026-10-09
+updated_at: 2026-10-10
 ---
 
 # Understand suggested questions
@@ -33,12 +33,12 @@ Review the results. Check that each question relates to your core business, has 
 
 Open **Channels**, select the Website Widget, and expand **Display settings**:
 
-- **Show suggestions on Home:** Shows the list between **Chat with support** and **Contact us**.
-- **Show suggestions in empty chats:** Shows the same questions below the first conversation greeting. They disappear after the visitor sends a message.
+- **Home:** Shows the list between **Chat with support** and **Contact us**.
+- **Empty chats:** Shows the same questions below the first conversation greeting. They disappear after the visitor sends a message.
 
 In the Agent’s **Suggested questions** header, select **Configure display** to the left of **Add question**. If one website is bound, its settings open directly. If several websites are bound, choose a channel from the menu first.
 
-The switches are independent. Select **Manage suggested questions** beside **Show suggestions on Home** to open the corresponding Agent.
+The switches are independent. Select **Manage** beside **Suggested questions** to open the corresponding Agent.
 
 Visitors see questions only from the enabled built-in Agent bound to the channel. Automatic suggestions also require knowledge retrieval. Questions are hidden during human reception, when no Agent is bound, or when the Agent is unavailable.
 
