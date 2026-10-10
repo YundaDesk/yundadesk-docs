@@ -4,7 +4,7 @@ description: Decide which improvements can update managed content, then continue
 search_terms: AI learning suggestions, review learning suggestions, suggestions before taking effect
 category: Knowledge and learning
 order: 3
-updated_at: 2026-08-30
+updated_at: 2026-10-10
 ---
 
 # Review improvement suggestions
@@ -20,6 +20,8 @@ A proactive-outreach suggestion must first include its audience, trigger, channe
 A reviewable suggestion normally includes the customer question, proposed answer, learning source, scope, risk level, and the result created after adoption. Proactive outreach and suggestions that need live business information should also explain the trigger, action, and safeguards.
 
 ## Make a decision
+
+Select a suggestion row to review its details. Open the three-dot menu at the end of the row to adopt or ignore it. The same menu lets you reconsider ignored suggestions or open adopted content.
 
 - **Save to learning:** Confirm that the content is correct and create or update the related content.
 - **View suggestion details:** Review the source, scope, and risk before deciding.
