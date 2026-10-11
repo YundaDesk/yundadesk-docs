@@ -59,6 +59,8 @@ You can also ask Yuna to turn visitor email collection on or off for a named Web
 
 When you create a Website channel, YundaDesk automatically generates its welcome message from the visitor's Widget language and the workspace brand name, not the channel name. Under Display settings, edit one source set for the Home title, Home description, and new-conversation welcome message. YundaDesk translates that copy for the visitor's Widget language, so you do not maintain separate language versions. The live Widget can preview unsaved edits in the source language; when you switch to another language, it loads that translation instead of continuing to show the source copy. Suggested questions also load for the preview language. If translation is temporarily unavailable, source-language merchant copy is not exposed to a visitor using another language. The Agent's automatic-question preview offers retry on a load failure rather than reporting an empty knowledge base.
 
+Visitors can mute notification sounds with the speaker button in the chat panel. If a new notification appears without sound, check browser sound permissions; some browsers block playback until the visitor interacts with the site.
+
 Manage contact methods in the separate **Contact us** setting for each Website Widget, rather than inside Display settings, with a maximum of eight items. Select **Manage** to:
 
 - add an already connected Telegram, LINE, WhatsApp, email, or other supported channel;

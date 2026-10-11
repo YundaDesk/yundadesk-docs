@@ -3,7 +3,7 @@ title: Fix missing Inbox notifications
 description: Troubleshoot browser notifications, sounds, and unread reminders.
 category: Troubleshooting
 order: 5
-updated_at: 2026-09-07
+updated_at: 2026-10-11
 ---
 
 # Fix missing Inbox notifications
@@ -28,6 +28,10 @@ If notifications work only while the page is open, also check:
 - Check whether a company network or browser extension blocks the browser's push service.
 
 For a real test, close the YundaDesk tab and have another member or visitor trigger a new event that matches your notification preferences. Refreshing an old notification does not send it again.
+
+## Only one customer is silent
+
+Open the customer's conversation and check whether it is muted. Select **unmute** or wait until mute ends to resume new alerts. Muted conversations are excluded from navigation badges, but their messages remain in the list. See [Mute a conversation](../03-inbox/manage-conversations.md#mute-a-conversation).
 
 ## Incorrect unread count
 

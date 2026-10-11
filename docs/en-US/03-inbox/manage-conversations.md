@@ -4,7 +4,7 @@ description: Claim, reply to, transfer, and close customer conversations.
 search_terms: automatically translate incoming messages, incoming customer message translation, agent translation
 category: Inbox
 order: 1
-updated_at: 2026-09-26
+updated_at: 2026-10-11
 ---
 
 # Manage conversations in the Inbox
@@ -19,9 +19,7 @@ The Inbox brings customer conversations from connected channels into one workspa
 4. Send text and, where supported, images, files, or emoji.
 5. Transfer the conversation when another teammate is needed, and close it when the issue is resolved.
 
-Message status distinguishes sending, sent, delivered, and failed states. Follow the retry or delivery-detail action when a message fails.
-
-After you send a reply or internal note, the composer stays expanded. The sent text clears so you can continue typing the next message.
+Message status distinguishes sending, sent, delivered, and failed states. If a message fails, follow the retry or delivery-detail action. Team read receipts mean a member has read the message, not that the customer has received a reply.
 
 ### Read and reply to email conversations
 
@@ -31,9 +29,11 @@ When an agent is serving the conversation, each email card provides **Reply** an
 
 ## View store orders and the current cart
 
-Open **Store orders** in the customer profile area on the right of a conversation. For an order with multiple items, select **View all N items** to see each item's name, quantity, and available SKU in the sidebar. Select the collapse action to close the list. On a narrow screen, open the customer profile panel first.
+Open **Store orders** in the customer profile area to see order numbers, amounts, and payment and fulfillment statuses. Expand an order to view products, quantities, and SKUs. On a narrow screen, open the customer profile panel first.
 
 Website conversations connected to WooCommerce also show **Current cart**, including for visitors without an email address. It shows the most recently received items, quantities, subtotal, currency, and data update time. The subtotal is not the final amount including shipping and taxes. The panel updates automatically while open, and **Refresh cart** reads the latest available data. Refreshing does not change the original update time or recover store changes that were never received. Empty carts, missing data, expired data, and unavailable connections have distinct messages.
+
+AI order replies may include cards with order numbers, products, amounts, and store-reported statuses. Open **Customer activity** on the right to review visits and activity.
 
 ## Reply faster
 
@@ -52,6 +52,12 @@ When enabled, the composer keeps your original text and shows a preview of what 
 
 Unread badges highlight new messages. Desktop notifications require browser permission and depend on personal notification settings. Teams should avoid having multiple agents reply to the same conversation at the same time.
 
+### Mute a conversation
+
+Select **mute** at the top of a conversation and choose a duration or an end time. Select **unmute** to resume alerts earlier.
+
+Mute pauses only your alerts for this conversation on its current channel. It does not affect teammates, the customer's other channels, or colleague **@mentions**. Messages and unread counts remain available, but muted conversations are excluded from navigation badges. When mute ends, new alerts resume without replaying missed ones.
+
 ## Conversation history
 
 Closing a conversation does not remove its history. When the customer contacts you again, previous context remains available from the customer profile.
@@ -61,17 +67,3 @@ Closing a conversation does not remove its history. When the customer contacts y
 The conversation list, chat header, and customer message bubbles show the same customer avatar supplied by the channel. Telegram, Messenger, Instagram, LINE, YouTube, and Zalo can provide avatars when channel permissions and customer profiles allow it. Availability in WeChat Customer Service depends on the connection method and platform permissions. Website and custom channels can display avatars supplied by your integration.
 
 If no avatar is available or an image cannot load, the customer's initial is shown. The avatar may update after the customer sends another message; their identity and conversation history stay the same.
-
-## View orders and the current cart
-
-When an AI order reply includes an order card, the conversation displays its order number, products, quantities, amount, and store-reported statuses below the reply. Cards remain available after refreshing the page. Card-only replies do not repeat fallback text.
-
-On wide screens, drag the left edge of the customer sidebar to adjust its width. The same browser remembers each member’s choice separately for each workspace and restores it when reopened. On narrow screens, the sidebar opens as a drawer; click outside it or press Esc to close it.
-
-Open **Store orders** on the right of a conversation to review order numbers, amounts, and payment and fulfillment statuses. Status badges use both text and color; read the label for the exact status. The three newest fetched orders are shown first; expand the remaining fetched orders or collapse them again. Select **Expand N items** to see an order’s products, quantities, and SKUs in place, then collapse the list when finished.
-
-Supported WooCommerce website conversations show **Current cart** above orders. Carts with more than two product lines can be expanded and collapsed; the count and subtotal always include all products. The cart has an item count beside the heading and a subtotal below the products. Use the refresh icon beside the heading to read the data again. **Updated** refers to when the store data was updated; hover over it for the full timestamp. A refresh error, expired data, or unavailable data does not mean the cart is empty.
-
-Select **Customer timeline** on the right to view customer activity under the matching heading. An empty state appears when no activity is available.
-
-Use the copy icon beside an order number or SKU to copy that value. A confirmation appears after a successful copy; if copying fails, select the text and copy it manually.
